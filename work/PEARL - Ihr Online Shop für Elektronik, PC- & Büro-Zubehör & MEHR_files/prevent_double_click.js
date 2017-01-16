@@ -1,0 +1,1 @@
+var wizardStepButtonClicked=false;$(document).ready(function(){$(".preventDoubleClick").submit(function(a){if(typeof wizardStepButtonClicked!="undefined"&&wizardStepButtonClicked!=null&&wizardStepButtonClicked){a.preventDefault()}wizardStepButtonClicked=true})});
