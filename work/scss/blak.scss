@@ -49,7 +49,6 @@ $popa: #fff;
             background-color: inherit;
         }
 
-        }
         .PearlCheckOutBar {
             height: 52px;
             margin: 0 auto;
@@ -165,6 +164,9 @@ $popa: #fff;
     }
     &__panel-content {
         min-height: 50px;
+        border-top: 1px solid #eee;
+        padding: 20px;
+
         h3 {
             padding: 12px 8px 10px 0;
             font-family: helvetica, sans-serif;
@@ -238,8 +240,11 @@ $popa: #fff;
         display: table-cell;
         border: 1px solid #eeeeee;
         padding: 20px;
+
+
         img {
             float: left;
+
         }
     }
     .bsk__header {
@@ -287,7 +292,7 @@ $popa: #fff;
         height: 22px;
         text-align: center;
         padding-top: 7px;
-        background: rgb(20,113,182);
+        background: rgb(20, 113, 182);
         border: 1px solid #aaa;
         border-radius: 0 8px 8px 0;
         cursor: pointer;
@@ -302,7 +307,7 @@ $popa: #fff;
         height: 20px;
         text-align: center;
         font-weight: bold;
-        border: 2px solid rgb(20,113,182);
+        border: 2px solid rgb(20, 113, 182);
 
     }
 
@@ -338,6 +343,39 @@ $popa: #fff;
             padding: 0;
             font-size: 12px;
             float: left;
+        }
+    }
+
+    &__ad-box{
+
+        padding: 20px;
+        text-align: center;
+        a{
+            display: inline-block;
+            &:nth-child(1){
+
+                width: 80px;
+                text-align: center;
+                h2{
+                    font-size: small;
+                }
+            }
+            &:nth-child(2){
+
+                width: 40px;
+
+                h2{
+                    font-size: small;
+                }
+            }
+            &:nth-child(3){
+                width: 350px;
+            }
+            &:nth-child(4)
+
+                width: 150px;
+            }
+
         }
     }
 
