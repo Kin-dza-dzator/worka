@@ -1,0 +1,329 @@
+$popa: #fff;
+
+
+
+.basket{
+    .Main{
+        max-width: none;
+        width: auto;
+    }
+    .pearl-sprite-header_background {
+        background-position: 0 -14px !important;
+        width: auto;
+        height: auto;
+        min-height: 69px;
+        background: url(/norm_files/pearl-sprite-line.png) top left;
+    }
+
+    .BckgHeader {
+        width: auto;
+        height: auto;
+        min-height: 69px;
+        position: relative;
+        z-index: 3;
+    }
+    &__wrapper{
+        height: 100%;
+        display: table;
+        width: 100%;
+        text-align: center;
+        .ContentCenter {
+            float: none;
+            background: #e9e9e9;
+            padding: 40px 7px 25px;
+            width: auto;
+            vertical-align: top;
+            margin-top: -8px;
+        }
+        .ContentRight {
+            width: 207px;
+            height: 100%;
+            vertical-align: top;
+            float: none;
+            text-align: center;
+        }
+        .ContentLeft {
+            width: 197px;
+            height: 100%;
+            float: none;
+            vertical-align: top;
+            background-color: inherit;
+        }
+
+        .PearlCheckOutBar {
+            height: 52px;
+            margin: 0 auto;
+            width: auto;
+            display: inline-block;
+        }
+        .ContentCenter .SimpleBanner {
+            width: auto;
+            margin: 7px auto;
+        }
+
+        #PearlTopTabRow {
+            position: relative;
+            width: auto;
+            text-align: center;
+            top: -41px;
+            display: block;
+            margin: auto;
+            left: 0;
+        }
+        #template_content{
+            margin-top: -30px;
+        }
+        .PearlCheckOutBar_wrapper{
+            text-align: center;
+        }
+
+        .CheckBoxes {
+            font-family: Verdana,Arial,sans-serif;
+            display: block;
+
+            height: auto;
+            text-align: center;
+            overflow: hidden;
+
+            .Customer,
+            .NewCustomer {
+                float: left;
+                width: 100%;
+                box-sizing: border-box;
+
+                input {
+                    display: inline-block;
+                    float: none;
+                    clear: none;
+                }
+
+                font {
+                    font-size: 12px;
+                    text-align: justify;
+                    width: auto;
+                    float: none;
+                }
+            }
+        }
+        /* first page*/
+        #PearlCheckOutBarButton0 {
+            width: 130px;
+        }
+
+    }
+
+    &__main {
+        height: 100%;
+        display: table;
+        width: 100%;
+    }
+
+    &__box {
+        display: block;
+        float: left;
+        width: 50%;
+    }
+    &__box-wrap {
+        padding: 0 10px;
+
+    }
+
+    &__column {
+        display: table-cell;
+    }
+
+    &__footer {
+        display: table-row;
+        height: 1px;
+    }
+
+    &__panel {
+        background-color: #ffffff;
+        border: 1px solid #eeeeee;
+        border-radius: 7px;
+        width: 100%;
+    }
+    &__panel-header {
+        background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
+        border: 1px solid #eeeeee;
+        border-radius: 7px 7px 0 0;
+    }
+
+    &__panel-footer {
+        background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
+        border: 1px solid #eeeeee;
+        border-radius: 0 0 7px 7px;
+    }
+
+    &__panel-footer h2,
+    &__panel-header h2 {
+        padding: 12px 8px 10px 12px;
+        font-family: helvetica, sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        color: #2271b4;
+    }
+    &__panel-content {
+        min-height: 50px;
+        h3 {
+            padding: 12px 8px 10px 0;
+            font-family: helvetica, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            color: #2271b4;
+            float: left;
+        }
+        .apply_shoping {
+            padding: 20px;
+
+            button {
+
+                float: right;
+            }
+        }
+    }
+
+    .submit-button:hover {
+        border: 1px solid #cf4c50;
+        background: #cf4c50;
+        background: -webkit-gradient(linear, left top, left bottom, from(#b3000f), to(#cf4c50));
+        background: -webkit-linear-gradient(top, #b3000f, #cf4c50);
+        background: -moz-linear-gradient(top, #b3000f, #cf4c50);
+        background: -ms-linear-gradient(top, #b3000f, #cf4c50);
+        background: -o-linear-gradient(top, #b3000f, #cf4c50);
+        background-image: -ms-linear-gradient(top, #b3000f 0, #cf4c50 100%);
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .text-money {
+        font-size: large;
+        font-weight: 600;
+        color: black;
+    }
+
+    .cost-net {
+        font-size: 16px;
+    }
+    .cost-gross {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .bsk__table {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+
+        h3 {
+            padding: 0;
+            font-family: helvetica, sans-serif;
+            font-size: 16px;
+            text-decoration: none;
+            color: #2271b4;
+            span {
+                font-size: 12px;
+                color: black;
+                font-weight: normal;
+            }
+        }
+
+    }
+    .bsk__row {
+        display: table-row;
+    }
+    .bsk__col {
+        vertical-align: middle;
+        display: table-cell;
+        border: 1px solid #eeeeee;
+        padding: 20px;
+        img {
+            float: left;
+        }
+    }
+    .bsk__header {
+        background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
+        border: 1px solid #eeeeee;
+        .bsk__col {
+            padding: 0 20px;
+        }
+    }
+
+    .bsk__colgroup {
+        display: table-column-group
+    }
+    .bsk__column:nth-child(2) {
+        width: 210px;
+    }
+    .bsk__column:nth-child(3) {
+        width: 150px;
+    }
+    .bsk__column:nth-child(4) {
+        width: 150px;
+    }
+
+    .bsk__column {
+        display: table-column
+    }
+
+    .text-cut {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .input-numeric {
+        width: 100px;
+        margin-bottom: 20px;
+
+    }
+    .bsk-btn {
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+
+        text-align: center;
+        cursor: pointer;
+        background-color: transparent;
+        box-sizing: border-box;
+        padding: 2px 6px 3px;
+        border: none;
+        margin: 10px;
+
+    }
+    .btn-reload {
+        float: left;
+        background: url('/image/refresh.svg') no-repeat top left;
+    }
+    .btn-trash {
+        float: right;
+        background: url('/image/dash.svg') no-repeat top left;
+    }
+    &__panel-btnbox{
+        border-top: 1px solid #eee;
+        padding: 20px 20px 20px 20px;
+        .back-button{
+            margin: 8px 0;
+            width: 130px;
+            height: 26px;
+            padding: 0;
+            font-size: 12px;
+            float: left;
+        }
+    }
+
+
+}
+
+@media (max-width: 970px) {
+    .basket {
+        &__box{
+            width: 100%;
+        }
+        &__box-wrap{
+            padding: 10px
+
+        }
+    }
+}
