@@ -20,6 +20,7 @@ $popa: #fff;
         position: relative;
         z-index: 3;
     }
+
     &__wrapper {
         height: 100%;
         display: table;
@@ -48,6 +49,7 @@ $popa: #fff;
             background-color: inherit;
         }
 
+        }
         .PearlCheckOutBar {
             height: 52px;
             margin: 0 auto;
@@ -296,7 +298,7 @@ $popa: #fff;
         border-radius: 8px 0 0 8px;
     }
     .spin input {
-        width: 40px;
+        width: 44px;
         height: 20px;
         text-align: center;
         font-weight: bold;
