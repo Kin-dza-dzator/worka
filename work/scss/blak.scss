@@ -357,7 +357,7 @@ $popa: #fff;
                 width: 80px;
                 text-align: center;
                 h2{
-                    font-size: small;
+                    font-size: x-small;
                 }
             }
             &:nth-child(2){
@@ -365,13 +365,14 @@ $popa: #fff;
                 width: 40px;
 
                 h2{
-                    font-size: small;
+
+                    font-size: x-small;
                 }
             }
             &:nth-child(3){
                 width: 350px;
             }
-            &:nth-child(4)
+            &:nth-child(4){
 
                 width: 150px;
             }
