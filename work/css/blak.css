@@ -62,7 +62,7 @@
   .basket__wrapper .PearlCheckOutBar_wrapper {
     text-align: center; }
   .basket__wrapper .CheckBoxes {
-    font-family: Verdana,Arial,sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     display: block;
     height: auto;
     text-align: center;
@@ -224,6 +224,32 @@
 .basket .input-numeric {
   width: 100px;
   margin-bottom: 20px; }
+
+.basket .spin {
+  display: inline-block; }
+
+.basket .spin span {
+  display: inline-block;
+  width: 20px;
+  height: 22px;
+  text-align: center;
+  padding-top: 7px;
+  background: #1471b6;
+  border: 1px solid #aaa;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder; }
+
+.basket .spin span:first-child {
+  border-radius: 8px 0 0 8px; }
+
+.basket .spin input {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  font-weight: bold;
+  border: 2px solid #1471b6; }
 
 .basket .bsk-btn {
   width: 25px;

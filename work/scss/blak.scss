@@ -1,9 +1,7 @@
 $popa: #fff;
 
-
-
-.basket{
-    .Main{
+.basket {
+    .Main {
         max-width: none;
         width: auto;
     }
@@ -22,7 +20,7 @@ $popa: #fff;
         position: relative;
         z-index: 3;
     }
-    &__wrapper{
+    &__wrapper {
         height: 100%;
         display: table;
         width: 100%;
@@ -70,15 +68,15 @@ $popa: #fff;
             margin: auto;
             left: 0;
         }
-        #template_content{
+        #template_content {
             margin-top: -30px;
         }
-        .PearlCheckOutBar_wrapper{
+        .PearlCheckOutBar_wrapper {
             text-align: center;
         }
 
         .CheckBoxes {
-            font-family: Verdana,Arial,sans-serif;
+            font-family: Verdana, Arial, sans-serif;
             display: block;
 
             height: auto;
@@ -278,6 +276,34 @@ $popa: #fff;
         margin-bottom: 20px;
 
     }
+    .spin {
+        display: inline-block;
+    }
+    .spin span {
+        display: inline-block;
+        width: 20px;
+        height: 22px;
+        text-align: center;
+        padding-top: 7px;
+        background: rgb(20,113,182);
+        border: 1px solid #aaa;
+        border-radius: 0 8px 8px 0;
+        cursor: pointer;
+        color: white;
+        font-weight: bolder;
+    }
+    .spin span:first-child {
+        border-radius: 8px 0 0 8px;
+    }
+    .spin input {
+        width: 40px;
+        height: 20px;
+        text-align: center;
+        font-weight: bold;
+        border: 2px solid rgb(20,113,182);
+
+    }
+
     .bsk-btn {
         width: 25px;
         height: 25px;
@@ -300,10 +326,10 @@ $popa: #fff;
         float: right;
         background: url('/image/dash.svg') no-repeat top left;
     }
-    &__panel-btnbox{
+    &__panel-btnbox {
         border-top: 1px solid #eee;
         padding: 20px 20px 20px 20px;
-        .back-button{
+        .back-button {
             margin: 8px 0;
             width: 130px;
             height: 26px;
@@ -313,15 +339,14 @@ $popa: #fff;
         }
     }
 
-
 }
 
 @media (max-width: 970px) {
     .basket {
-        &__box{
+        &__box {
             width: 100%;
         }
-        &__box-wrap{
+        &__box-wrap {
             padding: 10px
 
         }
