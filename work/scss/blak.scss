@@ -142,7 +142,7 @@ $popa: #fff;
     &__panel {
         border: 1px solid #ddd;
         border-radius: 7px 7px 0 0;
-        width: 578px;
+        width: 100%;
         margin-top: 20px;
         &:first-child{
             margin-top: 0;
@@ -294,10 +294,12 @@ $popa: #fff;
     }
     .bsk__column:nth-child(1) {
         width: auto;
-        @media screen and(max-width: 2600px) {
+        @media screen and(max-width: 1290px) {
             width: 180px;
         }
-
+        @media screen and(max-width: 1510px) {
+            width: 180px;
+        }
     }
     .bsk__column:nth-child(2) {
         width: auto;
@@ -320,7 +322,7 @@ $popa: #fff;
         white-space: normal;
     }
     h2.text-cut {
-        font-size: 13px;
+        font-size: 12px;
         font-weight: normal;
     }
     .input-numeric {
@@ -406,12 +408,12 @@ $popa: #fff;
             &:nth-child(1){
                 width: 121px;
                 img{
-                    width: 50px;
+                    width: 70px;
                     float: left;
                     margin-bottom: 10px;
                 }
                 h2{
-                    font-size: small;
+                    font-size: smaller;
                     color: rgb(34,113,180);
 
                 }
@@ -424,7 +426,7 @@ $popa: #fff;
                     margin: 0 10px 10px 0;
                 }
                 h2{
-                    font-size: small;
+                    font-size: unset;
                     width: 240px;
                     color: rgb(34,113,180);
                 }
@@ -494,8 +496,29 @@ $popa: #fff;
         }
     }
 }
+@media screen and(max-width: 1510px) {
+    h2.text-cut {
+        font-size: medium;
 
-@media screen and(max-width: 2600px) {
+    }
+    .basket .bsk__col {
+        width: 85px;
+    }
+}
+@media screen and(max-width: 1295px) {
+    h2.text-cut {
+        font-size: medium;
+
+    }
+    .basket .cost-gross {
+        font-size: small;
+    }
+    .basket .bsk__col {
+        padding: 5px;
+        width: 65px;
+    }
+}
+@media screen and(max-width: 1190px) {
     h2.text-cut {
         font-size: small;
 
@@ -508,4 +531,29 @@ $popa: #fff;
         width: 65px;
     }
 }
+@media (max-width: 1033px) {
+    h2.text-cut {
+        font-size: smaller;
 
+    }
+    .basket .cost-gross {
+        font-size:  smaller;
+    }
+}
+@media (max-width: 973px) {
+    .basket {
+        &__box {
+            width: 100%;
+        }
+        &__box-wrap {
+            padding: 10px
+
+        }
+    }
+}
+@media (max-width: 856px) {
+    .basket .BckgHeader {
+        width: 840px;
+
+    }
+}
