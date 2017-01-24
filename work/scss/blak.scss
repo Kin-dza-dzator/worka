@@ -294,12 +294,12 @@ $popa: #fff;
     }
     .bsk__column:nth-child(1) {
         width: auto;
-        @media screen and(max-width: 1290px) {
+        @media screen and(max-width: 2290px) {
             width: 180px;
         }
-        @media screen and(max-width: 1510px) {
-            width: 180px;
-        }
+        //@media screen and(max-width: 1510px) {
+        //    width: 180px;
+        //}
     }
     .bsk__column:nth-child(2) {
         width: auto;
@@ -496,29 +496,8 @@ $popa: #fff;
         }
     }
 }
-@media screen and(max-width: 1510px) {
-    h2.text-cut {
-        font-size: medium;
 
-    }
-    .basket .bsk__col {
-        width: 85px;
-    }
-}
-@media screen and(max-width: 1295px) {
-    h2.text-cut {
-        font-size: medium;
-
-    }
-    .basket .cost-gross {
-        font-size: small;
-    }
-    .basket .bsk__col {
-        padding: 5px;
-        width: 65px;
-    }
-}
-@media screen and(max-width: 1190px) {
+@media screen and(max-width: 2200px) {
     h2.text-cut {
         font-size: small;
 
