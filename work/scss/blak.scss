@@ -294,12 +294,10 @@ $popa: #fff;
     }
     .bsk__column:nth-child(1) {
         width: auto;
-        @media screen and(max-width: 1290px) {
+        @media screen and(max-width: 2600px) {
             width: 180px;
         }
-        @media screen and(max-width: 1510px) {
-            width: 180px;
-        }
+
     }
     .bsk__column:nth-child(2) {
         width: auto;
@@ -496,28 +494,7 @@ $popa: #fff;
         }
     }
 }
-//@media screen and(max-width: 2600px) {
-//    h2.text-cut {
-//        font-size: medium;
-//
-//    }
-//    .basket .bsk__col {
-//        width: 85px;
-//    }
-//}
-//@media screen and(max-width: 1295px) {
-//    h2.text-cut {
-//        font-size: medium;
-//
-//    }
-//    .basket .cost-gross {
-//        font-size: small;
-//    }
-//    .basket .bsk__col {
-//        padding: 5px;
-//        width: 65px;
-//    }
-//}
+
 @media screen and(max-width: 2600px) {
     h2.text-cut {
         font-size: small;
@@ -531,29 +508,4 @@ $popa: #fff;
         width: 65px;
     }
 }
-//@media (max-width: 1033px) {
-//    h2.text-cut {
-//        font-size: smaller;
-//
-//    }
-//    .basket .cost-gross {
-//        font-size:  smaller;
-//    }
-//}
-//@media (max-width: 973px) {
-//    .basket {
-//        &__box {
-//            width: 100%;
-//        }
-//        &__box-wrap {
-//            padding: 10px
-//
-//        }
-//    }
-//}
-//@media (max-width: 856px) {
-//    .basket .BckgHeader {
-//        width: 840px;
-//
-//    }
-//}
+
