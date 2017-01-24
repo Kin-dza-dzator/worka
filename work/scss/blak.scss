@@ -195,8 +195,10 @@ $popa: #fff;
             color: #fff;
             font-weight: bold;
             text-decoration: dashed;
-            width: 109px;
+            width: 105px;
             height: 23px;
+            border: 1px solid #8f8f8f;
+            font-size: 13px;
         }
     }
 
@@ -302,7 +304,7 @@ $popa: #fff;
         white-space: normal;
     }
     h2.text-cut {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: normal;
     }
     .input-numeric {
@@ -318,13 +320,14 @@ $popa: #fff;
         width: 20px;
         height: 22px;
         text-align: center;
-        padding-top: 7px;
+        padding-top: 2px;
         background: rgb(20, 113, 182);
-        border: 1px solid #aaa;
+        border: 1px solid #1e88e5;
         border-radius: 0 8px 8px 0;
         cursor: pointer;
         color: white;
         font-weight: bolder;
+        font-size: 16px;
     }
     .spin span:first-child {
         border-radius: 8px 0 0 8px;
