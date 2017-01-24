@@ -338,7 +338,7 @@ margin-top: 2px;
 <div class="SimpleBanner">
     <div class="clear"></div>
     <div class="SimpleBanner">
-        <div class="basket__panel">
+        <div class="basket__panel basket__panel_withfooter basket__panel_nopadding">
             <div class="basket__panel-header">
                 <h2>Main Warenkorb</h2>
             </div>
@@ -421,27 +421,54 @@ margin-top: 2px;
             </div>
         </div>
 
-        <div class="basket__panel">
+        <div class="basket__panel basket__panel_withfooter">
             <div class="basket__panel-header">
                 <h2>Direkteingabe von Bestellnummern</h2>
             </div>
             <div class="basket__panel-content">
                 <form method="POST" action="https://www.pearl.de/buy.jsps" name="direct_order">
-                    <label style="font-weight: normal;" class="CartHeader">Anzahl</label>
-                    <input id=""
-                        style="border: 1px solid rgb(115, 115, 115); width: 70px;"
-                       maxlength="3"
-                       size="9"
-                       name="quantity"
-                       type="text">
 
-                    <input id="?????????????"><label for="?????????????">  &#160;-&#160;  </label>
+                    <div class="basket__form-buy">
+                        <input
+                            name="buyType"
+                            value="direct"
+                            type="hidden">
 
-                    <input value="direct" name="buyType" type="hidden">
+                        <div class="bsk-field">
+                            <div class="bsk-field__label">Anzahl</div>
+                            <input
+                                name="quantity"
+                                maxlength="3"
+                                size="9"
+                                type="text">
+                            <div class="bsk-field__sublabel">z.B.: 1</div>
+                        </div>
+                        <div class="bsk-field">
+                            <div class="bsk-field__label">Bestell-Nr.</div>
+                            <input
+                                name="pdid"
+                                maxlength="16"
+                                size="14"
+                                type="text">
+                            <div class="bsk-field__sublabel">z.B.: NC-1234</div>
+                        </div>
+                        <span class="bsk-field__divider">&ndash;</span>
+                        <div class="bsk-field">
+                            <div class="bsk-field__label"></div>
+                            <input
+                                name="from"
+                                maxlength="3"
+                                size="3"
+                                type="text">
+                            <div class="bsk-field__sublabel">z.B.: 909</div>
+                        </div>
 
-                    <input style="background-color: rgb(235, 235, 235); border: 1px solid rgb(115, 115, 115); margin-left: 0px;" maxlength="3" size="3" name="from" type="text">
-
-                    <input value="hinzufügen" style="padding-left: 0px;" class="PearlButton vwo_add_button back-button" name="dirord" type="submit">
+                        <input
+                        name="dirord"
+                        value="hinzufügen"
+                        class="PearlButton vwo_add_button back-button bsk-field"
+                        type="submit">
+                    </div>
                 </form>
             </div>
             <form class="basket__panel-btnbox" method="POST"
@@ -476,6 +503,7 @@ margin-top: 2px;
             </div>
         </div>
 
+        <a href="#" class="basket__ad-link">Benotlegen Sie Hifline beim Bestervolagomnf?</a>
         <table cellpadding="0" border="0" cellspacing="0" width="100%" align="center">
             <tbody>
             <tr>
