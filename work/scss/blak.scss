@@ -219,10 +219,10 @@ $popa: #fff;
     }
 
     .cost-net {
-        font-size: 16px;
+        font-size: 14px;
     }
     .cost-gross {
-        font-weight: bold;
+        font-weight: 900;
         font-size: 16px;
     }
 
@@ -299,7 +299,10 @@ $popa: #fff;
         overflow: hidden;
         white-space: normal;
     }
-
+    h2.text-cut {
+        font-size: small;
+        font-weight: normal;
+    }
     .input-numeric {
         width: 100px;
         margin-bottom: 20px;
@@ -460,6 +463,10 @@ $popa: #fff;
 
         }
     }
+}
+@media (max-width: 856px) {
+    .basket .BckgHeader {
+        width: 840px;
 
-
+    }
 }
