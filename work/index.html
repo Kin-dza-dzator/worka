@@ -312,13 +312,13 @@ margin-top: 2px;
 
                 <div class="PearlCheckOutBar_wrapper">
                     <div class="PearlCheckOutBar">
-                        <div id="PearlCheckOutBarButton0" class="PearlCheckOutBarButtonDefault
-                             PearlCheckOutBarButtonNonActive Prev" style="cursor: pointer;">
-                            <a rel="nofollow" href="https://www.pearl.de/cart.jsps" class="PearlCheckOutBarButtonLink">
-                                Ihr Warenkorb</a>
+
+
+                        <div id="PearlCheckOutBarButton0" class="PearlCheckOutBarButtonDefault PearlCheckOutBarButtonActive">
+                            Ihr Warenkorb
                         </div>
-                        <div id="PearlCheckOutBarButton1" class="PearlCheckOutBarButtonDefault
-                             PearlCheckOutBarButtonActive">
+
+                        <div id="PearlCheckOutBarButton1" class="PearlCheckOutBarButtonDefault PearlCheckOutBarButtonNonActiveNext" onclick="$('#redirect_form').submit();">
                             Anschrift
                         </div>
 
@@ -338,7 +338,7 @@ margin-top: 2px;
 <div class="SimpleBanner">
     <div class="clear"></div>
     <div class="SimpleBanner">
-        <div class="basket__panel basket__panel_withfooter basket__panel_nopadding">
+        <div id="id_basket_table" class="basket__panel basket__panel_withfooter basket__panel_nopadding">
             <div class="basket__panel-header">
                 <h2>Main Warenkorb</h2>
             </div>
@@ -421,7 +421,7 @@ margin-top: 2px;
             </div>
         </div>
 
-        <div class="basket__panel basket__panel_withfooter">
+        <div id="id_directorder" class="basket__panel basket__panel_withfooter">
             <div class="basket__panel-header">
                 <h2>Direkteingabe von Bestellnummern</h2>
             </div>
@@ -480,7 +480,7 @@ margin-top: 2px;
             </form>
         </div>
 
-        <div class="basket__panel">
+        <div id="id_ad" class="basket__panel">
             <div class="basket__panel-header">
                 <h2>Schnell & Sicher einkaufen bei PEARL:</h2>
             </div>
@@ -504,6 +504,7 @@ margin-top: 2px;
         </div>
 
         <a href="#" class="basket__ad-link">Benotlegen Sie Hifline beim Bestervolagomnf?</a>
+
         <table cellpadding="0" border="0" cellspacing="0" width="100%" align="center">
             <tbody>
             <tr>
@@ -707,7 +708,7 @@ margin-top: 2px;
         </div>
     </div>
     <div class="Footer basket__footer">
-<div class="container">
+<div class="">
     <div class="Block" style="padding-left:8px;">  <span>Support</span>
         <p><a rel="nofollow" href="https://www.pearl.de/support/" target="_blank">Handbücher</a></p>
         <p><a rel="nofollow" href="https://www.pearl.de/support/" target="_blank">FAQs</a></p>
