@@ -194,7 +194,9 @@ $popa: #fff;
             background-image: -ms-linear-gradient(top,#8f8f8f 0,#aeaeae 100%);
             color: #fff;
             font-weight: bold;
-            text-decoration: underline;
+            text-decoration: dashed;
+            width: 109px;
+            height: 23px;
         }
     }
 
@@ -300,7 +302,7 @@ $popa: #fff;
         white-space: normal;
     }
     h2.text-cut {
-        font-size: small;
+        font-size: 14px;
         font-weight: normal;
     }
     .input-numeric {
@@ -363,8 +365,8 @@ $popa: #fff;
         padding: 20px 20px 20px 20px;
         .back-button {
             margin: 8px 0;
-            width: 130px;
-            height: 26px;
+            width: 109px;
+            height: 23px;
             padding: 0;
             font-size: 12px;
             float: left;
@@ -383,6 +385,8 @@ $popa: #fff;
                 width: 95px;
                 h2{
                     font-size: x-small;
+                    color: rgb(34,113,180);
+
                 }
             }
             &:nth-child(2){
@@ -394,6 +398,7 @@ $popa: #fff;
                 h2{
                     font-size: small;
                     width: 300px;
+                    color: rgb(34,113,180);
                 }
             }
             &:nth-child(3){
@@ -410,7 +415,7 @@ $popa: #fff;
     }
 }
 @media screen and(max-width: 1510px) {
-    h2 {
+    h2.text-cut {
         font-size: medium;
 
     }
@@ -419,7 +424,7 @@ $popa: #fff;
     }
 }
 @media screen and(max-width: 1295px) {
-    h2 {
+    h2.text-cut {
         font-size: medium;
 
     }
@@ -432,7 +437,7 @@ $popa: #fff;
     }
 }
 @media screen and(max-width: 1190px) {
-    h2 {
+    h2.text-cut {
         font-size: small;
 
     }
@@ -445,7 +450,7 @@ $popa: #fff;
     }
 }
 @media (max-width: 1033px) {
-    h2 {
+    h2.text-cut {
         font-size: smaller;
 
     }
