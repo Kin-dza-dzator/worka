@@ -252,7 +252,7 @@ $popa: #fff;
         vertical-align: middle;
         display: table-cell;
         border: 1px solid #eeeeee;
-        padding: 20px;
+        padding: 10px;
 
         img {
             float: left;
@@ -263,7 +263,7 @@ $popa: #fff;
         background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
         border: 1px solid #eeeeee;
         .bsk__col {
-            padding: 0 20px;
+            padding: 10px 20px;
         }
     }
 
@@ -272,18 +272,19 @@ $popa: #fff;
     }
     .bsk__column:nth-child(1) {
         width: auto;
-        @media screen and(max-width: 1190px) {
+        @media screen and(max-width: 1290px) {
             width: 180px;
         }
     }
     .bsk__column:nth-child(2) {
-        width: 210px;
+        width: auto;
+        min-width: 180px;
     }
     .bsk__column:nth-child(3) {
-        width: 150px;
+        width: auto;
     }
     .bsk__column:nth-child(4) {
-        width: 150px;
+        width: auto;
     }
 
     .bsk__column {
@@ -405,12 +406,13 @@ $popa: #fff;
 
 @media screen and(max-width: 1295px) {
     h2 {
-        font-size: small;
+        font-size: smaller;
 
     }
     .basket .cost-gross {
         font-size: small;
     }
+
 }
 @media screen and(max-width: 1190px) {
     h2 {
@@ -422,9 +424,10 @@ $popa: #fff;
     }
     .basket .bsk__col {
         padding: 5px;
+        width: 65px;
     }
 }
-@media (max-width: 970px) {
+@media (max-width: 973px) {
     .basket {
         &__box {
             width: 100%;
@@ -434,4 +437,6 @@ $popa: #fff;
 
         }
     }
+
+
 }
