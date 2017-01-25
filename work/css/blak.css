@@ -21,7 +21,6 @@
   height: 100%;
   display: table;
   width: 100%;
-  text-align: center;
   table-layout: fixed;
   /* first page*/ }
   .basket__wrapper .ContentCenter {
@@ -86,7 +85,11 @@
         width: auto;
         float: none; }
   .basket__wrapper #PearlCheckOutBarButton0 {
-    width: 130px; }
+    width: 176px; }
+  .basket__wrapper #PearlCheckOutBarButton1 {
+    width: 176px; }
+  .basket__wrapper #PearlCheckOutBarButton2 {
+    width: 176px; }
 
 .basket__main {
   height: 100%;
@@ -146,14 +149,14 @@
   border-top: 1px solid #ddd;
   padding: 20px; }
   .basket__panel-content h3 {
-    padding: 12px 8px 10px 0;
+    padding: 17px 15px 0px 0px;
     font-family: helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     text-decoration: none;
     color: #2271b4;
     float: left; }
   .basket__panel-content .apply_shoping {
-    padding: 20px; }
+    padding: 13px; }
     .basket__panel-content .apply_shoping button {
       float: right; }
   .basket__panel-content .vwo_add_button {
@@ -192,7 +195,8 @@
 .basket .text-money {
   font-size: large;
   font-weight: 600;
-  color: black; }
+  color: black;
+  text-align: right; }
 
 .basket .cost-net {
   font-size: 14px; }
@@ -223,26 +227,24 @@
   vertical-align: middle;
   display: table-cell;
   border: 1px solid #ddd;
-  padding: 10px; }
+  padding: 6px; }
   .basket .bsk__col img {
     float: left;
-    width: 75px; }
+    width: 53px;
+    height: 70px; }
 
 .basket .bsk__header {
   background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
   border: 1px solid #ddd; }
   .basket .bsk__header .bsk__col {
-    padding: 10px 20px; }
+    padding: 6px 11px; }
 
 .basket .bsk__colgroup {
   display: table-column-group; }
 
 .basket .bsk__column:nth-child(1) {
   width: auto; }
-  @media screen and (max-width: 1290px) {
-    .basket .bsk__column:nth-child(1) {
-      width: 180px; } }
-  @media screen and (max-width: 1510px) {
+  @media screen and (max-width: 2290px) {
     .basket .bsk__column:nth-child(1) {
       width: 180px; } }
 
@@ -252,6 +254,8 @@
 
 .basket .bsk__column:nth-child(3) {
   width: auto; }
+  .basket .bsk__column:nth-child(3) h3 {
+    text-align: center; }
 
 .basket .bsk__column:nth-child(4) {
   width: auto; }
@@ -265,7 +269,7 @@
   white-space: normal; }
 
 .basket h2.text-cut {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal; }
 
 .basket .input-numeric {
@@ -406,42 +410,8 @@
     padding: 4px 10px;
     margin: 5px 0; }
 
-@media screen and (max-width: 1510px) {
-  h2.text-cut {
-    font-size: medium; }
-  .basket .bsk__col {
-    width: 85px; } }
-
-@media screen and (max-width: 1295px) {
+@media screen and (max-width: 2200px) {
   h2.text-cut {
     font-size: medium; }
   .basket .cost-gross {
-    font-size: small; }
-  .basket .bsk__col {
-    padding: 5px;
-    width: 65px; } }
-
-@media screen and (max-width: 1190px) {
-  h2.text-cut {
-    font-size: small; }
-  .basket .cost-gross {
-    font-size: small; }
-  .basket .bsk__col {
-    padding: 5px;
-    width: 65px; } }
-
-@media (max-width: 1033px) {
-  h2.text-cut {
-    font-size: smaller; }
-  .basket .cost-gross {
-    font-size: smaller; } }
-
-@media (max-width: 973px) {
-  .basket__box {
-    width: 100%; }
-  .basket__box-wrap {
-    padding: 10px; } }
-
-@media (max-width: 856px) {
-  .basket .BckgHeader {
-    width: 840px; } }
+    font-size: small; } }
