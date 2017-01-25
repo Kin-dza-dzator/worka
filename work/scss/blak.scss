@@ -296,6 +296,14 @@ $popa: #fff;
         border: 1px solid #ddd;
         .bsk__col {
             padding: 6px 11px;
+            &:nth-child(3) {
+                text-align: center;
+
+                h3{
+                    float: none;
+                    display: inline-block;
+                }
+            }
         }
 
     }
@@ -494,16 +502,19 @@ $popa: #fff;
             text-decoration: none;
             color: #2271b4;
             font-weight: bold;
+            text-align: left;
+
         }
         &__sublabel{
             color: #b2b2b2;
-            font-weight: bold;
+            font-weight: 700;
         }
         &__divider{
             color: #2271b4;
             font-weight: bold;
             font-size: 1em;
             margin: 0 10px;
+            font-weight: bolder;
         }
         input{
             border-radius: 5px;
