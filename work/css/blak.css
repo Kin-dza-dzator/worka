@@ -230,6 +230,8 @@
   display: table-cell;
   border: 1px solid #ddd;
   padding: 6px; }
+  .basket .bsk__col:nth-child(3) {
+    text-align: center; }
   .basket .bsk__col img {
     float: left;
     width: 53px;
@@ -240,6 +242,11 @@
   border: 1px solid #ddd; }
   .basket .bsk__header .bsk__col {
     padding: 6px 11px; }
+    .basket .bsk__header .bsk__col:nth-child(3) {
+      text-align: center; }
+      .basket .bsk__header .bsk__col:nth-child(3) h3 {
+        float: none;
+        display: inline-block; }
 
 .basket .bsk__colgroup {
   display: table-column-group; }
@@ -397,15 +404,17 @@
     font-size: 16px;
     text-decoration: none;
     color: #2271b4;
-    font-weight: bold; }
+    font-weight: bold;
+    text-align: left; }
   .basket .bsk-field__sublabel {
     color: #b2b2b2;
-    font-weight: bold; }
+    font-weight: 700; }
   .basket .bsk-field__divider {
     color: #2271b4;
     font-weight: bold;
     font-size: 1em;
-    margin: 0 10px; }
+    margin: 0 10px;
+    font-weight: bolder; }
   .basket .bsk-field input {
     border-radius: 5px;
     border: 1px solid #ddd;

@@ -284,7 +284,9 @@ $popa: #fff;
         display: table-cell;
         border: 1px solid #ddd;
         padding: 6px;
-
+        &:nth-child(3){
+            text-align: center;
+        }
         img {
             float: left;
             width: 53px;
