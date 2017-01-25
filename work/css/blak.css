@@ -199,11 +199,13 @@
   text-align: right; }
 
 .basket .cost-net {
-  font-size: 14px; }
+  font-size: 12px;
+  padding: 0px 0px 0px 6px; }
 
 .basket .cost-gross {
-  font-weight: 900;
-  font-size: 16px; }
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0px 0px 0px 6px; }
 
 .basket .bsk__table {
   display: table;
@@ -281,10 +283,10 @@
 
 .basket .spin span {
   display: inline-block;
-  width: 20px;
-  height: 22px;
+  width: 19px;
+  height: 19px;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 1px;
   background: #1471b6;
   border: 1px solid #3366cc;
   border-radius: 0 8px 8px 0;
@@ -298,9 +300,9 @@
 
 .basket .spin input {
   width: 44px;
-  height: 21px;
+  height: 16px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 300;
   border: 2px solid #1471b6;
   font-size: 16px; }
 
