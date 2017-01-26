@@ -392,10 +392,10 @@
 .basket__ad-link {
   padding: 12px 8px 10px 0;
   font-family: helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 11px;
   color: #2271b4 !important;
   float: left;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: underline !important; }
   .basket__ad-link:hover {
     text-decoration: none !important; }
@@ -434,7 +434,8 @@
     border-radius: 5px;
     border: 1px solid #ddd;
     padding: 4px 10px;
-    margin: 5px 0; }
+    margin: 5px 0;
+    height: 11px; }
 
 @media screen and (max-width: 2200px) {
   h2.text-cut {
