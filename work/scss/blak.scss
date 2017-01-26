@@ -250,13 +250,13 @@ $popa: #fff;
     }
 
     .cost-net {
-        font-size: 12px;
+        font-size: 11px;
         padding: 0px 0px 0px 6px;
 
     }
     .cost-gross {
         font-weight: 600;
-        font-size: 16px;
+        font-size: 15px;
         padding: 0px 0px 0px 6px;
     }
 
@@ -297,7 +297,8 @@ $popa: #fff;
         img {
             float: left;
             width: 53px;
-            height: 70px;
+            height: 65px;
+            margin: 0 10px;
         }
     }
     .bsk__header {
@@ -414,7 +415,7 @@ $popa: #fff;
 
     .bsk-btn {
         width: 19px;
-        height: 39px;
+        height: 34px;
         background-size: contain;
         text-align: center;
         cursor: pointer;
@@ -422,7 +423,7 @@ $popa: #fff;
         box-sizing: border-box;
         padding: -1px 8px 3px;
         border: none;
-        margin: 16px;
+        margin: 6px 16px;
 
 
     }
@@ -556,7 +557,7 @@ $popa: #fff;
         &__divider{
             color: #2271b4;
             font-weight: bold;
-            font-size: 16px;
+            font-size: 14px;
             margin: 0px 13px 0px -13px;
 
         }
