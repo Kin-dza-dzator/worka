@@ -187,7 +187,7 @@ $popa: #fff;
         background-color: #ffffff;
         min-height: 50px;
         border-top: 1px solid #ddd;
-        padding: 23px 9px 9px 15px;
+        padding: 8px 9px 9px 13px;
 
         h3 {
             padding: 17px 15px 0px 0px;
@@ -455,29 +455,36 @@ $popa: #fff;
             margin-bottom: 10px;
 
             &:nth-child(1){
-                width: 121px;
+                width: 126px;
                 img{
                     width: 54px;
                     float: left;
-                    margin-bottom: 10px;
+                    margin-bottom: 12px;
+                    margin-left: -11px;
                 }
                 h2{
                     font-size: smaller;
                     color: rgb(34,113,180);
+                    margin-left: -11px;
+                    font-size: 12px;
+                    font-weight: 100;
 
                 }
             }
             &:nth-child(2){
+
                 img {
                     float: left;
                     width: 27px;
                     height: 27px;
-                    margin: 0 10px 10px 0;
+                    margin: 0 10px 10px 15px;
                 }
                 h2{
                     font-size: unset;
                     width: 240px;
                     color: rgb(34,113,180);
+                    font-size: 12px;
+                    font-weight: 100;
                 }
             }
             &:nth-child(3){
