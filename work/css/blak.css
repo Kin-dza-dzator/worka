@@ -1,7 +1,7 @@
 .basket .Main {
-  /* rollback to fixed width
-      max-width: none;
-        width: auto;*/ }
+  /* rollback to fixed width*/
+  max-width: none;
+  width: auto; }
 
 .basket .pearl-sprite-header_background {
   background-position: 0 -14px !important;
@@ -124,6 +124,9 @@
     border-radius: 7px; }
   .basket__panel_nopadding .basket__panel-content {
     padding: 0; }
+  @media screen and (max-width: 985px) {
+    .basket__panel_nopadding {
+      width: 570px; } }
 
 .basket__panel-header {
   background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
@@ -135,7 +138,7 @@
   border: 1px solid #ddd;
   border-radius: 0 0 7px 7px; }
   .basket__panel-footer .text-money {
-    margin-left: 30px; }
+    margin-left: 21px; }
 
 .basket__panel-footer h2,
 .basket__panel-header h2 {
@@ -174,12 +177,12 @@
     font-weight: bolder;
     text-decoration: dashed;
     width: 97px;
-    height: 22px;
+    height: 28px;
     border: 1px solid #8f8f8f;
-    font-size: 11px;
+    font-size: 12px;
     padding: 0px 0px;
     margin-top: -5px;
-    font-weight: 800; }
+    font-weight: 700; }
 
 .basket .submit-button:hover {
   border: 1px solid #cf4c50;
@@ -230,11 +233,15 @@
 .basket .bsk__col {
   vertical-align: middle;
   display: table-cell;
-  border: 1px solid #ddd;
-  padding: 0px 9px 0px 5px; }
+  border: 1px solid #ddd; }
+  .basket .bsk__col:nth-child(2) {
+    padding-left: 6px; }
   .basket .bsk__col:nth-child(3) {
     text-align: center;
     padding-top: 12px; }
+  .basket .bsk__col:nth-child(4) {
+    text-align: center;
+    padding: 0 9px; }
   .basket .bsk__col img {
     float: left;
     width: 53px;
@@ -256,24 +263,18 @@
   display: table-column-group; }
 
 .basket .bsk__column:nth-child(1) {
-  min-widt: 220px;
   width: auto; }
-  @media screen and (max-width: 2290px) {
-    .basket .bsk__column:nth-child(1) {
-      width: 220px; } }
 
 .basket .bsk__column:nth-child(2) {
-  width: 130;
-  min-width: 110px; }
+  width: 130px; }
 
 .basket .bsk__column:nth-child(3) {
-  width: 90;
-  min-width: 90px; }
+  width: 112px; }
   .basket .bsk__column:nth-child(3) h3 {
     text-align: center; }
 
 .basket .bsk__column:nth-child(4) {
-  width: auto; }
+  width: 124px; }
 
 .basket .bsk__column {
   display: table-column; }
@@ -298,7 +299,7 @@
   .basket .spin div {
     display: block;
     float: left;
-    width: 20px;
+    width: 23px;
     height: 20px;
     border: 1px solid #3366cc;
     padding: 0;
@@ -311,13 +312,13 @@
     font-size: 16px;
     box-sizing: border-box;
     font-family: sans-serif;
-    font-weight: normal; }
+    font-weight: 600; }
   .basket .spin div:first-child {
     border-radius: 8px 0 0 8px; }
   .basket .spin input {
     display: block;
     float: left;
-    width: 44px;
+    width: 35px;
     height: 20px;
     border: 1px solid #1471b6;
     padding: 0;
@@ -329,7 +330,7 @@
     font-weight: normal; }
 
 .basket .bsk-btn {
-  width: 19px;
+  width: 20px;
   height: 34px;
   background-size: contain;
   text-align: center;
@@ -337,16 +338,18 @@
   background-color: transparent;
   box-sizing: border-box;
   padding: -1px 8px 3px;
-  border: none;
-  margin: 6px 16px; }
+  border: none; }
 
 .basket .btn-reload {
   float: left;
-  background: url("/image/refresh.svg") no-repeat top left; }
+  background: url("/image/refresh.svg") no-repeat top left;
+  margin: 10px 6px 6px 26px;
+  width: 17px; }
 
 .basket .btn-trash {
   float: right;
-  background: url("/image/dash.svg") no-repeat top left; }
+  background: url("/image/dash.svg") no-repeat top left;
+  margin: 6px 20px 6px 6px; }
 
 .basket__panel-btnbox {
   background-color: white;
@@ -355,8 +358,8 @@
   border-radius: 0 0 7px 7px; }
   .basket__panel-btnbox .back-button {
     margin: 8px 0;
-    width: 131px;
-    height: 22px;
+    width: 143px;
+    height: 28px;
     padding: 0;
     font-size: 12px;
     float: left;
@@ -402,10 +405,10 @@
 .basket__ad-link {
   padding: 12px 8px 10px 0;
   font-family: helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   color: #2271b4 !important;
   float: left;
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: underline !important; }
   .basket__ad-link:hover {
     text-decoration: none !important; }
