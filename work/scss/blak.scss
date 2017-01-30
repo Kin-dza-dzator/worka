@@ -4,7 +4,8 @@ $popa: #fff;
     .Main {
       /* rollback to fixed width*/
         max-width: none;
-        width: auto;
+        width: 1005px;
+
     }
     .pearl-sprite-header_background {
         background-position: 0 -14px !important;
@@ -59,6 +60,7 @@ $popa: #fff;
         .ContentCenter .SimpleBanner {
             width: auto;
             margin: 7px auto;
+
         }
 
         #PearlTopTabRow {
@@ -148,6 +150,9 @@ $popa: #fff;
         border-radius: 7px 7px 0 0;
         width: 100%;
         margin-top: 20px;
+        @media screen and(max-width: 985px) {
+            width: 570px;
+        }
         &:first-child{
             margin-top: 0;
         }
@@ -175,7 +180,7 @@ $popa: #fff;
         border: 1px solid #ddd;
         border-radius: 0 0 7px 7px;
         .text-money{
-            margin-left: 21px;
+            margin-left: 22px;
         }
     }
 
@@ -191,7 +196,7 @@ $popa: #fff;
         background-color: #ffffff;
         min-height: 50px;
         border-top: 1px solid #ddd;
-        padding: 8px 17px 9px 13px;
+        padding: 8px 0px 9px 13px;
 
         h3 {
             padding: 17px 15px 0px 0px;
@@ -350,7 +355,7 @@ $popa: #fff;
         width: 130px;
     }
     .bsk__column:nth-child(3) {
-        width: 112px;
+        width: 96px;
         h3 {
            text-align: center;
         }
@@ -427,7 +432,7 @@ $popa: #fff;
 
     .bsk-btn {
         width: 20px;
-        height: 34px;
+        height: 25px;
         background-size: contain;
         text-align: center;
         cursor: pointer;
@@ -440,13 +445,13 @@ $popa: #fff;
     .btn-reload {
         float: left;
         background: url('/image/refresh.svg') no-repeat top left;
-        margin: 10px 6px 6px 26px;
+        margin: 10px 6px 6px 12px;
         width: 17px;
     }
     .btn-trash {
         float: right;
         background: url('/image/dash.svg') no-repeat top left;
-        margin: 6px 20px 6px 6px;
+        margin: 6px 9px 6px 6px;
 
     }
     &__panel-btnbox {
@@ -461,7 +466,7 @@ $popa: #fff;
             padding: 0;
             font-size: 12px;
             float: left;
-            font-weight: 800;
+            font-weight: 700;
         }
     }
 
@@ -480,12 +485,12 @@ $popa: #fff;
                     width: 54px;
                     float: left;
                     margin-bottom: 12px;
-                    margin-left: -11px;
+                    margin-left: -22px;
                 }
                 h2{
                     font-size: smaller;
                     color: rgb(34,113,180);
-                    margin-left: -11px;
+                    margin-left: -22px;
                     font-size: 12px;
                     font-weight: 100;
 
@@ -497,7 +502,7 @@ $popa: #fff;
                     float: left;
                     width: 27px;
                     height: 27px;
-                    margin: 0px 14px 10px 2px;
+                    margin:     0px 13px 10px -25px;
                 }
                 h2{
                     font-size: unset;
@@ -514,6 +519,7 @@ $popa: #fff;
             &:nth-child(4){
                 width: 55px;
                 margin-left: 10px;
+                margin-right: -10px;
             }
 
         }
