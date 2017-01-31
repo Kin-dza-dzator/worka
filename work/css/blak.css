@@ -154,7 +154,7 @@
 .basket__panel-content {
   background-color: #ffffff;
   min-height: 50px;
-  border-top: 1px solid #ddd;
+  border-top: 0.5px solid #ddd;
   padding: 8px 0px 9px 13px; }
   .basket__panel-content h3 {
     padding: 17px 15px 0px 0px;
@@ -387,7 +387,8 @@
         color: #2271b4;
         margin-left: -22px;
         font-size: 12px;
-        font-weight: 100; }
+        font-weight: 100;
+        width: 106px; }
     .basket__ad-box a:nth-child(2) img {
       float: left;
       width: 27px;

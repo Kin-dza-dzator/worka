@@ -195,7 +195,7 @@ $popa: #fff;
     &__panel-content {
         background-color: #ffffff;
         min-height: 50px;
-        border-top: 1px solid #ddd;
+        border-top: 0.5px solid #ddd;
         padding: 8px 0px 9px 13px;
 
         h3 {
@@ -493,6 +493,7 @@ $popa: #fff;
                     margin-left: -22px;
                     font-size: 12px;
                     font-weight: 100;
+                    width: 106px;
 
                 }
             }
