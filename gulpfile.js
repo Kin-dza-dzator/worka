@@ -1,14 +1,15 @@
 var gulp = require('gulp'),
     browserSyncOnj = require('browser-sync'),
-    modRewrite = require('connect-modrewrite'),
+    path = require('path'),
     sass = require('gulp-sass');
 
 const rootFolder = 'work';
-
+const PROXY_TARGET_URL = 'http://web69.pearl.de';
 
 
 gulp.task('default', ['build']);
 gulp.task('build', ['scss', 'browsersync', 'watch']);
+gulp.task('proxy', ['scss', 'proxysync', 'watch']);
 
 gulp.task('scss', function () {
     return gulp.src(rootFolder + '/scss/**/*.*')
@@ -19,6 +20,7 @@ gulp.task('scss', function () {
 var browserSync = browserSyncOnj.create();
 gulp.task('browsersync', function () {
     browserSync.init({
+        port:3000,
         server: {
             baseDir: './'+ rootFolder
         },
@@ -26,6 +28,19 @@ gulp.task('browsersync', function () {
         open: false
     });
 });
+
+gulp.task('proxysync', function () {
+    browserSync.init({
+        port:3000,
+        proxy: PROXY_TARGET_URL,
+        serveStatic: [
+            path.resolve('./web69/')
+        ],
+        //открывать браузер автоматом
+        open: false
+    });
+});
+
 gulp.task('reload',['scss'], function(){
     return browserSync.reload();
 });
