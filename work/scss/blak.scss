@@ -175,15 +175,6 @@ $popa: #fff;
         border-radius: 7px 7px 0 0;
     }
 
-    &__panel-footer {
-        background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
-        border: 1px solid #ddd;
-        border-radius: 0 0 7px 7px;
-        .text-money{
-            margin-left: 22px;
-        }
-    }
-
     &__panel-footer h2,
     &__panel-header h2 {
         padding: 12px 8px 10px 12px;
@@ -272,7 +263,7 @@ $popa: #fff;
         padding: 0px 0px 0px 6px;
     }
 
-    .bsk__table {
+    .__table {
         display: table;
         width: 100%;
         table-layout: fixed;
@@ -426,6 +417,36 @@ $popa: #fff;
             font-family: sans-serif;
             font-weight: normal;
         }
+    }
+
+
+    &__panel-footer {
+        background: linear-gradient(to bottom, #fff 5%, #e9e9e9 100%);
+        border: 1px solid #ddd;
+        border-radius: 0 0 7px 7px;
+        .text-money{
+            margin-left: 22px;
+        }
+
+        .bsk__table{
+            float: right;
+        }
+        .bsk__column{
+            &:nth-child(1){
+                width: 30px;
+            }
+            &:nth-child(2){
+                width: 148px;
+            }
+        }
+        .bsk__col{
+            border: none;
+            h2{
+                text-align: right;
+                padding: 12px 10px 10px 12px;
+            }
+        }
+
     }
 
 
