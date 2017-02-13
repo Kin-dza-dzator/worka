@@ -263,7 +263,7 @@ $popa: #fff;
         padding: 0px 0px 0px 6px;
     }
 
-    .__table {
+    .bsk__table {
         display: table;
         width: 100%;
         table-layout: fixed;
@@ -425,25 +425,35 @@ $popa: #fff;
         border: 1px solid #ddd;
         border-radius: 0 0 7px 7px;
         .text-money{
-            margin-left: 22px;
+            margin-left: 9px;
+            text-align: right;
+            padding: 12px 0px 10px 0px;
         }
 
         .bsk__table{
             float: right;
         }
+
         .bsk__column{
             &:nth-child(1){
-                width: 30px;
+                width: auto;
+                h2{
+                    text-align: right;
+
+                }
             }
             &:nth-child(2){
-                width: 148px;
+                width: 123px;
             }
         }
         .bsk__col{
             border: none;
-            h2{
-                text-align: right;
-                padding: 12px 10px 10px 12px;
+            &:nth-child(1) {
+                h2 {
+                    text-align: right;
+                    padding: 12px 9px 10px 0px;
+                    margin: 0 -13px 0 0px;
+                }
             }
         }
 
