@@ -1,4 +1,5 @@
 .costblock {
+    margin-bottom: 25px;
     background-color: #f2f1f1;
     img {
         width: 160px;
@@ -8,12 +9,17 @@
 }
 
 .btn {
-
+    &.btn-default[type=button]:hover:nth-child(1) {
+        background-color: #3091f2;
+    }
     &.btn-lg.btn-default {
         margin: 15px 20px 15px 20px;
         background-color: #FE7500;
         color: white;
         padding: 4px 11px;
+        &[type=button]:hover {
+            background-color: #ff6600;
+        }
     }
 
     &.btn-default {
@@ -78,6 +84,7 @@
     vertical-align: middle;
     display: table-cell;
     padding: 12px 10px;
+
     &:nth-child(1) {
         text-align: left;
         img {
@@ -92,6 +99,17 @@
 
     &:nth-child(2) {
         text-align: center;
+        label {
+            vertical-align: middle;
+            margin: 0;
+            line-height: 40px;
+            display: inline-block;
+            font-weight: 100;
+        }
+    }
+
+    &:nth-child(3) {
+        text-align: center;
     }
 
     img {
@@ -103,84 +121,49 @@
 }
 
 .bsk__colgroup {
-    display: table-column-group
-}
-
-.bsk__column:nth-child(1) {
-    width: auto;
-}
-
-.bsk__column:nth-child(2) {
-    width: 150px;
-}
-
-.bsk__column:nth-child(3) {
-    width: auto;
-    h3 {
-        text-align: center;
-    }
-
+    display: table-column-group;
     .bsk__column {
-        display: table-column
+        display: table-column;
+    }
+    .bsk__column:nth-child(1) {
+        width: auto;
     }
 
-    .text-cut {
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: normal;
-    }
-    h2.text-cut {
-        font-size: 15px;
-        font-weight: normal;
-        line-height: 45px;
-        height: 40px;
-
-    }
-    .input-numeric {
-        width: 100px;
-        margin-bottom: 20px;
-
-    }
-    .spin {
-        display: inline-block;
-        div {
-            display: block;
-            float: left;
-            width: 23px;
-            height: 20px;
-            border: 1px solid #3366cc;
-            padding: 0;
-            margin: 0;
-
-            text-align: center;
-            background: rgb(20, 113, 182);
-            border-radius: 0 8px 8px 0;
-            cursor: pointer;
-            color: white;
-            font-size: 16px;
-            box-sizing: border-box;
-            font-family: sans-serif;
-            font-weight: 600;
-        }
-        div:first-child {
-            border-radius: 8px 0 0 8px;
-        }
-        input {
-            display: block;
-            float: left;
-            width: 43px;
-            height: 20px;
-            padding: 0;
-            margin: 0;
-
-            text-align: center;
-            font-size: 13px;
-            box-sizing: border-box;
-            font-family: sans-serif;
-            font-weight: normal;
-        }
+    .bsk__column:nth-child(2) {
+        width: 180px;
     }
 
+    .bsk__column:nth-child(3) {
+        width: 180px;
+    }
+}
+
+.spin {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    div {
+        display: block;
+        float: left;
+
+    }
+    div:first-child {
+        border-radius: 8px 0 0 8px;
+    }
+    input {
+        display: block;
+        float: left;
+        width: 54px;
+        height: 30px;
+        padding: 0;
+        margin: 0;
+
+        text-align: center;
+        font-size: 18px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        font-weight: 500;
+    }
 }
 
 .btn-group.btn-group-lg {
@@ -207,6 +190,7 @@
     border: none;
     .caption {
         color: grey;
+        margin-top: 15px;
     }
     &.center-block {
         margin: 29px 20px 15px 29px;
@@ -217,6 +201,14 @@
     height: 30px;
     //padding: 6px 32px;
     border-radius: 2px;
+    margin: 12px 0 0 0;
+    &.mix-control {
+
+    }
+}
+
+.form-inline {
+    margin: 10px 0 0 0px;
 
 }
 
@@ -228,7 +220,132 @@
     margin: 10px 0 0 13px;
 }
 
-.text-pay{
+.text-pay {
     margin: 10px 0 0 13px;
     font-size: 16px;
+}
+
+h1 {
+    font-size: 39px;
+}
+
+input[type=number],
+input[type=number] {
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    font-size: 16px;
+    ////background-color: grey;
+    ////border: 1px solid #ccc;
+    ////box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    padding: 6px 0 6px 10px;
+}
+
+.text-label {
+    margin: 15px 0 0 0;
+}
+
+.wrapInp {
+    position: relative;
+}
+
+.licInput {
+    height: 32px;
+    width: 100px;
+    border: 2px solid #c7c7c7;
+    text-align: right;
+    padding-right: 25px;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input {
+    line-height: normal;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.wrapInp #minus, .wrapInp #minus::before {
+    content: '▼';
+    font-size: 10px;
+    line-height: 1.4em;
+    text-align: center;
+    color: #595959;
+}
+
+.wrapInp #minus, .wrapInp #plus {
+    position: absolute;
+    width: 14px;
+    height: 13px;
+    background: #e2e2e2;
+    left: 84px;
+    bottom: 2px;
+    cursor: pointer;
+}
+
+.wrapInp #minus, .wrapInp #minus::before {
+    content: '▼';
+    font-size: 10px;
+    line-height: 1.4em;
+    text-align: center;
+    color: #595959;
+}
+
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapInp #minus, .wrapInp #plus {
+    cursor: pointer;
+}
+
+
+.wrapInp #plus, .wrapInp #plus::before {
+    top: 2px;
+    bottom: auto;
+    content: '▲';
+    font-size: 10px;
+    line-height: 1em;
+    text-align: center;
+    color: #595959;
+}
+
+.wrapInp #minus, .wrapInp #plus {
+    position: absolute;
+    width: 17px;
+    height: 12px;
+    background: #e2e2e2;
+    left: 36px;
+    bottom: 3px;
+    cursor: pointer;
+}
+
+.wrapInp #plus, .wrapInp #plus::before {
+    top: 2px;
+    bottom: auto;
+    content: '▲';
+    font-size: 10px;
+    line-height: 1em;
+    text-align: center;
+    color: #595959;
+}
+
+*::before, *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapInp #minus, .wrapInp #plus {
+    cursor: pointer;
 }

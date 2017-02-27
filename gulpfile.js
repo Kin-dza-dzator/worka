@@ -3,7 +3,7 @@ var gulp = require('gulp'),
     path = require('path'),
     sass = require('gulp-sass');
 
-const rootFolder = 'src';
+const rootFolder = 'work';
 const PROXY_TARGET_URL = 'http://web69.pearl.de';
 
 
