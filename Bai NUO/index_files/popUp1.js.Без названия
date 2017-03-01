@@ -1,0 +1,15 @@
+var overlayLink;var iframeLink;function ShowLink(href,w,h){var params={width:w,height:h};ShowLnkEx(href,params);}
+function CloseLnk(){CloseLnkEx();}
+function createHTMLLink(doc,parameters){var objectBody=doc.body;getViewportScrollY=function(){var scrollY=0; if(document.documentElement && document.documentElement.scrollTop){scrollY=document.documentElement.scrollTop; }
+else if(document.body && document.body.scrollTop){scrollY = document.body.scrollTop;}else if(window.pageYOffset){scrollY=window.pageYOffset;}else if(window.scrollY){scrollY = window.scrollY;} return scrollY;};  
+if(window.innerHeight!= undefined){ height=window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height; 
+}else{var B= document.body,D= document.documentElement;height=Math.max(D.clientHeight, B.clientHeight);
+}
+wrapLink = doc.createElement("div");with(wrapLink){id='wrapPopUpLink';onclick=function() {CloseLnk();}}
+objectBody.appendChild(wrapLink);overlayLink = doc.createElement("div");with(overlayLink){id ='overlayLink'; style.position= 'absolute'; 
+style.top = (height>parameters.height)?((height/2) - (parameters.height/2)) + getViewportScrollY() + "px" : ((parameters.height/2) - (height/2)) + getViewportScrollY() + "px"; 
+style.left ='0';style.zIndex = '1100'; style.width = '100%'; style.display = 'block';onclick=function(){CloseLnk();}}   
+iframeLink = doc.createElement((window.navigator.userAgent.indexOf("MSIE") > 0 && window.navigator.userAgent.indexOf("MSIE 10") <= 0 ) ? "<iframe name='popupLink'>" : "iframe");with (iframeLink){style.display = 'none'; style.backgroundColor = "transparent"; width = '' + parameters.width; height = '' + parameters.height; name = "popupLink"; border = 0; frameBorder = 0; allowTransparency = true; setAttribute("name", "popupLink"); id = "popupLink";style.position = "relative"; style.zIndex = "1200"; scrolling = "no";}
+overlayLink.appendChild(iframeLink);objectBody.appendChild(overlayLink);}
+function ShowLnkEx(href,parameters){if (iframeLink != null){CloseLnkEx();} var win = window.top != null ? window.top : window;var doc = win.document;createHTMLLink(doc, parameters);iframeLink.src = href;iframeLink.style.display = "block";var iframe = document.getElementById("popupLink");}
+function CloseLnkEx(){var win = window.top != null ? window.top : window; var doc = win.document;overlayLink.style.zIndex = -1000;wrapLink.style.display = "none";overlayLink.style.display = "none";iframeLink.style.display = "none";var objectBody = doc.body;overlayLink.removeChild(iframeLink);objectBody.removeChild(wrapLink);objectBody.removeChild(overlayLink);iframeLink = null;overlayLink = null;wrapLink = null;}

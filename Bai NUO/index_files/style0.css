@@ -1,0 +1,492 @@
+html{height:100%;width:100%} body{height:100%;font-size:12px;font-family:Arial;background:#f5f5f5;color:#333;margin:0;padding:0;position:relative}
+@font-face {font-family:Esas;src:url('/css/fonts/Esas.eot??#iefix') format('embedded-opentype'), url('/css/fonts/Esas.ttf'), local("Esas");}
+@font-face {font-family:EsasBold;src:url('/css/fonts/EsasBold.eot?#iefix') format('embedded-opentype'), url('/css/fonts/EsasBold.ttf') format('truetype'), local("EsasD");}
+
+p{font-size:12px}
+a img{border:none}
+a{color:#295886;cursor:pointer}
+a.jun:link,a{color:#124679;text-decoration:none}
+a.jun:visited{color:#333}
+a.jun:hover{color:#FF850A}
+a.linkRed,a.linkRed:link,a.linkRed:hover{cursor:pointer;color:#C90119}
+a.linkRed:hover{text-decoration:underline}
+
+h1, #bodyElement h1 {font-size:15px; margin: 20px 0 8px 0; color:#093f74;}
+h2 {font-size:13px; color:#295886; margin:16px 0;}
+h2.list {color:#515151}
+h3 {color:#295886}
+h1, h2, h3, h4, h5, h6 {margin:0; padding:0;}
+
+ul, ol, li, p, form, fieldset, a, img {margin:0; padding:0; border:none;}
+ul li {list-style-image: url("//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit.gif"); margin:2px 0 2px 19px;}
+
+.UlblueD li {list-style-image: url("//www.hnbainuo.com/sites/paragonsoftware.com/business/arr-bullet.png"); padding-bottom:4px; margin:2px 0 2px 19px;}
+#bodyElement .BlueBtn {height:22px; background: url("//www.hnbainuo.com/sites/paragonsoftware.com/images/btn_light-blue.jpg") repeat-x; color:white; font-size:11px; line-height:1.8em; padding: 0 7px; display:block; }
+.clearDiv {clear:both; height:1px; line-height:0; overflow:hidden;}   
+strong {font-weight:bold}
+th {text-align:center; background:#375AAB; color:#fff; padding:4px;}
+th a, th a:link, th a:visited {background:#375AAB; color:#fff; text-decoration:none;}
+th a:hover {color:#D2E3F0}
+
+/** Right block - languages **/
+comasterdiv.product_av_lng {padding:4px 4px 0 4px; border:1px solid #dfe7ef; margin-bottom:4px; clear:both;}
+div.product_av_lng div {margin:6px 0 4px 2px;}
+a.product_av_lng {margin:0 12px 8px 4px; display:block; float:left;}
+#debugInfo{ font-size:xx-small; font-family:verdana; position:absolute; top:0; left:0; display:none;}
+
+/** RU Sites **/
+.redLink:link, .redLink, .redLink:visited, .redLink:hover {color:#D92022}
+#popup, #popupLink {margin:0 auto}
+#wrapPopUpLink {background:url("//www.hnbainuo.com/sites/paragon-drivers.com/interface/pix.png") repeat; display:block; height:100%; left:0; position:fixed; top:1px; width:100%; z-index:1000;}
+#Errors {width:410px; border:1px solid red; display:none;}
+#incorrectEmail, #incorrectCaptcha, #fillCaptcha, #Agree, #incorrectName, #privmsg {color:red; padding:3px 0 2px 10px; font-size:11px; display:none;}
+table.tabform .btnsbmt {border:none; background:transparent; cursor:pointer; outline:none;}
+
+#bodyElement #Table_01 td {font-size:0px}
+#bodyElement, #content {padding:0 0 12px 0; margin:0 0 12px 0; clear:both; text-align:left; font-size:12px;}
+#content {padding:0; margin:0; position:relative; z-index:3;}
+#topLine {height:0px; font-size:0px;}
+
+.NewFeat, .UpdateFeat, .NewFeatSmall, .UpdateFeatSmall, .NewFeatWht {background-color:#CD181F; color:#fff; font-weight:bold; padding:0 2px; text-transform:uppercase;}
+.NewFeatSmall, .UpdateFeatSmall {font-size:9px}
+.UpdateFeat, .UpdateFeatSmall {background-color:#009bd5}
+.NewFeatWht {background-color:#fff; color:#cd181f;}
+
+.logo {width:227px; height:63px; vertical-align:top; text-align:center;}
+
+/* верхнее меню */
+#cookie_str {width:100%; padding:5px 0; background:#e3ebf3;}
+#cookie_str .cont {width:990px; margin:0 auto;}
+#cookie_str .cont p, #cookie_str .cont a {line-height:2.4em; font-size:11px; color:#1e4e9e}
+#cookie_str .cont a {text-decoration:underline; line-height:2.4em; float:left}
+#btnX {width:26px; height:26px; float:right; margin:1px 10px 0; cursor:pointer; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/btn-close.png') no-repeat;}
+#cookie_ok{height:26px; background:#3b52a0; cursor:pointer; font-weight:600; border:none; color:#fff; margin-left:10px; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+#cookie_ok:hover{background:#6679ba}
+
+.TopMenu {margin:0; background:url('//www.hnbainuo.com/system/galleries/paragon_images/interface/topMenuBg.gif') repeat-x;}
+table.TopMenu td.MenuTop {vertical-align:middle; padding:0 8px 0 18px;}
+td.MenuTop {font-family:Tahoma; font-size:11px; color:#d2e3f0; text-transform:uppercase; font-weight:bold;}
+TopMenu td {vertical-align:middle}
+td.MenuTop span {display:block; text-align:center; padding:0 12px; font-size:19px; font-weight:normal; color:#d2e3f0;}
+td.MenuTop a:link, td.MenuTop a:visited {color:#d2e3f0; display:block; text-align:center; font-family:Tahoma; font-size:11px; color:#d2e3f0; text-transform:uppercase; font-weight:bold; text-decoration:none;}
+td.MenuTop a:hover {color:#d2e3f0; font-size:11px; text-transform:uppercase; font-weight:bold; text-decoration:underline;}
+
+div.info {color:#124679; text-align:right; font-size:9px; padding:8px 0; margin-right:0;}
+div.info span {padding:0 13px; font-size:12px;}
+div.info a:link, div.info a:visited, div.info a:hover {color:#124679; font-size:9px;}
+
+td.MenuTop a.current, td.MenuTop a.current:link, td.MenuTop a.current:visited {color:#FB7E02}
+td.MenuTopBlue a:link, td.MenuTopBlue a:visited {color:#fff; font-size:13px; text-transform:capitalize; font-weight:bold; text-decoration:none; white-space:nowrap;}
+td.MenuTopBlue a:hover {color:#fff; text-transform:capitalize; text-decoration:underline; white-space:nowrap;}
+td.MenuTopBlue a.current, td.MenuTopBlue a.current:link, td.MenuTopBlue a.current:visited {color:#d2e3f0}
+td.MenuTopLight {background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/interface/topmenu/topmenu_light_line.png') repeat-x;}
+td.MenuTopLight a:link, td.MenuTopLight a:visited {color:#fff; font-size:13px; text-transform:capitalize; font-weight:bold; text-decoration:none; white-space:nowrap;}
+td.MenuTopLight a:hover {color:#fff; text-decoration:underline; white-space:nowrap;}
+td.MenuTopLight a.current2, td.MenuTopLight a.current2:link, td.MenuTopLight a.current2:visited {color:#30539d}
+
+/*** new menu ***/
+.PTopMenu, .PBotMenu {padding-left:12px}
+.PBotMenu {margin-bottom:5px}
+.searchBarBlock {width:172px; height:30px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/interface/topmenu/search.png') no-repeat; float:right; margin:22px 10px 0 0; cursor:pointer;}
+.languageBox,.languageBox_rtl{width:180px;height:30px;position:relative;background:none;float:right;margin:22px 10px 0 0;cursor:pointer}
+.languageBox_rtl{margin:22px 0 0 10px;float:left}
+.languageBox .languageBarTitle,.languageBox_rtl .languageBarTitle{width:180px;height:30px;position:relative;z-index:99;padding:0;color:#3b52a0;font-size:14px;text-align:center;line-height:2em;background:url(https://china.paragon-software.com/system/galleries/myaccount/header/lang-box2x.png) no-repeat;float:right;cursor:pointer}
+.languageBox_rtl .languageBarTitle{background:url(/system/galleries/myaccount/header/lang-box2x-rtl.png) no-repeat}
+.languageBox #languageBarMenuTop a,.languageBox_rtl #languageBarMenuTop a{color:#3b52a0;font-size:13px;display:inline;padding:2px 8px}
+.languageBox #languageBarMenuTop a:hover,.languageBox_rtl #languageBarMenuTop a:hover{background:#3b52a0;color:#fff;border-radius:50px;-o-border-radius:50px;-khtml-border-radius:50px;-webkit-border-radius:50px;-moz-border-radius:50px}
+.languageBox #languageBarMenuTop{visibility:hidden;z-index:98;width:300px;height:515px;padding:0 20px;background:url(/system/galleries/myaccount/header/bg-lang-box.jpg) repeat-x 50% 40%;right:0;top:27px;border:1px solid #3b52a0;border-radius:15px;-o-border-radius:15px;-khtml-border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;margin-top:2px;position:absolute;text-align:left}
+.languageBox_rtl #languageBarMenuTop{visibility:hidden;z-index:98;width:300px;height:515px;padding:0 20px;background:url(/system/galleries/myaccount/header/bg-lang-box.jpg) repeat-x 50% 40%;left:0;top:27px;border:1px solid #3b52a0;border-radius:15px;-o-border-radius:15px;-khtml-border-radius:15px;-webkit-border-radius:15px;-moz-border-radius:15px;margin-top:2px;position:absolute;text-align:left}
+.languageBox #languageBarMenuTop .lngItem,.languageBox_rtl #languageBarMenuTop .lngItem{height:25px;width:140px}
+.languageBox .LeftLine,.languageBox_rtl .LeftLine{width:20px;height:1px;background:url(/system/galleries/myaccount/header/line.png) no-repeat;float:left}
+.languageBox .MenuLine,.languageBox_rtl .MenuLine{width:1px;height:1px;background:url(/system/galleries/myaccount/header/line.png) -21px 0 repeat-x;float:left}
+.languageBox .RightLine,.languageBox_rtl .RightLine{width:20px;height:1px;background:url(/system/galleries/myaccount/header/line.png) -320px 0 no-repeat;float:left}
+
+/*** left menu ***/
+td#leftMenu{text-align:left}
+.LeftMenu{width:204px;color:#124679;font-weight:700;font-size:12px;margin:0 16px 0 8px;border-top:1px solid #c7d7e6;padding-top:5px}
+.LeftMenu_new{width:194px;color:#375aab;font-weight:700;font-size:12px;margin:0 16px 0 8px}
+.menu,.menuthis{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrbig.gif) no-repeat 2px 13px;padding:10px 0 10px 12px;border-bottom:1px solid #c7d7e6;text-align:left}
+.menu a:link,.menu a:visited{color:#124679;font-weight:700;font-size:12px;text-decoration:none}
+.menu a:hover{color:#ce181e;text-decoration:underline}
+.menuthis a:link,.menuthis a:visited{color:#ce181e;font-weight:700;font-size:12px;text-decoration:none}
+.menu_new,.menu_newthis{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrbig.gif) no-repeat 2px 13px;padding:10px 0 10px 12px}
+.menu_new a:link,.menu_new a:visited{color:#375aab;font-weight:700;font-size:12px;text-decoration:none}
+.menu_new a:hover{color:#ce181e;text-decoration:underline}
+.menu_newthis a:link,.menu_newthis a:visited{color:#ce181e;font-weight:700;font-size:12px;text-decoration:none}
+.menu1{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrmid.gif) no-repeat 0 15px;padding:10px 0 0 15px;text-align:left}
+.menu1 a:link,.menu1 a:visited{color:#124679;font-weight:400;text-decoration:none}
+.menu1 a:hover,.menu1this a:hover,.menu1_new a:hover{text-decoration:underline}
+.menu1this{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrmid.gif) no-repeat 0 15px;padding:10px 0 0 15px}
+.menu1this a:link,.menu1this a:visited{color:#ce181e;font-weight:700;text-decoration:none}
+.menu1_new{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/new_design/lm_bullet.gif) no-repeat 8px 15px;padding:10px 0 0 15px}
+.menu1_new a:link,.menu1_new a:visited{color:#375aab;font-weight:700;text-decoration:none}
+.menu1_newthis{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/new_design/lm_bullet.gif) no-repeat 8px 15px;padding:10px 0 0 15px}
+.menu1_new_arab{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/new_design/lm_bullet.gif) no-repeat 88% 15px;padding:9px 30px 0 0;text-align:right}
+.menu1_new_arab a:link,.menu1_new_arab a:visited{color:#375aab;font-weight:700;text-decoration:none;text-align:right}
+.menu1_new_arab a:hover{text-decoration:underline}
+.menu1_new_arabthis{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/new_design/lm_bullet.gif) no-repeat 100% 15px;padding:10px 15px 0 0;text-align:right}
+.menu1_new_arabthis a:link,.menu1_new_arabthis a:visited{color:#ce181e;font-weight:700;text-decoration:none;text-align:right}
+.menu1_new_arabthis a:hover{text-decoration:underline}
+.menu1_newthis a:link,.menu1_newthis a:visited{color:#ce181e;font-weight:700;text-decoration:none}
+.menu1_newthis a:hover{text-decoration:underline}
+.menu2{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit.gif) no-repeat 15px 7px;padding-left:21px;margin-top:6px}
+.menu2 a{color:#124679;font-weight:400;text-decoration:none;font-size:11px}
+.menu2 a:hover{text-decoration:underline}
+.menu2this{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit_over.gif) no-repeat 15px 7px;padding-left:21px;margin-top:6px}
+.menu2this a:link,.menu2this a:visited,.menu2this a:hover{color:#ce181e;font-weight:700;text-decoration:none;font-size:11px}
+.menu2_new{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit.gif) no-repeat 15px 7px;padding-left:21px;margin-top:6px}
+.menu2_new a:link,.menu2_new a:visited{color:#375aab;font-weight:400;text-decoration:none;font-size:11px}
+.menu2_new a:hover{text-decoration:underline}
+.menu2_new_arab{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit.gif) no-repeat 83% 15px;padding:9px 40px 0 0;text-align:right}
+.menu2_new_arab a:link,.menu2_new_arab a:visited{color:#375aab;font-weight:400;text-decoration:none;font-size:11px;text-align:right}
+.menu2_new_arab a:hover{text-decoration:underline}
+.menu2_newthis{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit_over.gif) no-repeat 15px 7px;padding-left:21px;margin-top:6px}
+.menu2_newthis a:link,.menu2_newthis a:visited,.menu2_newthis a:hover{color:#ce181e;font-weight:700;text-decoration:none;font-size:11px}
+.menu2_new_arabthis{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrlit_over.gif) no-repeat 83% 15px;padding:9px 40px 0 0;text-align:right}
+.menu2_new_arabthis a:link,.menu2_new_arabthis a:visited,.menu2_new_arabthis a:hover{color:#ce181e;font-weight:700;text-decoration:none;font-size:11px;text-align:right}
+.leftMenuUnder{font-size:12px}
+
+/*** thermo navigation ***/
+#thermo{height:14px;padding:8px 10px 10px 0}
+#thermoNavigation{font-size:10px;text-decoration:none;margin-left:25px;text-align:left;position:relative;z-index:4}
+#thermoLeft a,#thermoTitle a{font-size:12px;font-weight:400;text-decoration:none}
+#thermoNavigation a{text-decoration:none}
+#thermoLeft a,#thermoTitle a,#thermoNavigation a{color:#295886}
+#thermoLeft a:hover,#thermoTitle a:hover,#thermoNavigation a:hover{color:#FB7E02}
+.thermoLeftLine{border-top-color:#1C4E7F}
+
+.searchBox {width:180px; height:30px; background:url(/system/galleries/myaccount/header/search-box.png) no-repeat; margin:22px 10px 0 0; float:right; }
+.searchBox #search, .searchBox input[type="text"] {font-family:Arial; background:transparent; width:135px; font-size:14px; text-align:center; line-height:2em; border:none; color:#8c97ba; padding-top:1px; height:27px; outline:none;}
+#searchForm {float:right; margin:0; padding:0; position:relative; top:-8px;}
+#searchInput {width:124px; height:18px; border:1px solid #ccc;}
+#searchSubmit {height:18px; background-color:#C7D7E6; border:1px solid #ccc;}
+
+/*** header (block with box) ***/
+#contentHeader{height:262px;background:#c7d7e6 url(//www.hnbainuo.com/system/galleries/paragon_images/interface/chBgBlue.jpg) no-repeat;border-right:1px solid #C7D8E2}
+#contentHeader_new{position:relative;width:540px;z-index:4;background:#fff url(//www.hnbainuo.com/sites/paragonsoftware.com/new_design/blocl_bckg.jpg) no-repeat}
+#contentHeader_new h2{font:bold 18px tahoma;color:#334f9b;margin:13px 0 5px 20px}
+#contentHeader_new h3{font:bold 13px arial;color:#010101;margin-left:20px}
+#contentHeader_pro{height:262px;background:#D6D6D6 url(//www.hnbainuo.com/system/galleries/paragon_images/interface/chBgGray.jpg) no-repeat;border-right:1px solid #D7D7D7}
+#contentHeader h1,#contentHeader_pro h1,#contentHeader_about h1{font-size:167%;font-family:arial;font-weight:700;margin:4px 0}
+#contentHeader .text,#contentHeader_pro .text,#contentHeader_about .text{font-size:12px;margin:14px 4px 4px 172px}
+#contentHeader_new .text{font-size:12px;margin-left:172px;margin-right:5px;padding-top:40px;color:#5b5d5a;width:356px}
+#contentHeader_new .text ul li{padding:0 0 5px 15px;list-style-image:url(//www.hnbainuo.com/sites/paragonsoftware.com/new_design/bullet.jpg)}
+#content #contentHeader_new h2 span{font-size:11px}
+.contentHeaderButton{text-decoration:none}
+#contentHeader h2,#contentHeader_pro h2,#contentHeader_about h2{background-image:none}
+#contentHeader h1,#contentHeader_pro h1,#contentHeader_about h1{color:#093F74}
+#contentHeader,#contentHeader_pro{width:100%}
+#contentHeader h2,#contentHeader_pro h2{width:auto;height:auto;margin:0}
+#contentHeader .contentHeaderPrice,#contentHeader_pro .contentHeaderPrice,#contentHeader .contentHeaderOldPrice,#contentHeader_pro .contentHeaderOldPrice{width:108px;height:34px;top:218px;left:36px;position:absolute;z-index:7;color:#084079;font-family:'Comic Sans MS';font-weight:700;font-size:24px;text-align:center;display:block;white-space:nowrap}
+#contentHeader_new .contentHeaderPrice{font:bold 33px arial narrow;color:#c90119;white-space:nowrap;margin:0 10px}
+#contentHeader .contentHeaderOldPrice,#contentHeader_pro .contentHeaderOldPrice{top:191px!important;top:185px;color:#2d5d8e;font-size:16px;text-decoration:line-through}
+#contentHeader_new .contentHeaderOldPrice{color:#5580f2;font:bold 18px arial narrow;text-decoration:line-through;position:relative;bottom:190px}
+#contentHeader .textWoBox{padding-top:4px;margin-left:4px}
+.contentHeaderButton img{margin-right:0;margin-top:8px}
+#contentHeaderLine{width:100%;height:43px;position:absolute;z-index:6;left:0;top:213px}
+#contentHeaderLine_new{position:relative;width:540px;height:66px;z-index:7}
+#contentHeaderLine div{margin-left:0;text-align:justify}
+.featuresLink{margin:4px 0}
+.chSpecialPrice{position:absolute;top:202px;left:36px;z-index:9}
+#contentHeader_about{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/ch_for_about_page.jpg) no-repeat}
+#contentHeader_about .contentHeaderPrice{height:18px;color:#000;font-size:12px;margin-left:172px;margin-right:8px;margin-top:8px;padding:0 4px;padding-top:2px;background-color:#F3F6F9}
+
+/*** right blocks ***/
+#rightTopBlockInner,#rightBottom{font-size:81%}
+#rightBottom .sep,#rightblock .sep{width:100%;height:0;border-bottom:1px solid #ccc;margin-top:12px;margin-bottom:14px;font-size:0}
+#rightBlocks{width:219px;padding-left:0}
+#rightBlocksBig{width:280px;padding-left:0}
+#rightBottom{width:219px;font-size:11px;font-family:verdana;color:#515151;margin-top:8px}
+#rightblock{width:219px;margin-left:12px}
+#rightBottomBig{width:280px;font-size:11px;font-family:verdana;color:#515151;margin-left:12px;margin-top:8px}
+#rightTopBlock{width:219px;margin-left:12px;font-size:12px}
+#rightTopBlock ul li{list-style-image:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/updatedesign/bullet.gif);margin:2px 0 2px 19px;font-size:12px}
+#rightTopBlock h2{margin:0;padding:12px}
+
+.rt0,.rt1,.rt2,.rt3,.rt4,.rt5,.rt5,.rt6,.rt6,.rt7,.rt8,.rt9,.rt10,.rt11,.rt12,.rt13,.rt14,.rt15{height:265px}
+.rt0{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_04.gif) 0 0 no-repeat}
+.rt0 .text{padding:12px;position:relative;top:128px}
+.rt1{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_05.gif) 0 0 no-repeat}
+.rt1 .text{padding:12px;position:relative;top:112px}
+.rt2{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_03.gif) 0 0 no-repeat}
+.rt2 .text{padding-right:8px;position:relative;top:84px}
+.rt3{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_06.gif) 0 0 no-repeat}
+.rt3 .text{padding:18px;position:relative;top:128px}
+.rt4{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_01.gif) 0 0 no-repeat}
+.rt4 .text{padding:18px;position:relative;top:128px}
+.rt5{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_00.gif) 0 0 no-repeat}
+.rt5 .text{padding:18px;position:relative;top:128px}
+.rt6{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_07.gif) 0 0 no-repeat}
+.rt6 h2{color:#fff;display:none}
+.rt6 .text{padding:18px;position:relative;top:164px}
+.rt6 a:link,.rt6 a:visited{color:#000}
+.rt6 a:hover{color:#FF850A}
+.rt7{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_07.gif) 0 0 no-repeat}
+.rt8{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_09.gif) 0 0 no-repeat}
+.rt8 .text{padding-right:8px;position:relative;top:102px}
+.rt9{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_rk_for_mac.jpg) 0 0 no-repeat}
+.rt10{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_dc_per.jpg) 0 0 no-repeat}
+.rt10 .text{padding:4px 12px;position:relative;top:152px}
+.rt11{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/ru/rt_macworld.jpg) 0 0 no-repeat}
+.rt11 .text{padding:4px 76px 0 12px;position:relative;top:208px}
+.rt12{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/ru/rt_rk_ostav_otzyv.jpg) 0 0 no-repeat}
+.rt13{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_dw.jpg) 0 0 no-repeat}
+.rt13 .text,.rt15 .text{padding:4px 8px 0 12px;position:relative;top:182px}
+.rt14{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_14.jpg) 0 0 no-repeat}
+.rt14 .text{padding:4px 8px 0 12px;position:relative;top:12px}
+.rt15{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_dw_pro.jpg) 0 0 no-repeat}
+.rt_about{height:224px;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_about_bg.gif) 0 0 no-repeat}
+.rt_about .text,.rt_pressroom .text{margin:4px 4px 4px 22px}
+.rt_pressroom{height:177px;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/rt_pressroom.jpg) 0 0 no-repeat}
+.pressroom_td{border:1px solid #DCDADB}
+
+#rightTopBlock.default{background-repeat:no-repeat;background-position:0 0}
+#rightTopBlock.default .text{padding:18px}
+#rightBottom h2{color:#999;margin:4px 0}
+.rcBlock0,.rcContacts{font-size:12px;border-style:solid;border-color:#E5E5E5;border-width:4px 0;padding:8px 4px 8px 12px;background-color:#F2F2F2}
+.rcAbout{background-color:#F3F6F9;border:1px solid #C3D2E1;padding:4px 4px 4px 11px}
+.rcContacts ul,.rcAbout ul{margin:0}
+.rcContacts h2,.rcAbout h2{text-align:left;padding-left:0}
+.rcContacts ul li,.rcAbout ul li{list-style-image:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/arrborder.gif);margin:2px 2px 2px 18px}
+.tb1 td{font-size:12px}
+.tb1 th{height:12px}
+.blockContents,.blockContent0,.blockContent1{padding:24px;border-bottom:1px solid #124679;background-color:#f2f2f2}
+.blockContents,.blockContent1{border-top:1px solid #124679}
+.blockContent1{background-color:transparent}
+.tb1 td{border-bottom:1px solid #E6EBEF}
+td.dark,tr.dark{background-color:#F7F8FC}
+td.light,tr.light{background-color:#fff}
+.sep{width:100%;height:0;border-bottom:1px solid #ccc;margin-top:12px;margin-bottom:14px;font-size:0}
+h2 img{border:none;float:left;margin-right:12px}
+.tb1 td{padding:6px 8px}
+
+.ntfs-header,.camptune-x-header{color:#133588;font-family:Arial;font-size:16pt;font-weight:700;margin-bottom:25px;margin-left:20px}
+.camptune-x-header{margin-left:40px}
+.ntfs-description,.camptune-x-description{color:#aaa;font-family:Arial;font-size:11pt;font-weight:700;line-height:24px;margin-left:20px}
+.camptune-x-description{margin-left:40px;line-height:normal}
+
+/*** FOOTER ***/
+.footer{width:100%;max-width:100%;height:100%;background:#E3EBF3 repeat;color:#6a7076;}
+.footer .boxes, .footer .boxes_rtl{width:930px;max-width:930px;margin:0 auto 5px;padding:15px 0;border-bottom:2px solid #D2E3F0;}
+.footer .boxes .box { width:260px; float:left;}
+.footer .boxes_rtl .box { width:260px; float:right; }
+.footer .box h3, .footer .box h3 a{font-size:13px;padding:0;margin:0;text-transform:uppercase;color:#295886;}
+.footer .box a, .footer .box span{text-decoration:none;color:#5B5D5A;display:block;font-size:11px;margin:3px 0;}
+.footer .box .fc, .footer .box .tw, .footer .box .vk, .footer .box .rss{width:32px;height:32px;display:block;float:left;margin-right: 5px;}
+.footer .copyright{width:930px;max-width:930px;margin:10px auto 0;padding-bottom:10px;color:#5B5D5A;font-size:11px;} 
+.footer .clearDiv {clear:both;height:1px;line-height:0;overflow:hidden;}
+.footer .box #Btnmail{width:180px;height:36px;background:url('https://china.paragon-software.com/export/system/galleries/myaccount/btn-mail-dbl.png') 0 0 no-repeat;cursor:pointer;margin-top: 7px;}
+.footer .box #Btnmail:hover{ background-position: -180px 0; }
+.footer .box #Btnmail span{font-size:13px;color:white;line-height:2.7em;padding-left:8px;margin:0;font-weight:bold;}
+.footer .box #BtnmailRtl {width:180px;height:36px;background:url('https://china.paragon-software.com/export/system/galleries/myaccount/btn-mail-dbl-rtl.png') -180px 0 no-repeat;cursor:pointer;margin-top: 7px;}
+.footer .box #BtnmailRtl:hover{ background-position: 0 0; }
+.footer .box #BtnmailRtl span{font-size:13px;color:white;line-height:2.7em;padding-right:8px;margin:0;font-weight:bold;}
+
+/*** FOOTER FOR INDEX PAGE ***/
+.footerIndx {width:1090px;max-width:1090px;height:100%;background:#fafafa repeat;color:#6a7076;margin:0 auto;}
+.footerIndx .boxes{width:980px;max-width:980px;margin:0 auto 5px;padding:15px 0;border-bottom:2px solid #eee;}
+.footerIndx .boxes .box { width:150px; float:left;}
+.footerIndx .boxes .box h3, .footerIndx .boxes .box h3 a{font-size:13px;padding:0;margin:0;text-transform:uppercase;color:#535353;}
+.footerIndx .boxes .box a, .footerIndx .boxes .box span{text-decoration:none;color:#565656;display:block;font-size:11px;margin:3px 0;}
+.footerIndx .boxes .box .fc, .footerIndx .boxes .box .tw, .footerIndx .boxes .box .vk, .footerIndx .boxes .box .rss{width:32px;height:32px;display:block;float:left;margin-right: 5px;}
+.footerIndx .copyright{width:980px;max-width:1080px;margin:10px auto 0;padding-bottom:10px;color:#565656;font-size:11px;} 
+.footerIndx .clearDiv {clear:both;height:1px;line-height:0;overflow:hidden;}
+.footerIndx .boxes .box #Btnmail{width:180px;height:36px;background:url('//www.hnbainuo.com/sites/paragonsoftware.com/btn-mail_gray.png') no-repeat;cursor:pointer;margin-top: 7px;}
+.footerIndx .boxes .box #Btnmail span{font-size:13px;color:white;line-height:2.7em;padding-left:45px;margin0;font-weight:bold;}
+ 
+#footer { width:100%; height:42px; background-color:#C7D7E6; border-top:1px solid #114776; font-family:verdana; font-size:10px; padding-left:32px; padding-right:12px;}
+#footer td {font-size: 10px; vertical-align: middle;}
+#footer a {color:#124679; }
+
+#footer_new { width:100%; height:42px; background-color:#e7e7e7; border:none; font-family:verdana; font-size:10px; color:#565656; padding-left:32px; padding-right:12px;}
+#footer_new td { font-size:10px; vertical-align: middle;}
+#footer_new a { color:#565656; font-family:verdana; font-size:10px; }
+
+/*** hdm icons ***/
+.hdmIconDef,.hdmIconInFocus{color:#000}
+.hdmIconInBlur{color:#ccc}
+.hdmIcons td{height:50px;text-align:center;background-repeat:no-repeat;font-family:verdana;font-size:17px}
+.hdmIcons li{list-style-image:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/hdm/bullet.gif)}
+.tip{width:512px;height:auto;background-color:#FFFFE1;border:1px solid #000;font-size:xx-small;padding:4px;position:absolute;top:18px;left:32px}
+.featuresHightlight{background-color:#FFFFE1;border:1px dashed #ccc}
+
+/**************************************/
+.TopProd{margin-bottom:0;background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/updatedesign/topfon.gif) repeat-x;border-bottom:2px solid #f60}
+.TopProd a:link,.TopProd a:visited{color:#000;font-size:12px;text-decoration:none;font-weight:700}
+.TopProd a:hover{color:#000;font-size:12px;text-decoration:underline;font-weight:700}
+td.TopProdMenu1,td.TopProdMenuAll,td.TopProdMenuThis{text-align:center;vertical-align:middle;width:20%;padding-left:5px}
+td.TopProdMenuThis{padding:0}
+td.TopProdMenuThis a{color:#fff}
+/**************************************/
+div.prod{height:266px}
+table.head{border-bottom:5px solid #c7d7e6}
+table.head1{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/updatedesign/head1.jpg) no-repeat;border-bottom:1px solid #d6d6d6;border-right:1px solid #d6d6d6}
+td.photo,td.photo1{padding:29px 24px 16px 20px;font-size:1px;width:1px}
+td.photo1{padding:16px 20px 12px 16px}
+table.head1 td.text1{padding:29px 15px 16px 0;color:#000;font-size:11px}
+table.head td.text{border-right:1px solid #C7D7E6;padding:29px 15px 16px 0;color:#000;font-size:11px}
+table.head td.text p{margin:6px 0 0;padding:0}
+table.head tr.buy td{background:#e3ebf3;color:#093f74;font-size:30px;font-weight:700;vertical-align:middle}
+span.c22{font-size:22px;font-weight:400}
+.foot,.foot td{vertical-align:middle}
+.foot a:link,.foot a:visited,.foot a:hover{color:#124679;font-size:9px}
+td.bottomMenu{padding-left:28px}
+.bottomMenu span{padding:0 13px}
+.copy{text-align:right;padding-right:40px;color:#124679;font-size:9px}
+.bold{font-weight:700}
+.footnote{color:#969696;font-size:10px}
+div.list{font-weight:700;margin-top:20px;margin-bottom:5px}
+div.list li{font-weight:400}
+.enter{margin-top:30px}
+table.login{margin-top:10px}
+table.login td{padding-right:5px}
+input.input{border:1px solid #bcbcbc;color:#515151;height:23px;padding-left:3px}
+.update{margin-top:25px}
+.select{margin-top:20px}
+.load{padding:15px 15px 15px 25px}
+.load h1{font-size:30px;color:#ff6200;background:none;padding:0;margin:0;margin-left:20px;font-weight:400}
+table.prodlist{border-bottom:1px solid #c7d7e6;border-left:1px solid #c7d7e6;border-right:1px solid #c7d7e6}
+table.prodlist td{border-top:1px solid #c7d7e6;border-right:1px solid #c7d7e6;vertical-align:top;border-bottom:1px solid #c7d7e6}
+table.prodlist td table,table.prodlist td table td{border:none}
+table.prodlist td table{clear:both}
+table.prodlist td.text{padding:0 0 10px 14px}
+table.prodlist tr.color td{background:#f6f9fb}
+table.prodlist td.info{padding:15px 8px 30px 20px}
+table.prodlist h1{margin:10px 13px;padding:0}
+.prodList .price{color:#CE181E;font-size:18px;vertical-align:bottom;padding:15px 0 0}
+td.list li{list-style-image:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/updatedesign/arrborder.gif)}
+p.name{height:42px;line-height:100%;color:#093f74;font-size:18px;margin-top:0;margin-bottom:18px}
+p.name span{color:#CE181E;font-size:14px;font-weight:700}
+p.name a:link,p.name a:visited{color:#093f74;text-decoration:none}
+table.try,table.try td{border:none}
+div.forAdvanced li{list-style-image:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/updatedesign/arrborder.gif)}
+
+/*** PAGES SEGMENT /HOME/ ***/
+#banner,#segmentation{width:682px}
+#justReleased,#news{width:283px}
+#banner{margin:12px 8px 0 12px;height:225px;float:left;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/products_notice_bg.jpg) no-repeat}
+#banner h1{width:auto;font-family:Arial;font-weight:400;color:#1E6BAF;font-size:13.9pt;margin:4px 0 0;padding:19px 0 18px 52px;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/products_notice_H1.jpg) no-repeat}
+#banner h1.selected{color:#fff;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/products_notice_H1selected.jpg) no-repeat}
+#banner h1 a{text-decoration:none;color:#1E6BAF}
+#banner h1.selected a{text-decoration:none;color:#fff}
+#banner h2,#banner h3{display:none;margin:32px 0 0;color:#000;font-size:26px;font-family:Tahoma;font-weight:400}
+#banner h3{margin:0}
+#bannerInfo p{display:none;color:#1064A4;font-size:14px}
+#bannerInfo{margin:0;width:443px;height:223px;float:right;margin:1px}
+#bannerContents{float:left;width:232px;margin-top:24px}
+#justReleased img.box{float:left}
+#justReleased p{margin:8px 0 0}
+#justReleased p p{margin:0}
+#justReleased{font-family:Arial;font-size:11px;margin:12px 0 0;height:225px;float:right;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/justReleasedBg.jpg) no-repeat}
+#justReleased h1{margin:6px 6px 0 0;width:auto;float:right;font-size:12px;padding:4px 8px;background-color:#F69222;color:#fff}
+#justReleased h2{clear:both;margin:4px 0 2px 12px;font-size:19px;font-weight:400;font-family:Tahoma;color:#275380}
+#justReleased h2 a{color:#275380;text-decoration:none}
+#segmentation{margin:0 8px 15px 12px;float:left}
+#segmentationLinks{width:100%;height:113px;color:#039;background-color:#fff;border:1px solid #cfcfcf}
+#segmentationLinks td{vertical-align:top}
+#segmentationLinks h1{white-space:no-wrap;text-align:left;font-size:13px;font-family:Arial;margin:0;padding:2px 12px 2px 21px;background-image:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/headerPointer.gif);background-repeat:no-repeat;background-position:5px 8px}
+#segmentationLinks h1 a{color:#146FB8;text-decoration:none}
+#segmentationLinks ul{width:auto;margin:12px 12px 0 2px;padding:0 0 0 20px;list-style-image:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/ulSmallDot.gif)}
+.segmentBusiness ul{float:left}
+#segmentationLinks li{font-size:8pt;padding:0;margin:0;list-style-image:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/ulSmallDot.gif)}
+.segmentHome{width:30%}
+.segmentBusiness{text-align:left;border-width:0 1px;border-style:solid;border-color:#e0e0e0}
+.segmentPartners{width:30%}
+.segmentHome h1{background-color:#F9E0A0}
+.segmentBusiness h1{background-color:#C5F2BB}
+.segmentPartners h1{background-color:#C7D7E6}
+#small_banner{height:113px;border:none;float:right;text-align:center}
+#news{float:right;border:1px solid #C7D8EC}
+#news td{vertical-align:top}
+#news #awards{text-align:center;border-top:1px solid #C8D6E1}
+#news #awards a{text-decoration:none}
+#news #awards h1{text-align:left;margin:12px 0 6px 8px}
+#news h1{clear:none;margin:12px 0 12px 8px;font-size:18px;font-family:Tahoma;font-weight:400;color:#275380;padding:0}
+#news p{margin:0 8px 6px;font-size:11px}
+#news h1 a{color:#275380}
+#news a{text-decoration:none}
+
+#products{font-size:12px;border:1px solid #C8D5E5;border-collapse:collapse}
+#products td h1{font-size:19px;font-family:Tahoma;font-weight:400;margin:25px 0 6px 18px}
+#products td h1 a{color:#345C7F;text-decoration:none}
+#products td h1 span{color:#CE181E;font-size:11pt;font-weight:700}
+#products td{vertical-align:top}
+#products td p{margin:0 14px;font-size:8pt}
+#products td p img{margin:0 8px 0 0}
+#products #productsHome{border-right:1px solid #C8D5E5;border-left:1px solid #C8D5E5}
+#products #productsHome2{border-right:1px solid #C8D5E5;border-top:1px solid #C8D5E5;border-bottom:1px solid #C8D5E5}
+#products #productsBusiness2{border-top:1px solid #C8D5E5;border-bottom:1px solid #C8D5E5}
+#productsHome{width:50%;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/productHomeBg.jpg) repeat-x}
+#productsHome2{width:50%;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/productHomeBg2.jpg) repeat-x}
+#productsHome h1,#productsHome2 h1,#productsBusiness h1,#productsBusiness2 h1{padding:0}
+#productsBusiness{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/productBusinessBg.jpg) repeat-x}
+#productsBusiness2{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/productBusinessBg2.jpg) repeat-x}
+#products .otherProducts{display:block;text-align:right;margin-right:12px}
+.smallTryLink,.smallBuyLink,.smallLearnMoreLink{background-position:0 2px;text-decoration:none;color:#00498C;margin:2px 0;font-size:11px}
+.smallBuyLink{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/iconBuySmall.gif) no-repeat;padding-left:16px}
+.smallLearnMoreLink{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/iconLearnMoreSmall.gif) no-repeat;padding-left:16px}
+.smallTryLink{background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/iconTrySmall.gif) no-repeat;padding-left:16px}
+#christmasBanner{text-align:center;float:right;margin-top:12px;width:283px;height:112px;background-color:#EEF7FF}
+#productsHome p.description,#productsBusiness p.description{margin-top:12px;margin-right:26px;margin-left:12px}
+#homeProduct p.description,#businessProduct p.description{margin-top:4px;margin-right:26px;margin-left:12px}
+#productsHome .box,#productsBusiness .box,#productsHome2 .box,#productsBusiness2 .box{float:left;margin:0 16px 18px 0}
+#homeProduct .box,#businessProduct .box{float:left;margin:6px 16px 18px 12px}
+#segmentationLinks,#small_banner{margin:20px 0 0}
+#products,#news{height:287px;margin:20px 0 0}              
+
+/**************************************/
+.tabsContainer{height:28px;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/tabsBg.gif) 18px 0 no-repeat;border-bottom:2px solid #CE181E}
+.aboutBanner{height:201px;background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/promo/about_promo.jpg) no-repeat}
+.aboutBanner h2,.aboutBanner_de h2{font-size:18px}
+.aboutBanner_de{height:201px;background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/de/ueberuns.jpg) no-repeat}
+.aboutBanner_de h2{padding:20px 0 0 20px}
+.tableH3{height:32px;padding-left:18px;padding-top:10px;color:red;background-image:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/interface/tableH3.jpg);background-position:top left;background-repeat:no-repeat}
+.selectText,.new{color:red}
+table.puzzle{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/misc/db_puzzle_bg.jpg) no-repeat;font-size:15px}
+table.puzzle td{height:282px;width:50%;border:none;vertical-align:top}
+.puzzle h3{font-size:12px;margin-bottom:6px}
+.puzzle1{padding:36px 58px 0 0}
+.puzzle2{padding:36px 0 0 18px}
+.puzzle3{padding:46px 28px 0 0}
+.puzzle4{padding:46px 0 0 44px}
+.requiredError{background-color:red}
+#requiredErrorMessage{width:256px;border:1px solid red;color:red;padding:8px;display:none}
+div.matches_urls{margin:8px 32px 12px 128px}
+div.matches_urls div{font-size:18px;font-weight:700;margin:6px 0}
+div.matches_urls a{display:block;margin:4px 16px;padding-left:14px;background:url(//www.hnbainuo.com/system/galleries/paragon_images/interface/headerPointer.gif) 0 9px no-repeat}
+td.content{vertical-align:top;width:800px;padding:0 20px 10px}
+table.privateZoneTable th{text-align:left;color:#fff;font-size:12px;padding:2px 10px}
+table.privateZoneTable td{padding:0 60px 30px 0}
+table.privateZoneTable div{margin:13px 0}
+table.privateZoneTable div a{color:#414141}
+td.contentRight div.top{color:#319bf4;margin:17px 0 6px;font-weight:700}
+td.contentRight a{color:#355468}
+.width256{width:256px}
+.width312{width:312px}
+.width30percent{width:30%}
+.width25percent{width:25%}
+table.webform_table textarea{height:60px;width:360px}
+table.webform_table td{padding-left:20px}
+td.webform_label_myaccount,td.webform_label_multi_myaccount{font-weight:700;padding:5px 0 3px}
+td.webform_button_myaccount input{width:74px;height:31px;background:#fff url(//www.hnbainuo.com/sites/paragonsoftware.com/images/interface/myaccount/send.jpg) no-repeat;border:1px solid #fff;position:relative;left:-320px}
+td.webform_label_hitachi,td.webform_label_multi_hitachi{font-weight:700;padding:5px 0 3px;color:#000}
+td.webform_button_hitachi input{width:66px;height:24px;background:#fff url(//www.hnbainuo.com/sites/paragonsoftware.com/images/send_hitachi.JPG) no-repeat;border:1px solid #fff;position:relative;left:-150px}
+td.webform_label_radio_hitachi,td.webform_label_radio_row_hitachi{padding:1px 0 0 5px;color:#000}
+.thankText{background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/warning.png) no-repeat;font-weight:700;margin:20px 0;padding-left:80px;text-align:center}
+.field{width:200px}
+.SelectCountry{width:205px}
+
+/*** HOME PAGE for Local Sites ***/
+.BL {width:458px; height:340px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/bl.png') 0 0 no-repeat;}
+#bodyElement .HomeList h1, #bodyElement .HomeList h1 a {font-size:25px; color:#3b52a0; margin-top:18px}
+#bodyElement .HomeList .descr, #bodyElement .HomeList .descr p, #bodyElement .HomeList .descr a {font-size:14px; color:#3b52a0; line-height:1.3em;}
+#bodyElement .HomeList .descr a {text-decoration:underline}
+.HomeList .priceBtn {height:34px; font-weight:bold; margin:0 12px 8px 0; float:left;}
+.HomeList .priceOldBtn {font-size:20px; color:#878787; font-weight:bold; line-height:1.7em; float:left; margin-right:12px;}
+.menuGray {position:relative;height:24px; margin:13px 0 20px; z-index:1;}
+.menuGray .Lside {position:relative; z-index:2; height:24px; width:10px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/menu-Lb.png') 0 0 no-repeat; float:left;}
+.menuGray .cont {line-height: 1.6em; position:relative; z-index:2; color:#3b52a0; font-size:15px; height:24px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/menu-Lb-med.png') repeat-x; float:left;}
+.menuGray .Rside {position:relative; z-index:2; height:24px; width:10px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/menu-Lb.png') -10px 0 no-repeat; float:left;}
+.menuGray .LsideDark {position:relative; z-index:2; height:24px; width:12px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/menu-Lb-dark.png') 0 0 no-repeat; float:left;}
+.menuGray .contDark {position:relative; z-index:2; line-height:1.6em; color:#3b52a0; font-size:15px; height:24px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/menu-Lb-med-dark.png') repeat-x; float:left;}
+.menuGray .RsideDark {position:relative; z-index:2; height:24px; width:12px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/home/menu-Lb-dark.png') -12px 0 no-repeat; float:left;}

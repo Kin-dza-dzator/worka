@@ -1,0 +1,236 @@
+a {color:#3b52a0}
+a:hover {color:#6679ba}
+a:active {color:#233581}
+.mac-page {width:944px; margin:0 auto; position:relative}
+.mac-page p {color:#878787; line-height:1.4em; font-size:15px;}
+.mac-page ul li{ list-style-type:disc; list-style-image:none; line-height:1.4em; color:#878787; font-size:15px;}
+#ProductCardHeader {width:944px; height:450px; background:#ededed; margin:0 auto;}
+#ProductCardHeader h1 {font-size:40px; font-weight:500; color:#878787;}
+#ProductCardHeader h3 {font-size:15px; font-weight:600; color:#878787; margin:20px 0;}
+#ProductCardHeader .textCard p {line-height:1.3em;}
+#ProductCardHeader .textCard .UspList li, #ProductCardHeader .textCard .UspList li p, .textCard p {font-size:13px; list-style-image:none; color:#878787; line-height:1.4em;}
+#ProductCardHeader .links {float:right; margin:80px 0 0 30px; width:230px;}
+#ProductCardHeader table {float:right; margin-top:80px;}
+#ProductCardHeader .links .lnk {width:230px; height:74px; margin-bottom:2px; display:block; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/label-lnk.png') 0 0 no-repeat;}
+#ProductCardHeader .links .lnk:hover {background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/label-lnk.png') -230px 0 no-repeat;}
+#ProductCardHeader .links .lnk span {font-size:13px; color:#878787; display:block;}
+#ProductCardHeader .links .lnk:hover span {color:#706f6f;}
+#ProductCardHeader .links .lnk .inf {font-size:9px; color:#878787; padding-top:6px;}
+#ProductCardHeader .links .lnk:hover .inf {color:#706f6f}
+
+#ProdCardTabs {width:944px; height:50px; margin:0 auto;}
+#ProdCardTabs .Tabs {height:50px}
+.wraplnk {width:236px; height:50px; position:absolute; top:0; left:0;}
+.TabElementInActive {width:236px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/tab.png') repeat-x; vertical-align:middle; text-align:center; position:relative;}
+.TabElementInActive:hover {background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/tab-hover.png') repeat-x; }
+.TabElementInActive .TabInActive, .TabElementActive .TabActive, .TabElementActiveBlu .TabActive{font-size:14px; color:#878787; position:relative; top:-5px;}
+.TabElementActiveBlu .TabActive{color:#208cad}
+.TabElementActive{width:236px; text-align:center; vertical-align:middle; position:relative;}
+.TabElementInActiveRed {width:236px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/tab-line-red.png') repeat-x; vertical-align:middle; text-align:center; position:relative;} 
+.TabElementInActiveRed:hover {background:#ff7878}
+.TabElementInActiveBlu {width:236px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/tab-line-blue.png') repeat-x; vertical-align:middle; text-align:center; position:relative;}
+.TabElementInActiveBlu:hover {background:#2aa0c4}
+.TabElementActive img, .TabElementInActive img, .TabElementInActiveRed img, .TabElementActiveRed img {margin-right:10px}
+.TabElementInActiveRed .TabInActive, .TabElementActiveRed .TabActive, .TabElementInActiveBlu .TabInActive{font-size:14px; color:#fff; position:relative; top:-3px;}
+.TabElementActiveBlu .TabActive,.TabElementInActiveBlu .TabInActive{top:0}
+.TabElementActiveRed {width:236px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/tab-line-red1.png') repeat-x; vertical-align:middle; text-align:center; position:relative;}
+.TabElementActiveBlu {width:236px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/tab-line-blue1.png') repeat-x; vertical-align:middle; text-align:center; position:relative;}
+.TabElementActiveRed .TabActive {color:#e73331}
+#ProdCardTabs .ln {width:2px; height:50px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/tab-line.png') no-repeat;}
+
+#bodyElement h2 {font-size:35px; color:#3b52a0; font-weight:500;}
+#bodyElement .BodyContent h2, #bodyElement .mac-page h2, #bodyElement .TutorBody .mac-page h2, .ScreenshotBody .mac-page h2 {text-align:center; margin:0 0 40px; padding-top:40px}
+#bodyElement .BodyContent p {font-size:15px; color:#878787; line-height:1.4em;}
+.BodyContent li, .BodyContent li p {font-size:15px; list-style-image:none; color:#878787; line-height:1.4em;}
+.BodyContent .topbody p {color:#575757}
+#bodyElement .BodyContent h3, .mac-page h3 {font-size:20px; color:#575757; font-weight:500;}
+.BodyContent .wrapbg {background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/bg-top-body.png') 0% 100% no-repeat; border-bottom: 2px solid #575756;}
+.BodyContent .topbody {width:800px; margin:0 auto;}
+.BodyContent .descTb{margin-top:40px}
+.BodyContent .descTb img{margin-bottom:15px}
+.BodyContent .descTb h3{margin-bottom:5px}
+.contactBtn {width:171px; padding:10px 0; display:block; color:#fff; font-size:15px; font-weight:600; margin:0 auto; text-align:center; background:#3b52a0 url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/btn-contact.png') 28px 8px no-repeat; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.contactBtn:hover {color:#fff; background-color:#6679ba;} 
+.BodyContent .blueBtn, .mac-page .blueBtn, .FaqBody .blueBtn{width:134px; padding:10px 0; display:block; color:#fff; font-size:15px; font-weight:600; margin:0 auto; text-align:center; background:#3b52a0; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.BodyContent .blueBtn:hover, .mac-page .blueBtn:hover, .FaqBody .blueBtn:hover{background:#6679ba}
+.BodyContent .blueBtn:active, .mac-page .blueBtn:active {background:#233581}
+.redBtn {width:134px; padding:10px 0; display:block; color:#fff; font-size:15px; font-weight:600; margin:0 auto; text-align:center; background:#f34948; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.redBtn:hover {color:#fff; background:#ff7878}
+.BodyContent .shadow, .mac-page .shadow, .FaqBody .shadow {width:781px; height:69px; position:absolute; top:0; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/border-shdw.png') no-repeat;}
+.BodyContent .shdw {height:162px; position:absolute; top:0; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/shw-box.png') repeat-x;}
+/* Awards */
+#awards {width:800px; position:relative; margin:60px auto 0;}
+#bodyElement #awards h2 {margin:0 0 40px; padding-top:40px;}
+#awards .medal {width:138px; float:left; margin:0 0 0 25px;}
+#awards .medal .box {padding:20px 10px; border-top:1px solid #b4b4b4; border-right:1px solid #b4b4b4; box-shadow:inset -1px 1px 6px 1px #c1c1c1; -webkit-box-shadow:inset -1px 1px 6px 1px #c1c1c1; -moz-box-shadow:inset -1px 1px 6px 1px #c1c1c1; }
+#awards .medal img {display:block; margin:0 auto;}
+#awards .medal .txt p, #awards .medal .txt {color:#878787; font-size:15px; text-align:center; line-height:1.4em; padding-top:5px;}
+/* Product-Tour */
+#prodTour {width:800px; position:relative; margin:60px auto 0; height:567px;}
+#bodyElement #prodTour h2 {margin:0 0 30px; padding-top:40px;}
+#prodTour #VD {position:relative; width:780px; height:440px}
+#prodTour #VD li {list-style:none; position:absolute; top:0;}
+#sl{position:relative; width:700px; height:300px}
+#sl li {list-style:none; position:absolute; top:0;}
+.rhino-container {margin:0 auto;}
+.rhino-btn{width:40px; height:40px; top:45%; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/indexPage/prev-next.png') 0 0 no-repeat; z-index:5}
+.rhino-btn:hover {background-position:0 -40px}
+.rhino-prev {background-position:-80px 0; left:-50px}
+.rhino-next {background-position:-120px 0; right:-50px}
+.rhino-next:hover {background-position:-120px -40px}
+.rhino-prev:hover {background-position:-80px -40px}
+#prodTour #vd .rhino-bullets, #scr .rhino-bullets, .mac-page .rhino-bullets { top:25px; list-style:outside none none; position:relative; text-align:center; width:100%; z-index:5; }
+.rhino-bullets li{display:inline-block; height:13px; padding:0 15px; width:13px}
+.rhino-bullets li a.rhino-bullet{background:url("//www.hnbainuo.com/sites/paragonsoftware.com/indexPage/bullet.png") no-repeat 0 -13px; display:block; height:13px; width:13px;}
+.rhino-bullets li a.rhino-bullet:hover, .rhino-bullets li a.rhino-active-bullet{background-position:-13px -13px}
+#prodTour #vd .rhino-bullets li a.rhino-bullet .subtxt, #scr .rhino-bullets li a.rhino-bullet .subtxt{display:none; position:absolute; top:30px; line-height:normal;}
+#scr .rhino-bullets li a.rhino-bullet .subtxt {left:0; color:#878787; font-size:10px;}
+#prodTour #vd .rhino-bullets li a.rhino-active-bullet .subtxt, #scr .rhino-bullets li a.rhino-active-bullet .subtxt {width:700px;display:block}
+#prodTour #vd .dsc, #scr .dsc {margin-top:30px; color:#878787; font-size:10px;}
+#prodTour #SH {position:relative; width:700px; height:402px}
+#prodTour #SH li {list-style:none; position:absolute; top:0;}
+
+/* Testimonials */
+#reviews {position:relative; width:800px; height:300px; margin:60px auto 0;}
+#bodyElement #reviews h2, #bodyElement #support h2, #bodyElement .anybox h2 {text-align:center; padding:40px 0 40px 0; margin:0;}
+#reviewslider {position:relative; width:781px; height:165px;}
+#reviewslider li {list-style:none; position:absolute; top:0;}
+#reviews .rhino-btn {top:20px}
+#reviews .rhino-prev {left:-40px}
+#reviews .rhino-next {right:-40px}
+#reviews .writer {width:214px; height:148px; float:left; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/indexPage/review-block.png') 100% 50% no-repeat; text-align:right; padding:0 20px;}
+#reviews .writer p {padding-top:5px; color:#878787; font-size:15px; line-height:1.4em;}
+#reviews .review {width:485px; height:120px; float:left; color:#878787; padding:0 20px;}
+#reviews .review p {font-size:15px; line-height:1.3em;}
+#reviews .rhino-bullets { bottom:-15px; list-style:outside none none; position:absolute; text-align:center; width:100%; z-index:5;}
+/* Clients */
+#clients, #support, .anybox {width:800px; position:relative; margin:60px auto;}
+#bodyElement #clients h2 {margin:0 0 40px; padding-top:40px;}
+#clients .custom {width:138px; float:left; margin:0 0 0 25px;}
+#clients .custom .box {padding:20px 10px; border-top:1px solid #b4b4b4; border-right:1px solid #b4b4b4; box-shadow:inset -1px 1px 6px 1px #c1c1c1; -webkit-box-shadow:inset -1px 1px 6px 1px #c1c1c1; -moz-box-shadow:inset -1px 1px 6px 1px #c1c1c1; }
+#clients .custom img {display:block; margin:0 auto;}
+#clients .custom .txt p, #clients .custom .txt {color:#878787; font-size:15px; text-align:center; line-height:1.4em; padding-top:5px;}
+/* Support */
+#support .txt p, .anybox .txt p {font-size:15px; line-height:1.4em; color:#878787;}
+#support .txt a, .anybox .txt a {line-height:normal}
+#support img.icon {position:absolute; top:20px; right:20px;}
+
+/* FAQ BODY */
+.FaqBody #faqbox h2{color:#3a52a0;font-size:14px;text-transform:none}#bodyElement .FaqBody .anybox h2{margin:0}.FaqBody .faqTab p,.FaqBody .faqTab a,.FaqBody .faqTab ul{font-size:15px}.FaqBody .hd{font-size:16px;font-weight:700;color:#3a52a0;padding-bottom:15px;margin-left:15px}.FaqBody .faqTab .title{background:#dbeefc;border-bottom:1px solid #3952a0}.FaqBody .faqTab td.title p{font-weight:700;color:#3a52a0}.FaqBody .arrFaq{width:30px;height:30px;cursor:pointer;margin-right:10px;float:left;background:url(//www.hnbainuo.com/sites/paragonsoftware.com/pagescroll/arrow.png) no-repeat}.FaqBody .faqTab .down {background-position:-30px 0px}.FaqBody .faqTab .ftab p,.FaqBody .faqTab .ftab a,.FaqBody .faqTab .ftab span{font-size:14px;line-height:1.4em}
+
+/* Feature */
+#bodyElement .FeatureBody h2 {text-align:center; margin:40px 0}
+.FeatureBody .tbfeat p, .FeatureBody .tbfeat, .FaqBody .tbfeat p, .FaqBody .tbfeat {font-size:13px; color:#878787;}
+.FeatureBody .tbfeat th, .FaqBody .tbfeat th {border-top:1px solid #878787; border-bottom:1px solid #878787; background:transparent;}
+.FeatureBody .tbfeat th p, .FaqBody .tbfeat th p {font-size:16px; color:#878787;}
+.FeatureBody .tbfeat .CategoryTitle, .FaqBody .tbfeat .CategoryTitle {border-bottom:1px solid #878787;}
+.tbfeat .CategoryTitle:hover .arrowGr span {color:#878787;}
+.tbfeat .arrowGr {width:10px; height:9px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/arrows.png') -10px 0px no-repeat; cursor:pointer; margin-right:15px; position:relative;}
+.tbfeat .down {background-position:-10px -9px;}
+.tbfeat .CategoryTitle:hover .arrowGr {background-position:0px 0px;}
+.tbfeat .CategoryTitle:hover .down {background-position:0px -9px;}
+.tbfeat .arrowGr span {font-size:15px; color:#575757; font-weight:600; cursor:pointer; left:20px; position:absolute; top:-4px; width:800px;}
+
+/* Eshop */
+#bodyElement .EshopBody h2 {text-align:center; margin:40px 0}
+.EshopBody p {font-size:13px; color:#878787;}
+.EshopBody .txtcards { margin:30px 0 0 35px }
+.EshopBody .txtcards, #bodyElement .EshopBody .txtcards p {color:#b2b2b2; font-size:13px;}
+.EshopBody .imgs {margin:30px 35px 30px 50px;}
+.EshopBody .txtcards ul {margin: 5px 0 0;}
+.EshopBody .txtcards ul li {list-style-type:disc; list-style-image:none; line-height:1.6em;}
+.EshopBody .eshop {margin:0 auto}
+.EshopBody .eshop td { height:55px; vertical-align:middle;}
+.EshopBody .eshop p, .EshopBody .eshop a {font-size:16px; color:#575757; font-weight:600;}
+.EshopBody .eshop span {font-size:16px;color:#878787;}
+.EshopBody .eshop .inf span {font-size:16px;color:#c8c8c8}
+.EshopBody .eshop .btnprice {width:134px; height:37px; display:block; font-weight:500; text-align:center; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/btn-price.png') 0 0 no-repeat;}
+.EshopBody .eshop div.txtprice {color:#575757; font-size:16px; font-weight:600;}
+.EshopBody .eshop a.txtprice {width:134px; height:37px; font-size:16px; color:#fff; position:relative; font-weight:500; line-height:2.3em; text-align:center; display:block; background:#f44a4a; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.EshopBody .eshop a.txtprice span{color:#fff}
+.EshopBody a.lnkprice {font-size:14px;font-weight:500;color:#e73331;text-decoration:underline}
+.EshopBody .eshop .subinf, .EshopBody .eshop .subinf span  {font-size:13px}
+.EshopBody .eshop .totalprice {width:134px; height:37px; display:none; position:absolute; z-index:2;}
+.EshopBody .eshop .totalprice .crossPr {width:134px; color:#fff; font-size:16px; font-weight:500; line-height:2.3em; position:relative; z-index:3; background:#f44a4a; }
+.EshopBody .eshop .btn-wrap {width:134px; height:37px; position:relative; z-index:0; text-align:center; background:#f44a4a; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.EshopBody .eshop #totlpr {position:relative; z-index:1; font-size:16px; color:#fff; line-height:2.3em}
+.EshopBody .eshop .btnprice:hover {background-position:-134px 0px;}
+.EshopBody .eshop .btnprice:active {background:#f44a4a; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.EshopBody .eshop .btnprice span {font-size:16px; color:#fff; line-height:2.3em}
+.EshopBody .eshop .subname a, .EshopBody .eshop .subname span {font-size:13px; color:#878787;}
+.EshopBody .eshop .subname span {color:#c8c8c8}
+.EshopBody .eshop .main:hover .chkhead {background-position:-15px 0px;}
+.EshopBody .eshop .main:hover .ui-selectmenu-text{color:#878787}
+.EshopBody .eshop .main:hover .ui-corner-all .ui-icon {background-position:0px -11px}
+.EshopBody .eshop .main:hover .ui-corner-top .ui-icon {background-position:-11px -11px}
+.EshopBody .eshop input[type="checkbox"].chk {position:absolute; left:-9999px;}
+.EshopBody .eshop input[type="checkbox"].chk + label { position:relative; left:-10px; top:17px; display:inline-block; cursor:pointer; width:15px; height:15px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/chk.png') left top no-repeat;}
+.EshopBody .eshop input[type="checkbox"].chk:checked + label { background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/chk.png') -15px top no-repeat;}
+.EshopBody .eshop .note {color:#c8c8c8; font-size:10px;}
+.EshopBody .main select { /**width:295px;**/ width:312px;}
+.EshopBody .ui-selectmenu-button {/**width:294px;**/ outline:none; width:280px; padding-left:10px; height:37px; color:#c8c8c8; font-size:16px; background:#fff; border:1px solid #c8c8c8; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px; display:inline-block; overflow:hidden; position:relative; text-decoration:none; cursor:pointer;}
+.EshopBody .ui-selectmenu-text {line-height:2.3em; padding:0}
+.EshopBody .ui-icon, .ui-corner-all .ui-icon {width:11px; height:11px; position:absolute; top:13px; right:10px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/select-arr.png') 0 0 no-repeat; }
+.EshopBody .ui-corner-top .ui-icon {background-position:-11px 0;}
+.EshopBody .ui-widget-content a{color:#c8c8c8;}
+.ui-selectmenu-menu { padding:0; margin:0; position:absolute; z-index:50; top:0; left:0; display:none; }
+.ui-selectmenu-menu .ui-menu { background:#fff; overflow:auto; border-left:1px solid #c8c8c8; border-right:1px solid #c8c8c8; border-bottom:1px solid #c8c8c8; border-radius:0 6px 6px 6px; -o-border-radius:0 6px 6px 6px; -khtml-border-radius:0 6px 6px 6px; -webkit-border-radius:0 6px 6px 6px; -moz-border-radius:0 6px 6px 6px; border-top:none; box-shadow:0 4px 6px 1px #d9d9d9; -webkit-box-shadow:0 4px 6px 1px #d9d9d9; -moz-box-shadow:0 4px 6px 1px #d9d9d9;}
+.ui-corner-top {box-shadow:0 0 6px 1px #d9d9d9; -webkit-box-shadow:0 0 6px 1px #d9d9d9; -moz-box-shadow:0 0 6px 1px #d9d9d9;}
+.ui-selectmenu-menu .ui-menu .ui-menu-item {color:#c8c8c8; font-size:16px; margin:15px 18px 15px 30px; list-style-type:disc; list-style-image:none; line-height:1.6em; cursor:pointer; }
+.ui-selectmenu-menu .ui-menu .ui-state-focus {color:#878787}
+.ui-selectmenu-open {display:block}
+.EshopBody ul.prc {position:relative; height:55px;}
+.EshopBody ul.prc li {width:100%; display:none; list-style-image:none; list-style-type:none; position:absolute; top:10px; margin:0;}
+.EshopBody .Tblic {margin:40px auto 0; line-height:1.5em}
+.EshopBody .Tblic th {background:#fff; color:#878787; font-size:13px; text-align:left; border-bottom:1px solid #c8c8c8; padding:7px 5px}
+.EshopBody .Tblic td {padding:7px 5px}
+.EshopBody .Tblic .tbL td {padding:0 5px; height:30px;}
+.EshopBody .Tblic .tbL {color:#878787; display:none; padding:5px 0}
+.EshopBody .Tblic select {width:210px}
+.EshopBody .Tblic .ui-selectmenu-button {height:25px;font-size:13px;top:2px}
+.EshopBody .Tblic .ui-selectmenu-text{font-size:13px; line-height:1.9em}
+.EshopBody .Tblic #licens-button:hover .ui-selectmenu-text {color:#878787}
+.EshopBody .Tblic .ui-icon, .EshopBody .Tblic .ui-corner-all .ui-icon {top:7px}
+.EshopBody .Tblic .ui-corner-all:hover .ui-icon {background-position:0px -11px}
+.EshopBody .Tblic .ui-corner-top:hover .ui-icon {background-position:-11px -11px}
+#licens-menu .ui-menu-item {font-size:13px; line-height:1.3em;}
+.EshopBody .blueBtn{width:100px; padding:5px 0; display:block; color:#fff; font-size:14px; margin:0 auto; text-align:center; background:#3b52a0; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.EshopBody .blueBtn:hover{background:#6679ba}
+.EshopBody h4{font-size:20px; color:#575757; padding-bottom:15px; font-weight:normal}
+.EshopBody #cpu1-button, #cpu2-button, #server-button, #workstat-button, #support-button{color:#878787;font-size:14px;height:35px;text-align:center;}
+.EshopBody #cpu1-button .ui-selectmenu-text,#cpu2-button .ui-selectmenu-text,#server-button .ui-selectmenu-text,#workstat-button .ui-selectmenu-text, #support-button .ui-selectmenu-text{line-height:2.4em; padding:0}
+.EshopBody select#support{width:250px}
+.EshopBody select#cpu1, select#cpu2{width:150px}
+select#server, select#workstat{width:145px}
+#cpu1-menu li, #cpu2-menu li, #server-menu li, #workstat-menu li, #support-menu li{font-size:14px; line-height:1.3em}
+
+/* Tutorials */
+.TutorBody, .ScreenshotBody, .FaqBody{width:944px; margin:0 auto}
+.ScreenshotBody .lytebox img{padding-left:50px}
+#bodyElement .TutorBody h2, #bodyElement .FaqBody h2,  #bodyElement .ScreenshotBody h2{text-align:center; margin:40px 0}
+.FaqBody ul li, .FaqBody ul ol{list-style-type:disc;list-style-image:none;line-height:1.4em}
+.FaqBody ul ol{list-style-type:decimal}
+.TutorBody .scr, .TutorBody .scr p, .TutorBody .vd, .TutorBody .vd p, .TutorBody .txt, .TutorBody .txt p, .FaqBody p, .FaqBody ul li, .FaqBody ul li a, .ScreenshotBody p {font-size:13px; color:#878787; line-height:1.4em;}
+.TutorBody .scr h4, .TutorBody .vd h4, .TutorBody .txt h4 {color:#575756; font-size:13px; padding:0 0 10px 0}
+.TutorBody .scr ul li, .TutorBody .vd ul li, .TutorBody .txt ul li {list-style-type:disc; list-style-image:none;}
+.TutorBody .vd .dsc{width:420px;text-align:left}
+
+.note_foot {width:944px; margin:30px auto 0;}
+.note_foot p {color:#878787;}
+
+.contPopUp {background:#fff; position:relative; padding-top:35px}
+#Errors{width:630px; position:absolute; border:none; display:none;background:#fff}
+#errcaptch, #incorremail, #agree, #total, #erremail {padding:0 35px;color:#e63231;font-size:10px;background:#fce6e8;display:none}
+.btnclose {width:22px; height:22px; position:absolute; right:15px; top:15px;cursor:pointer; background:url(//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/close-btn-pop.png) no-repeat;}
+.contPopUp p, .contPopUp table {font-size:15px; color:#878787; line-height:1.4em;} 
+.contPopUp table .field, .contPopUp table .dropdown, .contPopUp table .salut{color:#878787; font-size:15px; height:30px; margin-top:8px; width:370px; border:1px solid #878787; border-radius:4px; -o-border-radius:4px; -khtml-border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.contPopUp table .field {padding-left:20px}
+.contPopUp table .dropdown, .contPopUp table .salut {width:368px}
+.contPopUp .share, .contPopUp .note {padding:0 25px}
+.contPopUp .note p {color:#b2b2b2}
+.share h3 {color:#575757; font-size:20px}
+.contPopUp input[type="checkbox"] {display:none}
+.contPopUp input[type="checkbox"] + label {position:relative; cursor:pointer; top:0; display:inline-block; width:15px; height:15px; background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/chck-pop.png') -15px top no-repeat;}
+.contPopUp input[type="checkbox"]:checked + label {background:url('//www.hnbainuo.com/sites/paragonsoftware.com/images/mac-products/chck-pop.png') left top no-repeat;}
+.btnSubmit {width:134px;font-family:Arial;padding:10px 0; border:none; display:block; cursor:pointer; color:#fff; font-size:15px; font-weight:600; margin:0 auto; text-align:center; background:#3b52a0; border-radius:6px; -o-border-radius:6px; -khtml-border-radius:6px; -webkit-border-radius:6px; -moz-border-radius:6px;}
+.btnSubmit:hover {background:#6679ba;color:#fff}

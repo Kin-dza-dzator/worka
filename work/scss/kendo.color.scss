@@ -1,0 +1,118 @@
+.k-list-container {
+    border-color: #cacaca;
+    background-color: #fff;
+
+}
+
+.k-dropdown-wrap.k-state-default {
+    background-color: white;
+    border-color: #000080;
+
+}
+
+.k-state-default > .k-select {
+    border-color: #cacaca;
+
+}
+
+.k-dropdown-wrap {
+    background-color: #C0D2EA;
+
+}
+
+.k-state-selected,
+.k-state-selected:link,
+.k-state-selected:visited,
+.k-list > .k-state-selected,
+.k-list > .k-state-highlight,
+.k-panel > .k-state-selected,
+.k-ghost-splitbar-vertical,
+.k-ghost-splitbar-horizontal,
+.k-draghandle.k-state-selected:hover,
+.k-scheduler .k-scheduler-toolbar .k-state-selected,
+.k-scheduler .k-today.k-state-selected,
+.k-marquee-color {
+    color: #000000;
+    background-color: #ffffd9;
+    border-color: #7ac0d7;
+}
+
+span.k-datepicker,
+span.k-timepicker,
+span.k-datetimepicker,
+span.k-colorpicker,
+span.k-numerictextbox,
+span.k-combobox,
+span.k-dropdown,
+.k-toolbar .k-split-button {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.k-dropdown-wrap.k-state-default.roll3 {
+    background-color: #eeeeee;
+    border: none;
+}
+
+.k-grid-header th.k-header {
+    vertical-align: bottom;
+    background-color: #88ccff;
+}
+
+.k-grid-header table,
+.k-grid-content table,
+.k-grid-footer table,
+.k-grid-content-locked > table {
+    background-color: #e0f0f0;
+}
+
+.k-alt,
+.k-separator,
+.k-resource.k-alt,
+.k-pivot-layout > tbody > tr:first-child > td:first-child {
+    background-color: #FFFFFF;
+}
+
+tr.k-alt.k-state-selected {
+    &:hover {
+        background-color: #55aaee;
+    }
+}
+
+
+.k-alt.k-state-selected {
+    background-color: #AADDEE;
+}
+tr.k-state-selected {
+    background-color: #AADDEE;
+}
+.k-virtual-scrollable-wrap td {
+    font-size: 11px;
+    white-space: nowrap;
+    line-height: 11px;
+}
+
+#grid {
+    display: inline-block;
+    table {
+        width: auto;
+        border-color: black;
+    }
+    tr.k-state-selected:hover {
+            background-color: #55aaee;
+        }
+}
+
+.k-grid.k-widget,
+.k-grid-footer,
+.k-grid-header-locked,
+.k-grid-footer-locked,
+.k-grid-content-locked,
+.k-grid td,
+.k-grid th,
+.k-grid td.k-state-selected,
+.k-grid-footer-wrap {
+    border-color: black;
+}
+
+
