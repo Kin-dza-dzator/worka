@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Purchase </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/purchase.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+    <!-- purcase -->
+    <div class="row">
+        <h1 class="text-center text-info">
+            Purchase
+        </h1>
+    </div>
+    <!-- cost -->
+    <div class="row">
+        <div class="col-md-12 costblock">
+
+            <!-- картинка-нуминпут-цена -->
+            <div class="bsk__table">
+                <div class="bsk__colgroup">
+                    <div class="bsk__column"></div>
+                    <div class="bsk__column"></div>
+                    <div class="bsk__column"></div>
+                </div>
+
+
+                <div class="bsk__row">
+                    <div class="bsk__col">
+                        <!--???????-->
+                        <img src="images/logo_ntfs.png" alt="ntfsmac">
+
+                        <abbr title="NTFS for Mac 14"><h2 class="text-cut">
+                            <a href="#" data-tooltip="NTFS for Mac 14">NTFS for Mac 14</a></h2>
+                        </abbr> </div>
+
+                    <div class="bsk__col">
+                        <label class="control-label" for="inputCount">Quantity</label>
+                        <div class="wrapInp spin"><input value="0" name="inputSecondName" class="form-control licInput" id="inputCount" />
+                            <div id="minus"></div>
+                            <div id="plus"></div>
+                        </div>
+                    </div>
+
+                    <div class="bsk__col">
+                        <h3 class="text-money text-uppercase text-capitalize">¥ 129.99</h3>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- /end cost -->
+
+    <!-- form -->
+    <div class="row">
+        <div class="col-md-12 col-sm-12 buy-form">
+            <form role="form" class="form-inline">
+                <!-- имя - фамилия- тел -->
+
+                <div class="row">
+                    <div class="form-group">
+                        <label class="col-lg-10 control-label" for="inputFirstName">First Name *</label>
+                        <br>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="inputFirstName" name="inputFirstName" placeholder="John"
+                                   type="text">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-10 control-label" for="inputSecondName">Second Name *</label>
+                        <br>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="inputSecondName" name="inputSecondName" placeholder="Smith"
+                                   type="text">
+                            <div class=""></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-lg-10 control-label" for="inputPhone">Phone Number *</label>
+                        <br>
+                        <div class="col-lg-10">
+                            <input class="form-control" id="inputPhone" name="inputPhone" placeholder="X-XXX-XXX-XX-XX"
+                                   type="text">
+                        </div>
+                    </div>
+
+                    <div class="text-req">
+                        * Requirered field
+                    </div>
+
+
+                </div>
+                <!-- WeChat-AliPlay-TaoBao -->
+
+                <div class="row">
+
+                    <div class="text-pay">
+                        <br>
+                        <br>
+                        Choose Payment Method:
+                    </div>
+                    <div class="btn-group btn-group-lg">
+
+                        <button class="btn btn-default" type="button">
+                            <img   src="images/chn_wechat.png" alt="wechat">
+                            &#160;&#160;WeChat
+                        </button>
+
+                        <button class="btn btn-default" type="button">
+                            <img  src="images/1452505416469.jpeg" alt="">
+                            &#160;&#160;AliPlay
+                        </button>
+
+                    </div>
+
+                        <button class="btn btn-lg btn-default" type="button">
+                            <img  src="images/cssi_taobao-512.png" alt="">
+                            Buy on TaoBao
+                        </button>
+
+
+                </div>
+            </form>
+
+
+        </div>
+    </div>
+    <!-- /end form -->
+
+    <!-- картинка с QR-code-->
+    <div class="row">
+        <div class="thumbnail center-block">
+            <img alt="Bootstrap Thumbnail First" src="/images/quad.jpg">
+            <div class="caption text-center">
+                <p>
+                    After you click “Proceed” you will be shown a QR code generated for a QR code generated
+                    for this transaction.
+                </p>
+                <p> Please, scan it via WeChat on your mobile device to complete transaction.</p>
+            </div>
+        </div>
+    </div>
+    <!-- /end картинка с QR-code-->
+
+
+    <!-- кнопка купить -->
+    <div class="row">
+        <button type="button" class="btn btn-danger btn-lg center-block">
+            Proceed to Purchase
+        </button>
+    </div>
+    <!-- /end кнопка купить-->
+</div>
+<script type="text/javascript" src="./js/numeric.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
