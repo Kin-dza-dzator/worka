@@ -3,21 +3,22 @@
   "version": "0.0.1",
   "description": "xmas paragon",
   "main": "gulpfile.js",
-  "dependencies": {
-    "path": "^0.12.7"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "connect-modrewrite": "^0.9.0",
     "gulp": "^3.9.1",
-    "gulp-load-plugins": "^1.0.0-rc.1",
-    "gulp-sass": "^2.3.2",
-    "gulp-util": "^3.0.7",
     "gulp-count": "^0.1.0",
+    "gulp-data": "^1.2.1",
+    "gulp-email-builder": "^3.0.0",
     "gulp-inject": "^3.0.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
     "gulp-size": "^2.0.0",
+    "gulp-util": "^3.0.7",
     "path": "^0.12.7"
   },
   "scripts": {
