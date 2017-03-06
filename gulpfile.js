@@ -6,11 +6,12 @@ var gulp = require('gulp'),
     gulpdata = require('gulp-data'),
     emailBuilder = require('gulp-email-builder');
 
-const rootFolder = 'email';
+const rootFolder = 'kendo';
 const PROXY_TARGET_URL = 'http://web69.pearl.de';
 
 gulp.task('default', ['build']);
-gulp.task('build', ['jade', 'scss', 'browsersync', 'watch']);
+// gulp.task('build', ['jade', 'scss', 'browsersync', 'watch']);
+gulp.task('build', ['scss', 'browsersync', 'watch']);
 gulp.task('proxy', ['scss', 'proxysync', 'watch']);
 var DATA = {};
 const DATA_FILE = path.resolve(rootFolder , 'data/data.json');

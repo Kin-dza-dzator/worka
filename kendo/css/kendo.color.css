@@ -43,9 +43,14 @@ span.k-dropdown,
   background-color: #eeeeee;
   border: none; }
 
-.k-grid-header th.k-header {
-  vertical-align: bottom;
-  background-color: #88ccff; }
+.k-auto-scrollable {
+  border: none; }
+
+.k-grid-header {
+  border-bottom-color: #88CCFF; }
+  .k-grid-header th.k-header {
+    vertical-align: bottom;
+    background-color: #88ccff; }
 
 .k-grid-header table,
 .k-grid-content table,
@@ -77,7 +82,7 @@ tr.k-state-selected {
   display: inline-block; }
   #grid table {
     width: auto;
-    border-color: black; }
+    border-color: #5b5b5b; }
   #grid tr.k-state-selected:hover {
     background-color: #55aaee; }
 
@@ -90,4 +95,4 @@ tr.k-state-selected {
 .k-grid th,
 .k-grid td.k-state-selected,
 .k-grid-footer-wrap {
-  border-color: black; }
+  border-color: #5b5b5b; }
