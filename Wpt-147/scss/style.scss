@@ -1,0 +1,37 @@
+.feature{
+
+}
+
+.item{
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    img{
+        height: 100px;
+        width: 100px;
+        float: left;
+    }
+    .title{
+        font-size: large;
+        color: #0a7dd2;
+        padding-left: 120px
+    }
+    .description{
+        padding: 15px 10px 10px 120px;
+    }
+    .buttons{
+        margin: 20px 0 0 0;
+        a{
+            padding: 0;
+            width: 150px;
+            border-radius: 50px;
+            &:nth-child(1){
+                margin-right: 10px;
+            }
+            &:nth-child(2){
+
+            }
+        }
+
+    }
+}

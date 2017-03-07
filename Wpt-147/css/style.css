@@ -1,1 +1,22 @@
-# Empty CSS file for your own CSS
+.item {
+  height: 400px;
+  width: 100%;
+  padding: 20px; }
+  .item img {
+    height: 100px;
+    width: 100px;
+    float: left; }
+  .item .title {
+    font-size: large;
+    color: #0a7dd2;
+    padding-left: 120px; }
+  .item .description {
+    padding: 15px 10px 10px 120px; }
+  .item .buttons {
+    margin: 20px 0 0 0; }
+    .item .buttons a {
+      padding: 0;
+      width: 150px;
+      border-radius: 50px; }
+      .item .buttons a:nth-child(1) {
+        margin-right: 10px; }
