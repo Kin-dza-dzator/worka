@@ -56,26 +56,78 @@ $(document).ready(function () {
     const textTemplate = $("#product_item").html();
     const getElementFromTemlplate = _.template(textTemplate);
     //тестовый фильтр
-    const TEST_FILTER = [
-        // 'All',
+    let testFilter = [
+        'Virtualization',
         'Partitioning',
-        // 'Virtualization'
-
+        'Backup',
+        'Migration',
+        'Restore',
+        'Maintenance',
+        'Bundles',
+        'Optimization',
+        'Security',
+        'OS_interopterability',
+        'Windows',
+        'OS_X',
+        'Linux',
+        'Freeware'
     ];
 
-    $("#filteredBlock").html(
-        data
-            .filter(item => {
-                if (~TEST_FILTER.indexOf('All')) return true;
+    //найти все инпуты и повесить обработчик на чек
+    const renderProductList = ()=>{
+        $("#filteredBlock").html(
+            data
+                .filter(item => {
+                    if (~testFilter.indexOf('All')) return true;
 
-                //если item.filter содержит хотябы один парметр из фильра, то отобразить
-                const isExist = TEST_FILTER.filter((checked) => item.filter[checked]);
-                if (isExist.length > 0) {
-                    return true;
+                    //если item.filter содержит хотябы один парметр из фильра, то отобразить
+                    const isExist = testFilter.filter((checked) => item.filter[checked]);
+                    if (isExist.length > 0) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                })
+                .map(item => getElementFromTemlplate(item))
+        );
+    };
+    const allInputs = $('.filterblock input[name!=All]');
+    const setListeners = ()=>{
+        allInputs.on('change', function(e){
+            const filterName = e.target.name;
+            const checked = e.target.checked;
+
+            if(checked){
+                testFilter.push(filterName)
+            }else{
+                testFilter = _.without(testFilter, filterName);
+            }
+            console.log(testFilter)
+            //переррендерить список
+            renderProductList();
+        });
+
+        $('.filterblock input[name=All]').on('change', _.debounce((e)=>{
+                const checked = e.target.checked;
+                //удалить обработчики чека
+                allInputs.off('change');
+                //прочекать
+                allInputs.each((i, item) => {
+                    $(item).prop('checked', checked)
+                });
+                if (checked) {
+                    testFilter = ['Virtualization', 'Partitioning', 'Backup', 'Migration', 'Restore', 'Maintenance', 'Bundles', 'Optimization', 'Security', 'OS_interopterability', 'Windows', 'OS_X', 'Linux', 'Freeware'];
                 } else {
-                    return false;
+                    testFilter = [];
                 }
-            })
-            .map(item => getElementFromTemlplate(item))
-    );
+                //возоновить обработчики
+                renderProductList();
+                setListeners();
+            }, 500)
+        );
+    };
+
+    //первый запуск
+    renderProductList();
+    setListeners();
 });
