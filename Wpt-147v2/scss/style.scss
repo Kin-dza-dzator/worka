@@ -13,6 +13,7 @@ hr {
     h1 {
         line-height: 2.1;
         font-size: xx-large;
+        color: #3b52a0;
 
     }
 }
@@ -34,9 +35,12 @@ hr {
         float: left;
 
     }
+    div.title a{
+        color: #3b52a0;
+    }
     .title {
         font-size: 20px;
-        color: #0a7dd2;
+        color: #3b52a0;
         padding-left: 95px
     }
     .description {
@@ -48,11 +52,31 @@ hr {
     .buttons {
         margin: 30px 0 0 0;
         overflow: hidden;
+        .btn-primary{
+            background: #4f64ab;
+            background: -webkit-gradient(linear, left top, left bottom, from(#6679b9), to(#212853));
+            background: -webkit-linear-gradient(top, #6679b9 50%, #212853);
+            background: -moz-linear-gradient(top, #6679b9 50%, #212853);
+            background: -ms-linear-gradient(top, #6679b9 50%, #212853);
+            background: -o-linear-gradient(top, #6679b9 50%, #212853);
+            background-image: -ms-linear-gradient(top, #6679b9 40%, #212853 100%);
+            border: transparent;
+        }
+        .btn-danger{
+            background: #e94f44;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ee7476), to(#e94f44));
+            background: -webkit-linear-gradient(top, #ee7476 50%, #e94f44);
+            background: -moz-linear-gradient(top, #ee7476 50%, #e94f44);
+            background: -ms-linear-gradient(top, #ee7476 50%, #e94f44);
+            background: -o-linear-gradient(top, #ee7476 50%, #e94f44);
+            background-image: -ms-linear-gradient(top, #ee7476 40%, #e94f44 100%);
+            border: transparent;
+        }
         a {
             border-radius: 4px;
             margin-bottom: 10px;
             font-weight: 700;
-            width: 82%;
+            width: 80%;
             &:nth-child(1) {
                 margin-right: 10px;
             }
@@ -67,13 +91,11 @@ body {
     .whiteback {
         background-color: #ffffff;
         .item {
-            background-color: #f2f2f2;
-            border: 1px solid rgba(0, 0, 0, 0.42);
-            border-radius: 2%;
+            background-color: #f5f5f5;
         }
     }
     .greyback {
-        background-color: #f2f2f2;
+        background-color: #f5f5f5;
         .item {
             background-color: #ffffff;
             border: 1px solid rgba(0, 0, 0, 0.42);
@@ -109,11 +131,12 @@ body {
     position: relative;
     display: inline-block;
     border: 1px solid #a9a9a9;
-    border-radius: .25em;
-    width: 1.3em;
-    height: 1.3em;
+    //border-radius: .25em;
+    border-radius: 0;
+    width: 1.0em;
+    height: 1.0em;
     float: left;
-    margin-right: .5em;
+    margin-right: 1.0em;
 }
 
 .radio .cr {
@@ -180,7 +203,7 @@ body {
     .item {
         padding: 28px 5px 28px 15px;
         img {
-            width: 80px;
+            width: 70px;
         }
         .title {
             padding-left: 80px
@@ -191,8 +214,8 @@ body {
         .buttons {
 
             a {
-                font-size: medium;
-                width: 170px;
+                font-size: small;
+                width: 100%;
                 &:nth-child(1) {
                     margin-right: 10px;
                 }
@@ -220,7 +243,7 @@ body {
 
             a {
                 font-size: medium;
-                width: 10px;
+                width: 75%;
                 &:nth-child(1) {
                     margin-right: 10px;
                 }
@@ -248,6 +271,7 @@ body {
 
             a {
                 font-size: medium;
+                width: 60%;
                 &:nth-child(1) {
                     margin-right: 20px;
                 }
@@ -327,7 +351,7 @@ body {
                 //padding: 6px 0;
                 //width: 200px;
                 margin-bottom: 10px;
-
+                font-weight: 700;
                 &:nth-child(1) {
                     margin-right: 10px;
                 }
