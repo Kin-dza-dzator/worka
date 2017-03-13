@@ -123,6 +123,8 @@
             <hr>
             Home & Home Office
         </h1>
+        <div id="filteredBlock"></div>
+        __________________________________________________
         <div class="col-md-4">
             <div class="item">
                 <img src="images/logo_ntfs.png" alt="ntfs">
@@ -293,16 +295,17 @@
 
 <script type="text/template" id="product_item">
      <div class="item">
-        <img src="<%= img %>" alt="ntfs">
+        <img src="<%=img %>" alt="ntfs">
         <div class="title">
-            <a href="<%= linkInfo %>"><%= title %></a></div>
-        <div class="description"><%= description %>
+            <a href="<%=linkInfo %>"><%=title %></a></div>
+        <div class="description">
+            <%=description %>
             <div class="buttons">
                <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6">
-                    <a href="<%= linkInfo %>" class="btn btn-primary">Learn more ›</a>
+                    <a href="<%=linkInfo %>" class="btn btn-primary">Learn more ›</a>
                 </div>
                 <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6">
-                    <a href="<%= linkBuy %>" class="btn btn-danger"><%= cost %> ›</a>
+                    <a href="<%=linkBuy %>" class="btn btn-danger"><%=cost %> ›</a>
                 </div>
             </div>
         </div>
@@ -310,6 +313,7 @@
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.3/es6-sham.min.js"></script>
 <script type="text/javascript" src="./js/numeric.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
