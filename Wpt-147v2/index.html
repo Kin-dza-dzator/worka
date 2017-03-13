@@ -10,6 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="container-fluid">
@@ -290,10 +291,30 @@
 
 </div>
 
+<script type="text/template" id="product_item">
+     <div class="item">
+        <img src="<%= img %>" alt="ntfs">
+        <div class="title">
+            <a href="<%= linkInfo %>"><%= title %></a></div>
+        <div class="description"><%= description %>
+            <div class="buttons">
+               <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6">
+                    <a href="<%= linkInfo %>" class="btn btn-primary">Learn more ›</a>
+                </div>
+                <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6">
+                    <a href="<%= linkBuy %>" class="btn btn-danger"><%= cost %> ›</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
 <script type="text/javascript" src="./js/numeric.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="js/filter.js"></script>
 
 </body>
 </html>
