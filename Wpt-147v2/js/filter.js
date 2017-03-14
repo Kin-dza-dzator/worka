@@ -65,7 +65,7 @@ $(document).ready(function () {
     const textTemplate = $("#product_item").html();
     //Далее  с  помощью  библ underscore  инициируем  template и  накатываем  данные наши
     const getElementFromTemlplate = _.template(textTemplate);
-    //тестовый фильтр
+    //текстовый фильтр с массивом в  который  добавлюятся  выбранные  чекбоксы от юзера
     let testFilter = [
         'Virtualization',
         'Partitioning',
@@ -86,12 +86,14 @@ $(document).ready(function () {
     //найти все инпуты и повесить обработчик на чек
     const renderProductList = () => {
         $("#filteredBlock").html(
-            // Вызываем функцию для Работы с массивом наших данных  и фильтруем  его
+            // Вызываем функцию для Работы с массивом фильтруем  его. Проходит  по  всему  массиву и прогоняет каждый id в item
             data
                 .filter(item => {
+                    //если  фильтр  имеет  свойство All  то  отбразить  все  иначе  поиск
                     if (~testFilter.indexOf('All')) return true;
 
                     //если item.filter содержит хотябы один парметр из фильра, то отобразить
+                    //Проходит  по  всему  массиву  чекнутых элементов и фунция возвращает текущий  item
                     const isExist = testFilter.filter((checked) => item.filter[checked]);
                     if (isExist.length > 0) {
                         return true;
