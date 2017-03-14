@@ -1,8 +1,13 @@
 /**
  * Created by tikhonov3 on 13.03.2017.
+ * Пишется  скрипт  с айдишником и  туда  ставится  темплейт из html для  каждого  блока  с  переменными <scripttype="text/template"id="product_item">
+ *В  html заменяем все  названия  на  переменные в <%%>    "<%=img%>"
+ Затем  берем  этот  template  и  накатываем  на  него  данные в js (  практически  как  на  сервере со  службными  синтаксисами)
+
+
  */
 
-//массив данных
+//массив данных. Здесь  проставляем  для  продуктов  его характеристики для  обработчиков
 const data = [
     {
         cost: "39.5",
@@ -56,7 +61,9 @@ const data = [
 ];
 
 $(document).ready(function () {
+    //Создали  тег с id #product_item  находим  его  и  вызываем  оттуда текст
     const textTemplate = $("#product_item").html();
+    //Далее  с  помощью  библ underscore  инициируем  template и  накатываем  данные наши
     const getElementFromTemlplate = _.template(textTemplate);
     //тестовый фильтр
     let testFilter = [
@@ -79,7 +86,7 @@ $(document).ready(function () {
     //найти все инпуты и повесить обработчик на чек
     const renderProductList = () => {
         $("#filteredBlock").html(
-            // Работа с массивом
+            // Вызываем функцию для Работы с массивом наших данных  и фильтруем  его
             data
                 .filter(item => {
                     if (~testFilter.indexOf('All')) return true;
@@ -92,6 +99,7 @@ $(document).ready(function () {
                         return false;
                     }
                 })
+                //Вернёт новый массив в getElementFromTemlplate  из массива item, c преобразованием каждого элемента item  в  template  текст для html
                 .map(item => getElementFromTemlplate(item))
         );
     };
@@ -101,6 +109,7 @@ $(document).ready(function () {
         // Это событие сразу прогоняется через  обработчики, так  как было  change
 
         allInputs.on('change', function (e) {
+            //Измененное  событие в чекбоксе на  пример linux
             const filterName = e.target.name;
             const checked = e.target.checked;
 
@@ -111,7 +120,7 @@ $(document).ready(function () {
                 testFilter = _.without(testFilter, filterName);
             }
             console.log(testFilter)
-            //переррендерить список
+            //переррендерить список (уйдет  на  78  строку)
             renderProductList();
         });
 
