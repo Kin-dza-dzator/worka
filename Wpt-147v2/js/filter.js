@@ -1,12 +1,15 @@
 /**
  * Created by tikhonov3 on 13.03.2017.
  */
+
+//массив данных
 const data = [
     {
         cost: "39.5",
         title: "All",
         img: "images/logo_ntfs.png",
         description: "dfgdfgdfg dfg dfg gwerkgolwerg ergwg",
+        // для кнопок
         linkInfo: "#",
         linkBuy: "#",
         filter: {
@@ -74,8 +77,9 @@ $(document).ready(function () {
     ];
 
     //найти все инпуты и повесить обработчик на чек
-    const renderProductList = ()=>{
+    const renderProductList = () => {
         $("#filteredBlock").html(
+            // Работа с массивом
             data
                 .filter(item => {
                     if (~testFilter.indexOf('All')) return true;
@@ -92,14 +96,18 @@ $(document).ready(function () {
         );
     };
     const allInputs = $('.filterblock input[name!=All]');
-    const setListeners = ()=>{
-        allInputs.on('change', function(e){
+    const setListeners = () => {
+        //Делаем  событие например  снимаем  галочку
+        // Это событие сразу прогоняется через  обработчики, так  как было  change
+
+        allInputs.on('change', function (e) {
             const filterName = e.target.name;
             const checked = e.target.checked;
 
-            if(checked){
+            if (checked) {
                 testFilter.push(filterName)
-            }else{
+            } else {
+                //Возвращает копию массива, в которой удалены все значения values.
                 testFilter = _.without(testFilter, filterName);
             }
             console.log(testFilter)
@@ -107,11 +115,11 @@ $(document).ready(function () {
             renderProductList();
         });
 
-        $('.filterblock input[name=All]').on('change', _.debounce((e)=>{
+        $('.filterblock input[name=All]').on('change', _.debounce((e) => {
                 const checked = e.target.checked;
                 //удалить обработчики чека
                 allInputs.off('change');
-                //прочекать
+                //прочекать все. Проходит по всему списку элементов, вызывая для каждого из них функцию
                 allInputs.each((i, item) => {
                     $(item).prop('checked', checked)
                 });
