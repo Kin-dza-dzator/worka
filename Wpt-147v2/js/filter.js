@@ -14,7 +14,6 @@ const data = [
         title: "All",
         img: "images/logo_ntfs.png",
         description: "dfgdfgdfg dfg dfg gwerkgolwerg ergwg",
-        // для кнопок
         linkInfo: "#",
         linkBuy: "#",
         filter: {
@@ -37,7 +36,7 @@ const data = [
     },
     {
         cost: "139.5",
-        title: "Partitioning & Migration",
+        title: "Hyper-V 16",
         img: "images/logo_ntfs.png",
         description: "",
         linkInfo: "#",
@@ -56,6 +55,14 @@ const data = [
         linkBuy: "",
         filter: {
             Virtualization: true
+        }
+    }
+    {
+        title: "Virtualization",
+        filter: {
+            Virtualization: true,
+            Migration: true,
+            Security: true,
         }
     }
 ];
@@ -111,7 +118,7 @@ $(document).ready(function () {
         // Это событие сразу прогоняется через  обработчики, так  как было  change
 
         allInputs.on('change', function (e) {
-            //Измененное  событие в чекбоксе на  пример linux
+            //Измененное  событие в чекбоксе на  All.  Проходится  по  массиву  все  прочекивает
             const filterName = e.target.name;
             const checked = e.target.checked;
 
@@ -119,14 +126,22 @@ $(document).ready(function () {
                 testFilter.push(filterName)
             } else {
                 //Возвращает копию массива, в которой удалены все значения values.
+                //_.without ищет  в массиве testFilter  элемент filterName и возвращает  массив  без  него
                 testFilter = _.without(testFilter, filterName);
             }
+            // после  каждого  изменения  выводить  фильтр
             console.log(testFilter)
-            //переррендерить список (уйдет  на  78  строку)
+            //переррендерить список (уйдет  на  78  строку) и начнет  заново
             renderProductList();
         });
+        //найти все инпуты фильтрблоком и повесить обработчик на чек (Любое изменение  в  инпутах это событие change)
+        //Берем  данные  из  переменной  функции e - те это событие
+        //Имеет кучу  свойств. В  таргете  показывается  input   где  произошло  событие Change
 
+        //функция .on  для  того  чтобы  повесить  обработчик _.debounce с  событием  change на элементы  $('.filterblock input[name=All]')
         $('.filterblock input[name=All]').on('change', _.debounce((e) => {
+                //В  таргете  показывается  input (Linux) его аргументы   name=Linux  type=checkbox, где  произошло  событие Change
+                //Таргет  это  одно  из  свойств e.Event, показывает  на  какой  тег  кликнули координаты  и  тд
                 const checked = e.target.checked;
                 //удалить обработчики чека
                 allInputs.off('change');
@@ -134,9 +149,11 @@ $(document).ready(function () {
                 allInputs.each((i, item) => {
                     $(item).prop('checked', checked)
                 });
+                //если прочекано  то  удаляется
                 if (checked) {
                     testFilter = ['Virtualization', 'Partitioning', 'Backup', 'Migration', 'Restore', 'Maintenance', 'Bundles', 'Optimization', 'Security', 'OS_interopterability', 'Windows', 'OS_X', 'Linux', 'Freeware'];
                 } else {
+                    //если  пустой  то  все  добавить
                     testFilter = [];
                 }
                 //возоновить обработчики
