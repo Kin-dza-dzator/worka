@@ -129,7 +129,7 @@ tr.k-state-selected {
     border-color: rgb(91, 91, 91);
 }
 
-//#editorBox {
+//#editorBox
     .k-bold,
     .k-i-bold {
         background-position: -240px 0;
@@ -436,4 +436,9 @@ tr.k-state-selected {
     .k-state-selected .k-i-merge-cells {
         background-position: -192px -168px;
     }
-
+    .k-state-hover .k-i-table-wizard,
+    .k-state-hover .k-i-table-wizard-insert,
+    .k-state-selected .k-i-table-wizard,
+    .k-state-selected .k-i-table-wizard-insert {
+        background-position: -192px -192px;
+    }

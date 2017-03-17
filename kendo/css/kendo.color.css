@@ -396,3 +396,9 @@ tr.k-state-selected {
 .k-state-selected .k-mergeCells,
 .k-state-selected .k-i-merge-cells {
   background-position: -192px -168px; }
+
+.k-state-hover .k-i-table-wizard,
+.k-state-hover .k-i-table-wizard-insert,
+.k-state-selected .k-i-table-wizard,
+.k-state-selected .k-i-table-wizard-insert {
+  background-position: -192px -192px; }
