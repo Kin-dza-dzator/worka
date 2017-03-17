@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     gulpdata = require('gulp-data'),
     emailBuilder = require('gulp-email-builder');
 
-const rootFolder = 'WPT-152';
+const rootFolder = 'kendo';
 const PROXY_TARGET_URL = 'http://web69.pearl.de';
 
 gulp.task('default', ['build']);

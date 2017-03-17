@@ -35,6 +35,9 @@
     color: #000000;
     background-color: #ffffd9;
     border-color: #7ac0d7;
+
+
+
 }
 
 span.k-datepicker,
@@ -126,9 +129,311 @@ tr.k-state-selected {
     border-color: rgb(91, 91, 91);
 }
 
-//   .k-tool.k-group-start:hover {
-//        color: #0f0f0f;
-//    }
-//.k-webkit .k-editor-toolbar, .k-ff .k-editor-toolbar, .k-ie9 .k-editor-toolbar, .k-edge .k-editor-toolbar:hover{
-//    color: #0f0f0f;
-//}
+//#editorBox {
+    .k-bold,
+    .k-i-bold {
+        background-position: -240px 0;
+    }
+    .k-state-hover .k-bold,
+    .k-state-hover .k-i-bold,
+    .k-state-selected .k-bold,
+    .k-state-selected .k-i-bold {
+        background-position: -240px 0;
+
+    }
+    .k-italic,
+    .k-i-italic {
+        background-position: -240px -24px;
+    }
+    .k-state-hover .k-italic,
+    .k-state-hover .k-i-italic,
+    .k-state-selected .k-italic,
+    .k-state-selected .k-i-italic {
+        background-position: -240px -24px;
+    }
+    .k-underline,
+    .k-i-underline {
+        background-position: -240px -48px;
+    }
+    .k-state-hover .k-underline,
+    .k-state-hover .k-i-underline,
+    .k-state-selected .k-underline,
+    .k-state-selected .k-i-underline {
+        background-position: -240px -48px;
+    }
+    .k-justifyLeft,
+    .k-i-justify-left,
+    .k-i-align-left {
+        background-position: -240px -144px;
+    }
+    .k-state-hover .k-justifyLeft,
+    .k-state-hover .k-i-justify-left,
+    .k-state-hover .k-i-align-left,
+    .k-state-selected .k-justifyLeft,
+    .k-state-selected .k-i-justify-left,
+    .k-state-selected .k-i-align-left {
+        background-position: -240px -144px;
+    }
+    .k-justifyCenter,
+    .k-i-justify-center,
+    .k-i-align-center {
+        background-position: -240px -168px;
+    }
+    .k-state-hover .k-justifyCenter,
+    .k-state-hover .k-i-justify-center,
+    .k-state-hover .k-i-align-center,
+    .k-state-selected .k-justifyCenter,
+    .k-state-selected .k-i-justify-center,
+    .k-state-selected .k-i-align-center {
+        background-position: -240px -168px;
+    }
+    .k-justifyRight,
+    .k-i-justify-right,
+    .k-i-align-right {
+        background-position: -240px -192px;
+    }
+    .k-state-hover .k-justifyRight,
+    .k-state-hover .k-i-justify-right,
+    .k-state-hover .k-i-align-right,
+    .k-state-selected .k-justifyRight,
+    .k-state-selected .k-i-justify-right,
+    .k-state-selected .k-i-align-right {
+        background-position: -240px -192px;
+    }
+
+    //выпадающие списки
+    .k-insertUnorderedList,
+    .k-i-insert-unordered-list,
+    .k-i-unordered-list {
+        background-position: -240px -240px;
+    }
+    .k-state-hover .k-insertUnorderedList,
+    .k-state-hover .k-i-insert-unordered-list,
+    .k-state-hover .k-i-unordered-list,
+    .k-state-selected .k-insertUnorderedList,
+    .k-state-selected .k-i-insert-unordered-list,
+    .k-state-selected .k-i-unordered-list {
+        background-position: -240px -240px;
+    }
+
+    .k-insertOrderedList,
+    .k-i-insert-ordered-list,
+    .k-i-ordered-list {
+        background-position: -240px -288px;
+    }
+    .k-state-hover .k-insertOrderedList,
+    .k-state-hover .k-i-insert-ordered-list,
+    .k-state-hover .k-i-ordered-list,
+    .k-state-selected .k-insertOrderedList,
+    .k-state-selected .k-i-insert-ordered-list,
+    .k-state-selected .k-i-ordered-list {
+        background-position: -240px -288px;
+    }
+
+    .k-indent,
+    .k-rtl .k-outdent,
+    .k-i-indent,
+    .k-rtl .k-i-outdent {
+        background-position: -288px 0;
+    }
+    .k-state-hover .k-indent,
+    .k-state-hover .k-rtl .k-outdent,
+    .k-state-hover .k-i-indent,
+    .k-state-hover .k-rtl .k-i-outdent,
+    .k-state-selected .k-indent,
+    .k-state-selected .k-rtl .k-outdent,
+    .k-state-selected .k-i-indent,
+    .k-state-selected .k-rtl .k-i-outdent {
+        background-position: -288px 0;
+    }
+
+    .k-createLink,
+    .k-i-create-link {
+        background-position: -288px -48px;
+    }
+    .k-state-hover .k-createLink,
+    .k-state-hover .k-i-create-link,
+    .k-state-selected .k-createLink,
+    .k-state-selected .k-i-create-link {
+        background-position: -288px -48px;
+    }
+    .k-indent,
+    .k-rtl .k-outdent,
+    .k-i-indent,
+    .k-rtl .k-i-outdent {
+        background-position: -288px 0;
+    }
+    .k-state-hover .k-indent,
+    .k-state-hover .k-rtl .k-outdent,
+    .k-state-hover .k-i-indent,
+    .k-state-hover .k-rtl .k-i-outdent,
+    .k-state-selected .k-indent,
+    .k-state-selected .k-rtl .k-outdent,
+    .k-state-selected .k-i-indent,
+    .k-state-selected .k-rtl .k-i-outdent {
+        background-position: -288px 0;
+    }
+    .k-outdent,
+    .k-rtl .k-indent,
+    .k-i-outdent,
+    .k-rtl .k-i-indent {
+        background-position: -288px -24px;
+    }
+    .k-state-hover .k-outdent,
+    .k-state-hover .k-rtl .k-indent,
+    .k-state-hover .k-i-outdent,
+    .k-state-hover .k-rtl .k-i-indent,
+    .k-state-selected .k-outdent,
+    .k-state-selected .k-rtl .k-indent,
+    .k-state-selected .k-i-outdent,
+    .k-state-selected .k-rtl .k-i-indent {
+        background-position: -288px -24px;
+    }
+    .k-createLink,
+    .k-i-create-link {
+        background-position: -288px -48px;
+    }
+    .k-state-hover .k-createLink,
+    .k-state-hover .k-i-create-link,
+    .k-state-selected .k-createLink,
+    .k-state-selected .k-i-create-link {
+        background-position: -288px -48px;
+    }
+    .k-unlink {
+        background-position: -288px -72px;
+    }
+    .k-state-hover .k-unlink,
+    .k-state-selected .k-unlink {
+        background-position: -288px -72px;
+    }
+    .k-insertImage,
+    .k-i-insert-image {
+        background-position: -288px -96px;
+    }
+    .k-state-hover .k-insertImage,
+    .k-state-hover .k-i-insert-image,
+    .k-state-selected .k-insertImage,
+    .k-state-selected .k-i-insert-image {
+        background-position: -288px -96px;
+    }
+    .k-insertFile,
+    .k-i-insert-file {
+        background-position: -288px -192px;
+    }
+    .k-state-hover .k-insertFile,
+    .k-state-hover .k-i-insert-file,
+    .k-state-selected .k-insertFile,
+    .k-state-selected .k-i-insert-file {
+        background-position: -288px -192px;
+    }
+    .k-subscript,
+    .k-i-subscript {
+        background-position: -288px -144px;
+    }
+    .k-state-hover .k-subscript,
+    .k-state-hover .k-i-subscript,
+    .k-state-selected .k-subscript,
+    .k-state-selected .k-i-subscript {
+        background-position: -288px -144px;
+    }
+    .k-superscript,
+    .k-i-superscript {
+        background-position: -288px -168px;
+    }
+    .k-state-hover .k-superscript,
+    .k-state-hover .k-i-superscript,
+    .k-state-selected .k-superscript,
+    .k-state-selected .k-i-superscript {
+        background-position: -288px -168px;
+    }
+    .k-cleanFormatting,
+    .k-i-clean-formatting {
+        background-position: -288px -192px;
+    }
+    .k-state-hover .k-cleanFormatting,
+    .k-state-hover .k-i-clean-formatting,
+    .k-state-selected .k-cleanFormatting,
+    .k-state-selected .k-i-clean-formatting {
+        background-position: -288px -192px;
+    }
+    .k-createTable,
+    .k-i-create-table {
+        background-position: -192px 0;
+    }
+    .k-state-hover .k-createTable,
+    .k-state-hover .k-i-create-table,
+    .k-state-selected .k-createTable,
+    .k-state-selected .k-i-create-table {
+        background-position: -192px 0;
+    }
+    .k-addColumnLeft,
+    .k-i-add-column-left {
+        background-position: -192px -24px;
+    }
+    .k-state-hover .k-addColumnLeft,
+    .k-state-hover .k-i-add-column-left,
+    .k-state-selected .k-addColumnLeft,
+    .k-state-selected .k-i-add-column-left {
+        background-position: -192px -24px;
+    }
+    .k-addColumnRight,
+    .k-i-add-column-right {
+        background-position: -192px -48px;
+    }
+    .k-state-hover .k-addColumnRight,
+    .k-state-hover .k-i-add-column-right,
+    .k-state-selected .k-addColumnRight,
+    .k-state-selected .k-i-add-column-right {
+        background-position: -192px -48px;
+    }
+    .k-addRowAbove,
+    .k-i-add-row-above {
+        background-position: -192px -72px;
+    }
+    .k-state-hover .k-addRowAbove,
+    .k-state-hover .k-i-add-row-above,
+    .k-state-selected .k-addRowAbove,
+    .k-state-selected .k-i-add-row-above {
+        background-position: -192px -72px;
+    }
+    .k-addRowBelow,
+    .k-i-add-row-below {
+        background-position: -192px -96px;
+    }
+    .k-state-hover .k-addRowBelow,
+    .k-state-hover .k-i-add-row-below,
+    .k-state-selected .k-addRowBelow,
+    .k-state-selected .k-i-add-row-below {
+        background-position: -192px -96px;
+    }
+    .k-deleteRow,
+    .k-i-delete-row {
+        background-position: -192px -120px;
+    }
+    .k-state-hover .k-deleteRow,
+    .k-state-hover .k-i-delete-row,
+    .k-state-selected .k-deleteRow,
+    .k-state-selected .k-i-delete-row {
+        background-position: -192px -120px;
+    }
+    .k-deleteColumn,
+    .k-i-delete-column {
+        background-position: -192px -144px;
+    }
+    .k-state-hover .k-deleteColumn,
+    .k-state-hover .k-i-delete-column,
+    .k-state-selected .k-deleteColumn,
+    .k-state-selected .k-i-delete-column {
+        background-position: -192px -144px;
+    }
+    .k-mergeCells,
+    .k-i-merge-cells {
+        background-position: -192px -168px;
+    }
+    .k-state-hover .k-mergeCells,
+    .k-state-hover .k-i-merge-cells,
+    .k-state-selected .k-mergeCells,
+    .k-state-selected .k-i-merge-cells {
+        background-position: -192px -168px;
+    }
+
