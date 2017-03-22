@@ -6,3 +6,12 @@ $(function(){
     // $()
 
 });
+$(document).ready(function(){
+    $('.slider4').bxSlider({
+        slideWidth: 300,
+        minSlides: 1,
+        maxSlides: 3,
+        moveSlides: 1,
+        slideMargin: 10
+    });
+});

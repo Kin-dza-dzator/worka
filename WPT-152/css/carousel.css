@@ -1,0 +1,1294 @@
+@charset "UTF-8";
+.main_section, #tech, #support, #reviews, .add_section {
+  background: #0a7dd2;
+  padding-bottom: 60px; }
+
+.tech_md {
+  text-align: center; }
+
+.tech_md_button {
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding: 2px 10px;
+  margin: 0 1.5% 10px 0;
+  border-radius: 12px;
+  -o-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px; }
+
+.tech_md_button:hover {
+  background: #3b97db; }
+
+.tech_md_button a {
+  text-decoration: none;
+  outline: none; }
+
+.tech_md_button span, #tech h2, #reviews h2, .add_section h2 {
+  color: #ffffff; }
+
+#support {
+  background: #f5f5f5;
+  margin: 0; }
+
+.news .lineV {
+  background: #e0f8ff;
+  width: 2px;
+  height: 80px;
+  display: inline-block;
+  margin: 0 25px;
+  vertical-align: middle; }
+
+#products {
+  padding-bottom: 60px; }
+
+#products .bx-ul {
+  text-align: center;
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden; }
+
+#products .active {
+  visibility: visible;
+  height: auto; }
+
+#products .prodItms, #products .prodItms li {
+  height: inherit; }
+
+#products .prodItm {
+  height: inherit;
+  padding: 20px 10px 20px 20px;
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  background: #f5f5f5;
+  border-radius: 10px;
+  -o-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px; }
+
+#products .prodItm:hover {
+  background: #edf7fe; }
+
+#products .dscUl {
+  padding-top: 30px; }
+
+#products .dscUl a {
+  font-size: 18px;
+  font-weight: 600; }
+
+#products .prodItm img {
+  width: 55px;
+  margin: 0 10px 0 0;
+  float: left; }
+
+#products .prodItm h4 {
+  color: #3b52a0;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0; }
+
+#products .prodItm a {
+  text-decoration: none; }
+
+#products .prodItm .lnkprice {
+  color: #e94f44;
+  font-size: 14px; }
+
+#products .bx-wrapper {
+  margin: 0 auto; }
+
+#products #bx-pager-prod {
+  text-align: center;
+  margin-bottom: 20px; }
+
+#products #bx-pager-prod a {
+  font-family: OpenSansBold;
+  margin: 0 4% 10px 0;
+  outline: none;
+  color: #3b52a0;
+  text-decoration: none;
+  border: 1px solid #3b52a0;
+  display: inline-block;
+  padding: 4px 13px;
+  border-radius: 12px;
+  -o-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px; }
+
+#products #bx-pager-prod a:hover {
+  background: #edf7fe; }
+
+#products #bx-pager-prod a.active {
+  background: #3b52a0;
+  color: #ffffff;
+  border: 1px solid #3b52a0; }
+
+#products .bx-wrapper .bx-prev {
+  left: -55px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-prev-blue.png); }
+
+#products .bx-wrapper .bx-next {
+  right: -55px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-next-blue.png); }
+
+#products .bx-wrapper .bx-controls-direction a {
+  top: 20%; }
+
+.quest a {
+  text-decoration: none; }
+
+.add_section .icn_phone {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon.svg); }
+
+.add_section .icn_phone:hover {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon_hover.svg); }
+
+.add_section .icn_mail {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon.svg); }
+
+.add_section .icn_mail:hover {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon_hover.svg); }
+
+.add_section .icn_base {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon.svg); }
+
+.add_section .icn_base:hover {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon_hover.svg); }
+
+.quest {
+  text-align: center; }
+
+.quest p, .quest a {
+  color: #ffffff; }
+
+.quest tr td {
+  width: 33.3%; }
+
+.add_section .tech_md_button {
+  margin: 35px 0 0; }
+
+.nav {
+  width: 100%; }
+
+.nav h3 {
+  color: #3b52a0;
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-family: OpenSans Regular; }
+
+.nav_descr ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+
+.nav ul li {
+  float: left; }
+
+.nav ul li {
+  width: 31%; }
+
+.nav ul li.ln {
+  width: 3.5%;
+  height: 1px; }
+
+.nav ul li:hover p {
+  color: #3b52a0; }
+
+.nav ul li a {
+  outline: none;
+  text-align: center;
+  text-decoration: none; }
+
+.nav ul li img {
+  width: 100px;
+  display: block;
+  margin: 0 auto; }
+
+.nav ul li .title {
+  text-align: center; }
+
+.nav ul li .tab1 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/OEM_icon.svg); }
+
+.nav ul li:hover .tab1 {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/OEM_icon_hover.svg); }
+
+.nav ul li .tab2 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/Biz_icon.svg); }
+
+.nav ul li:hover .tab2 {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/Biz_icon_hover.svg); }
+
+.nav ul li .tab3 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/Home_icon.svg); }
+
+.nav ul li:hover .tab3 {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/Home_icon_hover.svg); }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .sltTitle {
+    font-size: 18px; }
+  .sltText {
+    padding: 0 5px;
+    margin-top: -8px; }
+  .sltText p {
+    font-size: 13px; }
+  .arrowFFF {
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px; }
+  #products .bx-wrapper {
+    padding-bottom: 50px; }
+  #products .prodItm h4, #products .prodItm a {
+    font-size: 14px; }
+  #products .bx-wrapper .bx-prev {
+    left: 5px;
+    bottom: 0; }
+  #products .bx-wrapper .bx-next {
+    right: 5px;
+    bottom: 0; }
+  #products .bx-wrapper .bx-controls-direction a {
+    top: auto; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .nav ul li {
+    float: none;
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px; }
+  .nav ul li .tab1, .nav ul li .tab2, .nav ul li .tab3 {
+    float: left;
+    margin-right: 20px; }
+  .nav ul li .title {
+    float: left;
+    width: 80%;
+    text-align: left; }
+  .nav h3 {
+    margin-top: 0;
+    text-align: left;
+    padding: 0; }
+  .news .newsboxLf, .news .newsboxRg {
+    float: none;
+    width: 100%;
+    padding: 0; }
+  .news .newsboxLf {
+    width: 70%;
+    margin: 0 auto 20px; }
+  .news .lineV, .news .frstpart {
+    display: none; }
+  .news .newsboxLf span.number, .news .newsboxLf span.month, .news .newsboxLf span.year {
+    display: inline-block;
+    font-family: OpenSansLight;
+    font-size: 45px;
+    width: 32%;
+    line-height: normal;
+    vertical-align: middle; }
+  .news .newsboxLf span.year {
+    margin: 0; }
+  .news .bx-wrapper .bx-prev {
+    left: 10%; }
+  .news .bx-wrapper .bx-next {
+    left: auto;
+    right: 10%; }
+  .news .bx-wrapper .bx-controls-direction a {
+    top: 20%; }
+  .solutions {
+    width: 70%;
+    margin: 0 auto; }
+  .slt {
+    width: 100%;
+    margin: 0 auto 5%;
+    float: none; }
+  .evenBox {
+    margin: 0 0 5%; }
+  .minBox {
+    float: left;
+    width: 47.5%; }
+  .minBox.evenBox {
+    margin-left: 5%; }
+  .minBox.evenBoxhf {
+    margin-right: 5%; }
+  .sltTitle {
+    font-size: 20px; }
+  .sltText {
+    padding: 0 20px;
+    margin: 0; }
+  .sltText p {
+    font-size: 15px; }
+  .arrowFFF {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    margin-top: 15px; } }
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+  .tabs_menu li {
+    border: none;
+    background: none; }
+  .tabs_menu li a {
+    padding: 0;
+    display: inline;
+    color: #0a7dd2; }
+  .nav ul li .title {
+    width: 70%; }
+  .solutions {
+    width: 80%;
+    margin: 0 auto; }
+  #products, #products .prodItms, #products .prodItms li {
+    height: auto; }
+  #products .bx-wrapper {
+    padding: 0;
+    margin: 50px 0; }
+  #products .bx-wrapper .bx-pager {
+    display: none; }
+  #products .prodItms {
+    width: 100%;
+    position: relative; }
+  #products .prodItm {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px 0;
+    position: relative;
+    height: auto; }
+  #products .prodItm img {
+    margin: 0; }
+  #products .prodItmText {
+    display: inline-block;
+    vertical-align: middle; }
+  #products .prodItm .prodItmImg {
+    display: inline-block;
+    margin: 0 5%;
+    vertical-align: middle; }
+  #products .prodItm .lnkprice {
+    margin: 4% 0 0 0; }
+  #products .bx-wrapper a.bx-prev {
+    top: -35px;
+    left: 49%;
+    height: 14px;
+    width: 24px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/arrows-up.png); }
+  #products .bx-wrapper a.bx-next {
+    bottom: -35px;
+    top: auto;
+    left: 49%;
+    height: 14px;
+    width: 24px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/arrows-down.png); }
+  #products .dscUl {
+    padding-top: 10px; }
+  #products .dscUl a {
+    font-size: 16px; }
+  /**#products .prodItm .arrBrwn {width:7px;height:15px;position:absolute;right:20px;top:43%;background-image:url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/arrow-brown.png);background-repeat:no-repeat;background-size:7px 15px;}
+    **/
+  #reviews .bx-wrapper .bx-pager {
+    top: 5px; }
+  #reviews .wrap-review, #reviews .review {
+    width: 100%; }
+  #reviews .writer {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 20px 0;
+    width: 100%;
+    margin-bottom: 20px; }
+  #reviews .writer img {
+    margin: 0 auto;
+    display: block; }
+  /**.quest {width:65%;margin:0 auto}
+    .quest tr td {display:block;width:100%;text-align:left}
+    .add_section .icn_phone, .add_section .icn_mail, .add_section .icn_base {width:80px;height:80px;display:inline-block;margin:5% 5% 0 0;vertical-align:middle}
+    .quest p {display:inline-block;vertical-align:middle;text-align:left}**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .nav ul li .tab1, .nav ul li .tab2, .nav ul li .tab3 {
+    float: none;
+    margin: 0 auto; }
+  .nav ul li .title {
+    float: none;
+    width: 100%;
+    text-align: center; }
+  .nav h3 {
+    text-align: center; }
+  .solutions, #products .prodItm {
+    width: 100%; }
+  .news .newsboxLf {
+    width: 90%; }
+  .news .bx-wrapper .bx-prev {
+    left: 0; }
+  .news .bx-wrapper .bx-next {
+    right: 0; }
+  .news .bx-wrapper .bx-controls-direction a {
+    top: 12%; }
+  .sltTitle {
+    font-size: 16px; }
+  .sltText {
+    padding: 0 5px;
+    margin-top: -8px; }
+  .sltText p {
+    font-size: 13px; }
+  .arrowFFF {
+    width: 25px;
+    height: 25px;
+    background-size: 25px 25px; }
+  .tech_md, #products #bx-pager-prod {
+    text-align: left; }
+  #products .prodItm img {
+    width: 50px; }
+  .quest {
+    width: 100%;
+    margin: 0 auto; }
+  .quest tr td {
+    display: block;
+    width: 100%;
+    text-align: center; }
+  .add_section .icn_phone, .add_section .icn_mail, .add_section .icn_base {
+    width: 80px;
+    height: 80px;
+    margin: 5% auto 2% auto; }
+  .add_section .tech_md_button {
+    margin: 15px 0 0; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .sltTitle {
+    font-size: 15px; }
+  .arrowFFF {
+    margin-top: 5px; }
+  .sltText p {
+    font-size: 12px; }
+  #products .prodItm img {
+    width: 42px; }
+  #products .prodItm h4, #products .prodItm a, #products .prodItm .lnkprice {
+    font-size: 13px; }
+  #products .dscUl {
+    padding-top: 0;
+    text-align: left; } }
+
+#accordion .panel {
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.div-collapse {
+  border-top: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.div-collapse {
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .div-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    overflow: visible !important; } }
+
+@media only screen and (max-width: 1600px) {
+  #popupLink {
+    width: 55% !important; } }
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .bann_descr {
+    width: 50%; }
+  .bann_descr h1 {
+    line-height: 1.2em; }
+  .bann_descr h2 {
+    margin: 6px 0; }
+  .lngTitle {
+    margin: 39px 0 31px; }
+  .block1, .block12, .block13, .block16, .block123 {
+    margin-right: 12px; }
+  .main_mnu a.separate_link {
+    padding: 10px 40px; }
+  .EshopBody .eshop_inf {
+    width: 40%; }
+  .EshopBody .eshop_price {
+    width: 27%; }
+  #support .txt, .txt {
+    width: 75%; }
+  .formReg {
+    width: 60%; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #popupLink {
+    width: 60% !important; }
+  .lngTitle {
+    float: right;
+    margin: 30px 0; }
+  .account, .descr, .aword {
+    display: none; }
+  .main_mnu a.separate_link {
+    padding: 10px 23px; }
+  .menu #tbh0 {
+    width: 100%; }
+  .menu #tbh2 {
+    left: 15%; }
+  .menu #tbh4 {
+    width: 100%; }
+  #cookie_str .ADlnk {
+    display: inline-block;
+    padding-left: 5px; }
+  #cookie_str .cook_lnk {
+    display: none; }
+  #cookie_str p, #cookie_str a {
+    line-height: normal;
+    float: none; }
+  #cookie_str p {
+    width: 90%;
+    float: left; }
+  #btnX {
+    background: #3b52a0;
+    width: auto;
+    margin: 0;
+    height: auto;
+    float: right;
+    font-weight: 600;
+    color: #fff;
+    padding: 1px 7px;
+    line-height: normal;
+    border-radius: 15px;
+    -o-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px; }
+  #btnX:before {
+    content: "Х"; }
+  #scr .bx-wrapper .bx-controls-direction a {
+    top: 50%; }
+  .ScrnImg {
+    width: 60%; }
+  .md-right {
+    float: none; }
+  .vd {
+    width: 100%; }
+  .scr {
+    width: 90%; }
+  .vd .vd_bx, .scr .scr_bx {
+    width: 80%;
+    float: none;
+    padding: 0 0 30px;
+    border-bottom: 1px solid #878787;
+    margin: 0 auto 30px; }
+  .scr .scr_bx {
+    width: 45%; }
+  .scr img, .FootText .scr img {
+    width: 100%; }
+  .FootText .scr h3 {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    text-align: center; }
+  .scr .botm_bx {
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: none; }
+  .redBtnBuy {
+    right: auto;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; }
+  .redAddBtn {
+    position: relative;
+    left: auto;
+    bottom: 0;
+    top: 30px; }
+  .descBL {
+    margin-top: 20px; }
+  .ImgIcon {
+    width: auto;
+    max-width: 96px; }
+  .EshopBody a.txtprice {
+    width: 80%; }
+  .EshopBody .eshop_price {
+    vertical-align: bottom;
+    padding: 5px 0; }
+  .EshopBody .e_shop_tb_border {
+    border-right: none;
+    width: 100%; }
+  .EshopBody .col-md-4 {
+    width: 100%;
+    border-top: 1px solid #878787; }
+  .EshopBody .eshop_Bl, .EshopBody .eshop_inf {
+    display: block;
+    width: 100%;
+    position: relative;
+    padding: 5px 0px 5px 15%; }
+  .EshopBody .logProd {
+    position: absolute;
+    left: 0;
+    padding: 0; }
+  .EshopBody .eshop_inf {
+    text-align: left; }
+  .bann_descr, .formReg {
+    width: 72%; }
+  .bann_descr h2 {
+    font-size: 20px; }
+  .bann_descr ul li {
+    font-size: 16px; }
+  .buttons_hidden {
+    position: relative;
+    bottom: 10px;
+    left: -15px; }
+  .buttons_hidden .basedSm {
+    margin-left: 20px; }
+  .bann_buttons {
+    display: none; }
+  .prodCard {
+    height: 460px; }
+  .freeUnit {
+    padding: 40px 0 0;
+    width: 100%; }
+  .generalTb td {
+    padding: 12px; }
+  .generalTb a.btnBlueMain, .downTab a.btnBlueMain {
+    background: none;
+    color: #0a7dd2;
+    font-weight: 500;
+    white-space: nowrap; }
+  .generalTb a.btnBlueMain:hover, .downTab a.btnBlueMain:hover {
+    background: none;
+    color: #0a7dd2; }
+  a.btnRedMain {
+    font-weight: 500;
+    white-space: nowrap; }
+  .block1, .block12, .block13, .block16 {
+    float: none;
+    margin-top: 20px; }
+  .block_1, .block_2, .block_3 {
+    float: left; }
+  .block_3, .block112 {
+    margin-top: 20px; }
+  .blocks {
+    margin-left: 68px; }
+  .block_1, .block_2 {
+    margin-right: 55px; }
+  .block112, .block123 {
+    margin-top: 38px; }
+  .footer {
+    height: 700px; } }
+
+@media only screen and (max-width: 767px) {
+  html, body {
+    overflow-x: hidden; }
+  .page h2, .IndxPage h2 {
+    padding-top: 30px;
+    margin: 0 0 30px;
+    line-height: 35px; }
+  .top_mnu {
+    display: none; }
+  #popupLink {
+    width: 80% !important; }
+  /* Mobile menu */
+  #sidr-right {
+    display: none; }
+  .sidr {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 260px;
+    overflow-x: none;
+    overflow-y: auto;
+    font-size: 15px;
+    background: #24195d;
+    color: #fff; }
+  .sidr.right {
+    left: auto;
+    right: -260px; }
+  .main-content {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    position: relative;
+    margin-bottom: 6px; }
+  .main-content #right-menu {
+    background: #3b52a0;
+    border-radius: 3px;
+    display: block;
+    position: relative;
+    padding: 10px 7px;
+    float: right;
+    margin: 15px 8px 0 0; }
+  .main-content #right-menu:hover {
+    background: #243682; }
+  .main-content #right-menu .bar {
+    display: block;
+    width: 18px;
+    margin-bottom: 3px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 1px; }
+  .main-content #right-menu .bar:last-child {
+    margin-bottom: 0; }
+  .accordion {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .accordion_trigger {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 20px; }
+  .arrow_clicked {
+    cursor: pointer; }
+  .accordion_toggle {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px; }
+  .accordion_toggle:checked + .accordion_target {
+    position: static;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    margin: auto;
+    clip: auto;
+    padding: 0;
+    /* задержка появления  функция анимации */
+    -webkit-animation: fadeIn ease-in 0.7s;
+    -moz-animation: fadeIn ease-in 0.7s;
+    animation: fadeIn ease-in 0.7s; }
+  .accordion_target {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    background-color: #fff;
+    -webkit-box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05); }
+  .accordion_target_bottom {
+    border-bottom: 2px solid #bdcee6; }
+  .accordion_target p {
+    color: #3b53a0;
+    margin: 0; }
+  .accordion_target a {
+    color: #3b52a0; }
+  .accordion_target ul {
+    padding: 5px 0 5px 30px; }
+  .accordion_target ul li {
+    color: #3b53a0;
+    list-style: disc;
+    font-size: 13.5px;
+    font-weight: 200;
+    padding: 6px 0; }
+  .accordion_target ul li a {
+    text-decoration: none;
+    line-height: 1.5em; }
+  .border_bottom {
+    border-bottom: 2px solid #92a4cf; }
+  .grad_blue {
+    line-height: normal;
+    height: 40px;
+    color: #ffffff;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/grad_mobile.png); }
+  .grad_light_blue {
+    background-color: #dbeefc;
+    color: #3b52a0;
+    font-size: 15px;
+    padding: 9px 40px 9px 20px;
+    -webkit-box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05); }
+  .grad_lighter_blue {
+    background-color: #f0f9fe;
+    color: #3b52a0;
+    font-size: 14.5px;
+    -webkit-box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 16px 0px 9px 0px rgba(0, 0, 0, 0.05); }
+  .accordion_target .subItem, .accordion_target .subItem li {
+    list-style: none;
+    padding: 0; }
+  .accordion_target .subItem li {
+    margin: 0 15px; }
+  .accordion_target .subLI {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #3b52a0; }
+  .accordion_target .subLI a {
+    background: url(//www.paragon-software.com/sites/paragonsoftware.com/indexPage/bulb-b.png) no-repeat 5px 50%;
+    padding-left: 20px; }
+  .grad_blue span.actived {
+    opacity: 1;
+    visibility: visible;
+    -webkit-animation: fadeIn ease-in 0.7s;
+    -moz-animation: fadeIn ease-in 0.7s;
+    animation: fadeIn ease-in 0.7s; }
+  .arrow, .arrow_blue, .arrow_blue_min {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 0;
+    float: right;
+    display: block;
+    margin-top: 3px; }
+  .arrow_blue_min {
+    width: 14px;
+    height: 14px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/arrows-blue-min.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200% 100%; }
+  .arrow_blue {
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    margin-top: 0;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/arrows-blue-menu.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200% 100%; }
+  .arrow {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/arrows-menu.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200% 100%; }
+  .actived {
+    background-position: 100% 0; }
+  .font_light {
+    font-weight: 200; }
+  #reviews .bx-wrapper .bx-controls-direction a, #scr .bx-wrapper .bx-controls-direction a, .news .bx-wrapper .bx-controls-direction a {
+    top: auto;
+    bottom: -15px;
+    width: 35px;
+    height: 35px; }
+  #reviews .bx-wrapper .bx-pager, #scr .bx-wrapper .bx-pager, .news .bx-wrapper .bx-pager {
+    top: 12px; }
+  .ScrnImg, .bx-wrapper .bx-caption {
+    width: 70%; }
+  #reviews .writer, #reviews .review, .news .contNew, #support .txt, .txtbody, .txt-mid {
+    width: 100%; }
+  #support .btnBlueMain {
+    margin-bottom: 5px; }
+  .news .desc {
+    display: none; }
+  .tdfeat {
+    padding: 6px;
+    word-break: break-all; }
+  .EshopBody .eshop_price {
+    width: 100%;
+    display: block;
+    text-align: left; }
+  .EshopBody .eshop_Bl, .EshopBody .eshop_inf {
+    padding: 5px 0; }
+  .EshopBody .logProd, .EshopBody .eshop img {
+    position: relative;
+    margin: 0 10px 0 0; }
+  .EshopBody .Tblic {
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787; }
+  .EshopBody .Tblic tr, .EshopBody .Tblic th, .EshopBody .Tblic td, .EshopBody .eshop tr, .EshopBody .eshop td {
+    display: block; }
+  .EshopBody .Tblic th {
+    display: none; }
+  .EshopBody .eshop td {
+    padding: 5px 0;
+    width: 100%; }
+  .EshopBody .eshop td.subinf {
+    padding: 10px 0;
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787; }
+  .EshopBody .eshop td.sublnk {
+    padding: 10px 0;
+    text-align: right; }
+  .EshopBody a.txtprice {
+    width: 30%; }
+  .EshopBody .eshop td.sublnk .lnkprice {
+    float: none; }
+  .EshopBody .Tblic .hdMobil {
+    display: block; }
+  .EshopBody .tbL .tblelem {
+    width: 100%;
+    border-top: 1px solid #878787; }
+  .switches {
+    height: 195px; }
+  .switches ul li {
+    display: inline; }
+  .switches a {
+    padding: 15px 50px 11px 65px; }
+  .ufsdLg {
+    width: 35%;
+    margin-left: 2%; }
+  /* анимация при появлении блоков с содержанием */
+  @-moz-keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  @keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .buttons_hidden {
+    min-width: 26%; }
+  .buttons_hidden .basedSm {
+    min-width: 90%;
+    padding: 6px 15px;
+    float: right;
+    clear: both; }
+  .redBtnBuy, .redAddBtn {
+    top: 20px;
+    right: 0; }
+  .TechCard .redBtnBuy {
+    top: auto;
+    right: auto; }
+  .buttons_hidden {
+    top: 30px;
+    float: right;
+    left: auto; }
+  .button_name_sm {
+    right: 15px;
+    left: auto; }
+  .basedSm {
+    margin-top: 10px;
+    margin-right: 0; }
+  .bann_descr {
+    width: 100%;
+    float: none; }
+  .bann_descr h1 {
+    margin: 20px 0 0;
+    float: none;
+    line-height: 1.3em; }
+  .bann_descr ul, .bann_descr .freeDesc {
+    display: none; }
+  .scr .scr_bx {
+    width: 65%; }
+  .TechCard .bann_descr ul {
+    display: block; }
+  .bann_descr h2 {
+    position: absolute;
+    bottom: 20px; }
+  .TechCard .bann_descr h2 {
+    position: relative;
+    bottom: 0; }
+  .tbManual a.btnBlueMain {
+    background: none;
+    color: #0a7dd2;
+    font-weight: 500;
+    white-space: nowrap; }
+  .tbManual a.btnBlueMain:hover {
+    background: none;
+    color: #0a7dd2; }
+  .tbManual .nameDoc {
+    padding: 5px 5px 5px 10px; }
+  .sizeIfram {
+    width: 100%;
+    height: auto; }
+  .downTab {
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787; }
+  .downTab th {
+    display: none; }
+  .downTab tr {
+    padding: 0; }
+  .downTab tr, .downTab td {
+    width: 100%;
+    display: block;
+    border: none;
+    text-align: left; }
+  .downTab td {
+    padding: 15px 15px 15px 0; }
+  .downTab td.brdTd, .downTab .tdADP {
+    width: 50%;
+    display: block;
+    float: left;
+    border-top: 1px solid #878787;
+    padding: 15px 15px 15px 15px; }
+  .downTab .tdADP {
+    padding: 15px 15px 15px 0;
+    font-weight: 600; }
+  .downTab a.btnBlueMain {
+    padding: 7px 25px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(bottom, #3b52a0, #6679b9);
+    background: -o-linear-gradient(bottom, #3b52a0, #6679b9);
+    background: linear-gradient(to top, #3b52a0, #6679b9);
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px; }
+  .downTab a.btnBlueMain:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #3b52a0;
+    box-shadow: none; }
+  .formReg {
+    width: 80%; }
+  /* product menu */
+  .tabs_menu li {
+    border-bottom: 1px solid #878787;
+    background: -webkit-linear-gradient(bottom, #dbdbdb, #fefefe);
+    background: -o-linear-gradient(bottom, #dbdbdb, #fefefe);
+    background: linear-gradient(to top, #dbdbdb, #fefefe); }
+  .tabs_menu li a {
+    color: #878787;
+    display: block;
+    padding: 10px 15px 10px 15px; }
+  .tabs_menu li a:hover {
+    text-decoration: none; }
+  .tabs_menu li.active {
+    background: #ffffff; }
+  .tabs_menu li.active a {
+    font-weight: 600;
+    background: #ffffff; }
+  .tabs_menu li.RedTab {
+    background: url(//www.paragon-software.com/sites/paragonsoftware.com/images/mac-products/tab-line-red.png) repeat-x;
+    border-bottom: none; }
+  .tabs_menu li.RedTab a {
+    color: #ffffff; }
+  .tabs_menu li.activeRedTab {
+    background: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/tab-line-red1.png) repeat-x; }
+  .tabs_menu li.activeRedTab a {
+    font-weight: 600;
+    color: #e94f44; }
+  .tabs_menu .switch_img {
+    margin-right: 10px; }
+  /* -- */
+  /* footer menu */
+  .block_1, .block_2, .block_3, .block1, .block12, .block13, .block14, .block123, .block16 {
+    float: none;
+    width: 100%; }
+  .footer {
+    height: auto;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/bg_footer.png); }
+  .footer_line {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/footer_line.png);
+    height: 2px;
+    margin-bottom: 10px; }
+  .blocks {
+    font-size: 17px;
+    padding: 20px 25px;
+    margin: 0; }
+  .hide, .hide_arrow, .hide + label ~ div {
+    display: none; }
+  .hide + label {
+    padding: 0;
+    color: #c4d6f0;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block; }
+  .hide:checked + label {
+    border-bottom: 0; }
+  .hide:checked + label + div {
+    display: block; }
+  .block112, .block123 {
+    margin-top: 0; }
+  .block1, .block12, .block13, .block16 {
+    float: none;
+    margin-top: 0; }
+  .block_3 {
+    margin-top: 0; }
+  .block1, .block12, .block13, .block16, .block123, .block112, .block14 {
+    padding-top: 10px; }
+  .block1 a, .block12 a, .block13 a, .block1 p, .block12 p, .block13 p, .block14 p, .block14 a, .block123 a, .block123 p, .block16 a, .block16 p {
+    color: #c4d6f0;
+    margin: 0;
+    padding: 0; }
+  .footer .arrow_footer {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/arrow_footer.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200% 100%;
+    float: right;
+    display: block; }
+  .footer .arrow_clicked:hover .arrow_footer {
+    background-position: 100% 0; }
+  .footer .hide:checked + label .arrow_footer {
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); }
+  .footer .arrow_clicked:hover {
+    color: #ffffff; }
+  .blocks .copyright {
+    font-size: 13px; }
+  .blocks .non {
+    padding-bottom: 8px; }
+  .non p, .non a {
+    font-size: 15px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .bann_descr h1 {
+    font-size: 25px; }
+  .page h2, .IndxPage h2 {
+    text-align: left;
+    font-size: 25px;
+    margin: 0 0 15px; }
+  h3, .blocks {
+    font-size: 18px; }
+  #support img.icon {
+    width: 90px; }
+  .ScrnImg, .bx-wrapper .bx-caption {
+    width: 80%; }
+  .tabIcon {
+    width: 80px; }
+  .vd .dsc {
+    width: 95%; }
+  .scr .scr_bx {
+    width: 90%; }
+  .tbfeat th, .tbManual .sizeDoc, .tbManual .imgDoc, .tbManual th, .generalTb th {
+    display: none; }
+  .tbfeat {
+    border-top: 1px solid #878787; }
+  .tbfeat .tdfeat, .tbfeat .tdhead {
+    width: 100%;
+    display: block; }
+  .tbfeat .tdhead {
+    border: none;
+    padding: 10px 0 0 0; }
+  .tbfeat .tdfeat {
+    padding: 0 0 10px 0; }
+  .vd .vd_bx, .scr, .formReg {
+    width: 100%; }
+  .buttons_hidden {
+    min-width: 43%; }
+  #support img.icon {
+    top: 0; }
+  .descBL .ImgIcon {
+    max-width: 80px; }
+  .EshopBody a.txtprice {
+    width: 40%; }
+  .vd iframe {
+    height: auto; }
+  .tbManual .sizeDocAD {
+    display: block; }
+  .tbManual #categ1, .generalTb td.topst {
+    border-top: 1px solid #878787; }
+  .tbManual .nameDoc {
+    width: 85%; }
+  .tbManual ul li {
+    margin: 0;
+    list-style-type: none; }
+  .tbManual .lnkDoc {
+    padding: 0 5px; }
+  .non p, .non a {
+    font-size: 15px; }
+  .generalTb td, .generalTb td.midst {
+    padding: 0;
+    display: block;
+    border: none;
+    width: 100%; }
+  .generalTb td.topst {
+    padding: 20px 10px 0 0; }
+  .generalTb td.midst {
+    padding: 5px 10px 0 0; }
+  .generalTb .btnBlueMain {
+    float: left;
+    padding: 10px 0 20px 0; }
+  .bx-wrapper .bx-pager.bx-default-pager a {
+    width: 11px;
+    height: 11px; }
+  .ufsdLg {
+    width: 30%; }
+  .bann_descr h2 {
+    bottom: 40px; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .ScrnImg, .bx-wrapper .bx-caption, .scr .scr_bx {
+    width: 100%; }
+  .ScrnImg {
+    box-shadow: none; }
+  .tabIcon {
+    width: 60px; }
+  .bann_descr h2 {
+    font-size: 16px; }
+  .redBtnBuy, .redAddBtn {
+    bottom: 25px; }
+  .TechCard .redBtnBuy {
+    bottom: 40px; }
+  .EshopBody a.txtprice {
+    width: 60%; }
+  .buttons_hidden {
+    min-width: 55%; }
+  .downTab td {
+    padding: 10px 0 10px 0; }
+  .downTab td.brdTd, .downTab .tdADP {
+    width: 100%;
+    display: block;
+    float: none;
+    border: none; }
+  .downTab td.brdTd {
+    padding: 5px 0 15px 0; }
+  .downTab .tdADP {
+    border-top: 1px solid #878787;
+    padding: 15px 0 0 0; } }
+
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
