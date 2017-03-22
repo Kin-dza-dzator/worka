@@ -17,6 +17,33 @@ h1, h2, h3, h4 {
 .panel-body .col-lg-3 {
   border-left: 1px solid black; }
 
+.arrow_downloader {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: -24px;
+  left: 12px;
+  background-image: url(/images/arrow.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 200% 100%;
+  float: right;
+  display: block; }
+
+.arrow_clicked:hover .arrow_downloader {
+  background-position: 100% 0; }
+
+a[aria-expanded=true] .arrow_downloader,
+.hide:checked + label .arrow_downloader {
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+.arrow_clicked:hover {
+  color: #ffffff; }
+
 .item {
   width: 100%;
   padding: 28px;
