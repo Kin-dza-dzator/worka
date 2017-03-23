@@ -1,62 +1,148 @@
 .slider {
-    color: white;
-
-
+    background-color: #0a7dd2 !important;
+    padding: 20px 0;
+    color: #FFFFFF;
+    margin: 20px 0;
     .row {
-        width: auto;
-        border: 1px solid blue;
-        background-color: #0a7dd2 !important;
+        background-color: transparent;
+    }
+    .bx-viewport .slide {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .bx-pager.bx-default-pager a.active,
+    .bx-wrapper .bx-pager.bx-default-pager a:focus,
+    .bx-wrapper .bx-pager.bx-default-pager a:hover {
+        background: white;
 
+    }
+    .bx-pager.bx-default-pager a {
+        background: transparent;
+        border: 1px solid white;
 
-        height: 100%;
-        padding: 0;
-        margin: 0;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
+    }
+    .bx-controls-direction a {
+        margin: auto -8%;
 
-        .bx-wrapper {
-            box-shadow: none;
-            border: none;
-            background: transparent;
-            width: auto;
+    }
+    .bx-controls-auto,
+    .bx-pager {
+        position: absolute;
+        bottom: -20px;
+        width: 100%;
+    }
+    .item {
+        -webkit-box-shadow: 0 0 5px #4957e0;
+        box-shadow: 0 0 5px #4957e0;
+        border: 5px solid #3b52a0;
+        background: #3b52a0;
+        padding: 0 15px;
 
-            .item {
-                -webkit-box-shadow: 0 0 5px #4957e0;
-                box-shadow: 0 0 5px #4957e0;
-                border: 5px solid #4957e0;
-                background: #4957e0;
-                color: white;
+        width: 100%;
+        float: none;
 
-
-
-                &:hover {
-                    .showme {
-                        display: block;
-
-                    }
-
-                }
-                .title a,
-                .description {
-                    color: #f2f2f2;
-                    text-align: left;
-                }
-                .showme {
-                    display: none;
-                    a {
-                        color: white
-                    }
-                }
+        &:hover {
+            .showme {
+                display: block;
 
             }
 
         }
+        .title a,
+        .description {
+            padding: 0;
+            color: #f2f2f2;
+            text-align: left;
+            font-size: small;
+            font-weight: 400;
+        }
+        .showme {
+            display: none;
+            a {
+                color: white
+            }
+        }
 
+    }
+}
+.bx-wrapper {
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    margin: 0 auto 60px;
+    font-size: small;
+    font-weight: 400;
+
+    //buttons
+
+    .bx-prev {
+        //left: 5%;
+        background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-prev.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 200% 100%
+    }
+
+    .bx-next {
+        //right: 5%;
+        background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-next.png);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: 200% 100%
+    }
+
+    .bx-prev:hover,
+    .bx-next:hover {
+        background-position: 100% 0
+    }
+
+    .bx-controls-direction a {
+        position: absolute;
+        top: 50%;
+        outline: 0;
+        width: 40px;
+        height: 40px;
+        text-indent: -9999px;
+        z-index: 9999
+    }
+}
+//media
+
+@media only screen and (max-width: 992px) {
+    .bx-wrapper .bx-controls-direction a {
+        top: 50%
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bx-wrapper .bx-controls-direction a,
+    #scr .bx-wrapper .bx-controls-direction a,
+    .news .bx-wrapper .bx-controls-direction a {
+        top: auto;
+        bottom: -15px;
+        width: 35px;
+        height: 35px
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .bx-wrapper .bx-controls-direction a {
+
+        top: 103%;
+        margin-top: -16px;
+        outline: 0;
+        width: 32px;
+        height: 32px;
+        text-indent: -9999px;
+        z-index: 9999;
+    }
+    .slider .row {
+
+        .bx-wrapper .bx-controls-direction a {
+            margin: auto 0%;
+        }
     }
 }

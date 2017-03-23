@@ -60,7 +60,6 @@ a[aria-expanded=true] .arrow_downloader,
   .item .description {
     padding: 15px 0px 0px 0px;
     color: #6d6d6d;
-    font-size: medium;
     font-weight: 500; }
     .item .description ul li {
       color: #0a7dd2;
