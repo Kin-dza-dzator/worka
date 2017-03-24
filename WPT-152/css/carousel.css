@@ -1,12 +1,12 @@
 @charset "UTF-8";
-.main_section, #tech, #support, #reviews, .add_section {
+.main_section, #press, #support, #reviews, .add_section {
   background: #0a7dd2;
   padding-bottom: 60px; }
 
-.tech_md {
+.press_md {
   text-align: center; }
 
-.tech_md_button {
+.press_md_button {
   border: 1px solid #ffffff;
   display: inline-block;
   padding: 2px 10px;
@@ -17,14 +17,14 @@
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px; }
 
-.tech_md_button:hover {
+.press_md_button:hover {
   background: #3b97db; }
 
-.tech_md_button a {
+.press_md_button a {
   text-decoration: none;
   outline: none; }
 
-.tech_md_button span, #tech h2, #reviews h2, .add_section h2 {
+.press_md_button span, #press h2, #reviews h2, .add_section h2 {
   color: #ffffff; }
 
 #support {
@@ -54,20 +54,6 @@
 
 #products .prodItms, #products .prodItms li {
   height: inherit; }
-
-#products .prodItm {
-  height: inherit;
-  padding: 20px 10px 20px 20px;
-  width: 250px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  background: #f5f5f5;
-  border-radius: 10px;
-  -o-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px; }
 
 #products .prodItm:hover {
   background: #edf7fe; }
@@ -183,7 +169,7 @@
 .quest tr td {
   width: 33.3%; }
 
-.add_section .tech_md_button {
+.add_section .press_md_button {
   margin: 35px 0 0; }
 
 .nav {
@@ -467,7 +453,7 @@
     width: 25px;
     height: 25px;
     background-size: 25px 25px; }
-  .tech_md, #products #bx-pager-prod {
+  .press_md, #products #bx-pager-prod {
     text-align: left; }
   #products .prodItm img {
     width: 50px; }
@@ -482,7 +468,7 @@
     width: 80px;
     height: 80px;
     margin: 5% auto 2% auto; }
-  .add_section .tech_md_button {
+  .add_section .press_md_button {
     margin: 15px 0 0; } }
 
 /* Custom, iPhone Retina */
@@ -992,7 +978,7 @@
   .redBtnBuy, .redAddBtn {
     top: 20px;
     right: 0; }
-  .TechCard .redBtnBuy {
+  .pressCard .redBtnBuy {
     top: auto;
     right: auto; }
   .buttons_hidden {
@@ -1016,12 +1002,12 @@
     display: none; }
   .scr .scr_bx {
     width: 65%; }
-  .TechCard .bann_descr ul {
+  .pressCard .bann_descr ul {
     display: block; }
   .bann_descr h2 {
     position: absolute;
     bottom: 20px; }
-  .TechCard .bann_descr h2 {
+  .pressCard .bann_descr h2 {
     position: relative;
     bottom: 0; }
   .tbManual a.btnBlueMain {
@@ -1268,7 +1254,7 @@
     font-size: 16px; }
   .redBtnBuy, .redAddBtn {
     bottom: 25px; }
-  .TechCard .redBtnBuy {
+  .pressCard .redBtnBuy {
     bottom: 40px; }
   .EshopBody a.txtprice {
     width: 60%; }
