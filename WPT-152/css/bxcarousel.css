@@ -1,0 +1,147 @@
+.slider {
+  background-color: #0a7dd2 !important;
+  padding: 20px 0;
+  color: #FFFFFF;
+  margin: 20px 0; }
+  .slider .row {
+    background-color: transparent; }
+  .slider .bx-viewport .slide {
+    width: 100%;
+    overflow: hidden;
+    position: relative; }
+  .slider .bx-pager.bx-default-pager a.active,
+  .slider .bx-wrapper .bx-pager.bx-default-pager a:focus,
+  .slider .bx-wrapper .bx-pager.bx-default-pager a:hover {
+    background: white; }
+  .slider .bx-pager.bx-default-pager a {
+    background: transparent;
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    margin: 0 7px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; }
+  .slider .bx-controls-direction a {
+    margin: auto -8%; }
+  .slider .bx-controls-auto,
+  .slider .bx-pager {
+    position: absolute;
+    bottom: -20px;
+    width: 100%; }
+  .slider .item {
+    -webkit-box-shadow: 0 0 5px #4957e0;
+    box-shadow: 0 0 5px #4957e0;
+    border: 5px solid #3b52a0;
+    background: #3b52a0;
+    padding: 0 15px;
+    width: 100%;
+    float: none; }
+    .slider .item:hover .showme {
+      display: block; }
+    .slider .item .title a,
+    .slider .item .description {
+      padding: 0;
+      color: #f2f2f2;
+      text-align: left;
+      font-size: small;
+      font-weight: 400; }
+    .slider .item .showme {
+      display: none; }
+      .slider .item .showme a {
+        color: white; }
+
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  margin: 0 auto 60px;
+  font-size: small;
+  font-weight: 400; }
+  .bx-wrapper .bx-prev {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-prev-white.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200% 100%; }
+  .bx-wrapper .bx-next {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-next-white.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 200% 100%; }
+  .bx-wrapper .bx-prev:hover,
+  .bx-wrapper .bx-next:hover {
+    background-position: 100% 0; }
+  .bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+    z-index: 9999; }
+
+@media only screen and (max-width: 1023px) {
+  .slider .bx-wrapper .bx-viewport {
+    width: 88% !important;
+    margin-left: 6.5%; }
+    .slider .bx-wrapper .bx-viewport .slide.bx-clone {
+      margin-right: 8px !important;
+      width: 285px !important; } }
+
+@media only screen and (max-width: 1024px) {
+  .bx-wrapper .bx-controls-direction a,
+  .bx-wrapper .bx-controls-direction a,
+  .news .bx-wrapper .bx-controls-direction a {
+    top: 115%;
+    bottom: -15px;
+    width: 35px;
+    height: 35px;
+    margin: auto 0; } }
+
+@media only screen and (max-width: 1000px) {
+  .bx-wrapper .bx-controls-direction a {
+    top: 110%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999; }
+  .slider .row .bx-wrapper .bx-controls-direction a {
+    margin: auto 0; } }
+
+@media only screen and (min-width: 365px) and (max-width: 560px) {
+  .slider .bx-wrapper .bx-viewport {
+    width: 84% !important;
+    margin-left: 10.5%; }
+    .slider .bx-wrapper .bx-viewport .slide.bx-clone {
+      margin-right: 8px !important;
+      width: 285px !important; } }
+
+@media only screen and (min-width: 560px) and (max-width: 598px) {
+  .slider .bx-wrapper .bx-viewport .slide {
+    margin-right: 241px !important;
+    width: 458px !important; } }
+
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+  .slider .bx-wrapper .bx-viewport {
+    width: 100% !important;
+    margin-left: 0; }
+    .slider .bx-wrapper .bx-viewport .slide {
+      margin-right: 40px !important; } }
+
+@media only screen and (min-width: 365px) and (max-width: 600px) {
+  .slider .bx-wrapper .bx-viewport {
+    margin-left: 6.5%; }
+  .slider .bx-pager {
+    display: none; }
+  .slider #slider-num {
+    display: flex; } }
+
+#slider-num {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px; }
+  #slider-num .num {
+    cursor: pointer; }
