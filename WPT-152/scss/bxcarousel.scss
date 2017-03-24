@@ -66,6 +66,7 @@
 
     }
 }
+
 .bx-wrapper {
     box-shadow: none;
     border: none;
@@ -78,7 +79,7 @@
 
     .bx-prev {
         //left: 5%;
-        background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-prev.png);
+        background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-prev-white.png);
         background-repeat: no-repeat;
         background-position: top left;
         background-size: 200% 100%
@@ -86,7 +87,7 @@
 
     .bx-next {
         //right: 5%;
-        background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-next.png);
+        background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/images/optimized/btn-next-white.png);
         background-repeat: no-repeat;
         background-position: top left;
         background-size: 200% 100%
@@ -107,31 +108,46 @@
         z-index: 9999
     }
 }
+
 //media
 
-@media only screen and (max-width: 992px) {
-    .bx-wrapper .bx-controls-direction a {
-        top: 50%
+@media only screen and (max-width: 1023px) {
+    .slider .bx-wrapper .bx-viewport {
+        width: 88% !important;
+        margin-left: 6.5%;
+        .slide.bx-clone {
+            margin-right: 8px !important;
+            width: 285px !important;;
+        }
+
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
     .bx-wrapper .bx-controls-direction a,
-    #scr .bx-wrapper .bx-controls-direction a,
+    .bx-wrapper .bx-controls-direction a,
     .news .bx-wrapper .bx-controls-direction a {
-        top: auto;
+        top: 115%;
         bottom: -15px;
         width: 35px;
-        height: 35px
+        height: 35px;
+        margin: auto 0;
     }
+}
 
+@media only screen and (max-width: 1026px) {
+    .bx-wrapper .bx-controls-direction a,
+    .bx-wrapper .bx-controls-direction a,
+    .news .bx-wrapper .bx-controls-direction a {
+        //top: 50%
+    }
 }
 
 @media only screen and (max-width: 1000px) {
 
     .bx-wrapper .bx-controls-direction a {
 
-        top: 103%;
+        top: 110%;
         margin-top: -16px;
         outline: 0;
         width: 32px;
@@ -142,7 +158,47 @@
     .slider .row {
 
         .bx-wrapper .bx-controls-direction a {
-            margin: auto 0%;
+            margin: auto 0;
         }
+    }
+}
+
+@media only screen and (min-width: 365px) and (max-width: 560px) {
+    .slider .bx-wrapper .bx-viewport {
+        width: 84% !important;
+        margin-left: 10.5%;
+        .slide.bx-clone {
+            margin-right: 8px !important;
+            width: 285px !important;
+        }
+
+    }
+}
+@media only screen and (min-width: 560px) and (max-width: 598px) {
+    .slider .bx-wrapper .bx-viewport {
+        .slide {
+            margin-right: 241px !important;
+            width: 458px !important;
+        }
+
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px) {
+    .slider .bx-wrapper .bx-viewport {
+        width: 100% !important;
+        margin-left: 0;
+        .slide
+        {
+            margin-right: 40px !important;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 365px) and (max-width: 600px) {
+    .slider .bx-wrapper .bx-viewport {
+
+        margin-left: 6.5%;
+
     }
 }
