@@ -1,52 +1,41 @@
 // Empty JS for your own code to be here
 
 $(function(){//тожесамое $(document).ready(function(){
-    console.log('i am ready')
+    console.log('i am ready');
 
-    $('#slider').bxSlider({
+    var slider = $('#slider').bxSlider({
        slideWidth: 300,
         minSlides: 1,
         maxSlides: 3,
         moveSlides: 1,
         slideMargin: 15,
-        adaptiveHeight:true
+        adaptiveHeight:true,
+        onSlideAfter: function($slideElement, oldIndex, newIndex){
+           //прописать в средний num
+            $('#slider-num .num:nth-child(2)').text(newIndex+1);
+        }
+
+    });
+    //узнать количество слайдов в слайдере
+    var count = slider.getSlideCount();
+    //todo пихнуть цыфру количества слайдов в конец(вмсето 45)
+    $("#slider-num .num:last-child").text(count);
+
+    var current = slider.getCurrentSlide();
+    // засунуть вместо 13
+    $("#slider-num .num:nth-child(2) ").text(current);
+//todo изменить все индексы на -1
+
+
+
+    $('#slider-num .num:first-child').on('click', function(){
+        slider.goToSlide(1);
+    });
+
+     $('#slider-num .num:last-child').on('click', function(){
+         slider.goToSlide(count);
     });
 
 
-
-    //
-    // $('#rev_slider_1')
-    //     .show()
-    //     .revolution({
-    //         sliderType:"standard",
-    //         delay:9000,
-    //         sliderLayout: 'fullwidth',
-    //         navigation: {
-    //             arrows: {
-    //                 enable: true,
-    //                 hide_onleave:false
-    //             },
-    //             bullets: {
-    //                 enable: true,
-    //                 style: 'hermes',
-    //                 direction: 'horizontal',
-    //                 h_align: 'center',
-    //                 hide_onmobile: 'true',
-    //                 v_align: 'bottom',
-    //                 h_offset: 0,
-    //                 v_offset: 20,
-    //                 hide_onleave: false,
-    //                 space: 10
-    //             }
-    //         },
-    //         responsiveLevels:[1240,1024,778,480],
-    //         visibilityLevels:[1240,1024,778,480],
-    //         gridwidth:[1240,1024,778,480],
-    //         gridheight:[450,400,350,350],
-    //         shuffle:"off",
-    //         minHeight:340,
-    //         spinner: 'spinner4',
-    //         debugMode:false
-    //     });
 
 });

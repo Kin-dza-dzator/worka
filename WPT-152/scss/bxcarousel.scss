@@ -17,10 +17,17 @@
         background: white;
 
     }
+    // индикаторы
     .bx-pager.bx-default-pager a {
         background: transparent;
-        border: 1px solid white;
+        border: 2px solid white;
+        width: 15px;
+        height: 15px;
+        margin: 0 7px;
 
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        border-radius: 15px;
     }
     .bx-controls-direction a {
         margin: auto -8%;
@@ -196,9 +203,25 @@
 }
 
 @media only screen and (min-width: 365px) and (max-width: 600px) {
-    .slider .bx-wrapper .bx-viewport {
+    .slider {
+        .bx-wrapper .bx-viewport {
+            margin-left: 6.5%;
+        }
+        .bx-pager {
+            display: none;
+        }
+        #slider-num{
+            display: flex;
+        }
+    }
+}
 
-        margin-left: 6.5%;
-
+#slider-num{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+    .num{
+        cursor: pointer;
     }
 }
