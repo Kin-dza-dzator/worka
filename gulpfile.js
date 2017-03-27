@@ -3,10 +3,9 @@ var gulp = require('gulp'),
     path = require('path'),
     sass = require('gulp-sass'),
     jade = require('gulp-jade'),
-    gulpdata = require('gulp-data'),
     emailBuilder = require('gulp-email-builder');
 
-const rootFolder = 'WPT-152';
+const rootFolder = 'Wpt-147';
 const PROXY_TARGET_URL = 'http://web69.pearl.de';
 
 gulp.task('default', ['build']);
@@ -14,10 +13,10 @@ gulp.task('default', ['build']);
 gulp.task('build', ['scss', 'browsersync', 'watch']);
 gulp.task('proxy', ['scss', 'proxysync', 'watch']);
 var DATA = {};
-const DATA_FILE = path.resolve(rootFolder , 'data/data.json');
 
 gulp.task('data', function() {
-    delete require.cache[require.resolve( DATA_FILE )];
+  const DATA_FILE = path.resolve(rootFolder , 'data/data.json');
+  delete require.cache[require.resolve( DATA_FILE )];
     DATA = require( DATA_FILE );
 });
 
