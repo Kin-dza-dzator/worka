@@ -1,0 +1,122 @@
+.blue_section {
+  background: #0a7dd2;
+  padding-bottom: 60px; }
+
+.blue_section h2 {
+  color: #ffffff; }
+
+.blue_section .icn_phone {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon.svg); }
+
+.blue_section .icn_phone:hover {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon_hover.svg); }
+
+.blue_section .icn_mail {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon.svg); }
+
+.blue_section .icn_mail:hover {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon_hover.svg); }
+
+.blue_section .icn_base {
+  width: 100px;
+  height: 100px;
+  outline: none;
+  display: block;
+  margin: 0 auto 10px;
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon.svg); }
+
+.blue_section .icn_base:hover {
+  background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon_hover.svg); }
+
+.blue_section .blue_button {
+  margin: 35px 0 0; }
+
+.tab {
+  text-align: center;
+  align-items: center; }
+
+.nav p {
+  color: white; }
+
+.nav h3 {
+  padding: 3%;
+  color: white; }
+
+.nav a {
+  outline: none;
+  text-align: center;
+  text-decoration: none; }
+
+.nav img {
+  width: 100px;
+  display: flex;
+  margin: 8% auto 0 auto;
+  padding: 1%; }
+
+.nav .title {
+  text-align: center; }
+
+.nav .title-a a {
+  color: white;
+  text-align: right;
+  display: inherit; }
+
+.nav .blue_button {
+  border: 1px solid #ffffff;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 0 1.5% 5% 1.5%;
+  border-radius: 12px;
+  -o-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px; }
+  .nav .blue_button.col-xs-6, .nav .blue_button.col-xs-5 {
+    float: none;
+    width: auto;
+    margin-top: 2%; }
+
+.nav .blue_button:hover {
+  background: #3b97db; }
+
+.nav .blue_button a {
+  text-decoration: none;
+  outline: none; }
+
+.nav .blue_button span, .nav h2, .nav .blue_section h2 {
+  color: #ffffff; }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .nav h3 {
+    margin-top: 0;
+    padding: 3%; }
+  .nav .title-a a {
+    text-align: left; } }
+
+@media only screen and (max-width: 480px) {
+  .blue_section .icn_phone, .blue_section .icn_mail, .blue_section .icn_base {
+    width: 80px;
+    height: 80px;
+    margin: 5% auto 2% auto; }
+  .blue_section .blue_button {
+    margin: 15px 0 0; } }
+
+.nav .title-a a {
+  text-align: right; }
+
+.nav .nav_descr.col-xs-5, .nav .nav_descr.col-xs-6 {
+  width: auto; }
+
+.nav .nav_descr:first-child {
+  margin: auto; }
