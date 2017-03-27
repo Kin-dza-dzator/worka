@@ -1,0 +1,39 @@
+.downloader .panel-body:last-of-type {
+  border-bottom: none;
+  margin-bottom: 30px; }
+
+#collapse3 {
+  margin-bottom: 20px; }
+  #collapse3 .col-lg-6 {
+    border-left: 1px solid #939393;
+    border-bottom: 1px solid #939393;
+    box-sizing: border-box; }
+    #collapse3 .col-lg-6:first-of-type {
+      border-left: none; }
+  #collapse3 .dwnl-item {
+    padding: 20px; }
+    #collapse3 .dwnl-item > a {
+      display: block; }
+    #collapse3 .dwnl-item .tab {
+      margin-top: 20px;
+      text-align: left; }
+    #collapse3 .dwnl-item .devider {
+      display: inline; }
+      #collapse3 .dwnl-item .devider + br {
+        display: none; }
+  @media only screen and (min-width: 1200px) {
+    #collapse3 .dwnl-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      #collapse3 .dwnl-item .devider {
+        display: none; }
+        #collapse3 .dwnl-item .devider + br {
+          display: block; } }
+  @media only screen and (max-width: 768px) {
+    #collapse3 .col-lg-6:nth-child(even) {
+      border-left: none; }
+    #collapse3 .tab {
+      margin-top: 10px; }
+      #collapse3 .tab a, #collapse3 .tab span {
+        font-size: smaller; } }
