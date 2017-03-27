@@ -7,22 +7,32 @@
   word-wrap: break-word;
   font: 16px/1.5 "OpenSans",Arial, sans-serif;
   .title a{
-
     color: #4f64ab;
-
+  }
+  .devider-title{
+    color: #4f64ab;
+    font-size: medium;
+  }
+  .borderere{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px solid #4f64ab;
+    width: 45px;
+    height: 1px;
+    margin: 0 10px 7px;
   }
 }
 
 .footer {
   padding: 0;
-  .buttons{
+  .buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     a {
       width: auto;
-      @media only screen and (max-width: 768px){
+      @media only screen and (max-width: 768px) {
         font-size: smaller;
         padding: 0;
       }
@@ -30,7 +40,7 @@
 
         width: 150px;
         padding: 7px 0;
-        @media only screen and (max-width: 768px){
+        @media only screen and (max-width: 768px) {
           font-size: smaller;
           padding: 0;
           &:nth-of-type(2) {
@@ -40,7 +50,7 @@
       }
     }
   }
-
+}
   .row>.item{
     background: transparent !important;
     display: flex;
@@ -59,4 +69,3 @@
       }
     }
   }
-}
