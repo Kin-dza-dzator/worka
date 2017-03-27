@@ -1,0 +1,122 @@
+.add_section {
+    background: #0a7dd2;
+    padding-bottom: 60px; }
+.add_section h2 {
+    color: #ffffff; }
+.add_section .icn_phone {
+    width: 100px;
+    height: 100px;
+    outline: none;
+    display: block;
+    margin: 0 auto 10px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon.svg); }
+
+.add_section .icn_phone:hover {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon_hover.svg); }
+
+.add_section .icn_mail {
+    width: 100px;
+    height: 100px;
+    outline: none;
+    display: block;
+    margin: 0 auto 10px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon.svg); }
+
+.add_section .icn_mail:hover {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon_hover.svg); }
+
+.add_section .icn_base {
+    width: 100px;
+    height: 100px;
+    outline: none;
+    display: block;
+    margin: 0 auto 10px;
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon.svg); }
+
+.add_section .icn_base:hover {
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon_hover.svg); }
+.add_section .press_md_button {
+    margin: 35px 0 0; }
+
+
+
+
+.tab {
+    //width: 100px;
+    //height: 100px;
+    //display: block;
+    //margin: 0 auto;
+    ////background-image: url(/images/Pressroom.png);
+
+    //background-repeat: no-repeat;
+    //background-position: top left;
+    //background-size: 200% 100%;
+    //color: #337ab7;
+
+text-align: center;
+align-items: center;
+}
+
+.tab:hover {
+    //background-image: url(/images/Pressroom.png);
+}
+
+
+
+
+
+.nav {
+
+    :hover p {
+        color: #3b52a0;
+    }
+
+    h3 {
+        padding: 3%;
+
+    }
+     a {
+        outline: none;
+        text-align: center;
+        text-decoration: none;
+    }
+
+     img {
+        width: 100px;
+        display: flex;
+        margin: 0 auto;
+        padding: 1%;
+
+    }
+
+    .title {
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+    .add_section .icn_phone, .add_section .icn_mail, .add_section .icn_base {
+        width: 80px;
+        height: 80px;
+        margin: 5% auto 2% auto; }
+    .add_section .press_md_button {
+        margin: 15px 0 0; } }
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+    .nav h3 {
+        margin-top: 0;
+        padding: 3%;
+    }
+}

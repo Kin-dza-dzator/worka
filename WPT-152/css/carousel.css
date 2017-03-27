@@ -27,10 +27,6 @@
 .press_md_button span, #press h2, #reviews h2, .add_section h2 {
   color: #ffffff; }
 
-#support {
-  background: #f5f5f5;
-  margin: 0; }
-
 .news .lineV {
   background: #e0f8ff;
   width: 2px;
@@ -271,22 +267,6 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  .nav ul li {
-    float: none;
-    width: 100%;
-    clear: both;
-    margin-bottom: 20px; }
-  .nav ul li .tab1, .nav ul li .tab2, .nav ul li .tab3 {
-    float: left;
-    margin-right: 20px; }
-  .nav ul li .title {
-    float: left;
-    width: 80%;
-    text-align: left; }
-  .nav h3 {
-    margin-top: 0;
-    text-align: left;
-    padding: 0; }
   .news .newsboxLf, .news .newsboxRg {
     float: none;
     width: 100%;
