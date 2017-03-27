@@ -1,9 +1,9 @@
-.add_section {
+.blue_section {
     background: #0a7dd2;
     padding-bottom: 60px; }
-.add_section h2 {
+.blue_section h2 {
     color: #ffffff; }
-.add_section .icn_phone {
+.blue_section .icn_phone {
     width: 100px;
     height: 100px;
     outline: none;
@@ -11,10 +11,10 @@
     margin: 0 auto 10px;
     background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon.svg); }
 
-.add_section .icn_phone:hover {
+.blue_section .icn_phone:hover {
     background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon_hover.svg); }
 
-.add_section .icn_mail {
+.blue_section .icn_mail {
     width: 100px;
     height: 100px;
     outline: none;
@@ -22,10 +22,10 @@
     margin: 0 auto 10px;
     background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon.svg); }
 
-.add_section .icn_mail:hover {
+.blue_section .icn_mail:hover {
     background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon_hover.svg); }
 
-.add_section .icn_base {
+.blue_section .icn_base {
     width: 100px;
     height: 100px;
     outline: none;
@@ -33,9 +33,9 @@
     margin: 0 auto 10px;
     background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon.svg); }
 
-.add_section .icn_base:hover {
+.blue_section .icn_base:hover {
     background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon_hover.svg); }
-.add_section .press_md_button {
+.blue_section .blue_button {
     margin: 35px 0 0; }
 
 
@@ -93,32 +93,33 @@ align-items: center;
         text-align: center;
     }
 
-    .press_md_button {
+    .blue_button {
         &.col-xs-6,
-        &.col-xs-5
-        {
+        &.col-xs-5 {
             float: none;
             width: auto;
-            margin-right: 3%;
+            margin-top:2%;
+
         }
+
         border: 1px solid #ffffff;
         display: inline-block;
         padding: 3px 10px;
-        margin: 0 3.5% 10px 0;
+        margin: 0 1.5% 5% 1.5%;
         border-radius: 12px;
         -o-border-radius: 12px;
         -khtml-border-radius: 12px;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px; }
 
-    .press_md_button:hover {
+    .blue_button:hover {
         background: #3b97db; }
 
-    .press_md_button a {
+    .blue_button a {
         text-decoration: none;
         outline: none; }
 
-    .press_md_button span, #press h2, #reviews h2, .add_section h2 {
+    .blue_button span, h2,.blue_section h2 {
         color: #ffffff; }
 }
 
@@ -129,11 +130,11 @@ align-items: center;
 
 
 @media only screen and (max-width: 480px){
-    .add_section .icn_phone, .add_section .icn_mail, .add_section .icn_base {
+    .blue_section .icn_phone, .blue_section .icn_mail, .blue_section .icn_base {
         width: 80px;
         height: 80px;
         margin: 5% auto 2% auto; }
-    .add_section .press_md_button {
+    .blue_section .blue_button {
         margin: 15px 0 0; } }
 
     .nav .nav_descr{
