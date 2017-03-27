@@ -1,0 +1,75 @@
+.downloader .panel-body:last-of-type{
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+#collapse3{
+  margin-bottom: 20px;
+
+  .col-lg-6{
+    //border-right: 1px solid #939393;
+    border-left: 1px solid #939393;
+    border-bottom: 1px solid #939393;
+    box-sizing: border-box;
+
+    &:first-of-type{
+      border-left: none;
+    }
+  }
+  .dwnl-item {
+    padding: 20px;
+    &>a{
+      display: block;
+    }
+    .tab{
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .devider {
+      display: inline;
+
+      & + br {
+        display: none;
+      }
+    }
+  }
+
+
+  @media only screen and (min-width: 1200px) {
+    .dwnl-item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .devider {
+        display: none;
+
+        & + br {
+          display: block;
+        }
+      }
+    }
+
+  }
+  @media only screen and (max-width: 768px) {
+    .col-lg-6{
+      //border-right: 1px solid #939393;
+      //border-left: 1px solid #939393;
+      //border-bottom: 1px solid #939393;
+
+      &:nth-child(even){
+        border-left: none;
+      }
+
+    }
+
+    .tab{
+      margin-top: 10px;
+      a,span{
+        font-size: smaller;
+      }
+    }
+
+  }
+}
+
