@@ -1,18 +1,24 @@
 .blue_section {
     background: #0a7dd2;
-    padding-bottom: 60px; }
+    padding-bottom: 60px;
+}
+
 .blue_section h2 {
-    color: #ffffff; }
+    color: #ffffff;
+}
+
 .blue_section .icn_phone {
     width: 100px;
     height: 100px;
     outline: none;
     display: block;
     margin: 0 auto 10px;
-    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon.svg); }
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon.svg);
+}
 
 .blue_section .icn_phone:hover {
-    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon_hover.svg); }
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/phone_icon_hover.svg);
+}
 
 .blue_section .icn_mail {
     width: 100px;
@@ -20,10 +26,12 @@
     outline: none;
     display: block;
     margin: 0 auto 10px;
-    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon.svg); }
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon.svg);
+}
 
 .blue_section .icn_mail:hover {
-    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon_hover.svg); }
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/e-mail_icon_hover.svg);
+}
 
 .blue_section .icn_base {
     width: 100px;
@@ -31,39 +39,26 @@
     outline: none;
     display: block;
     margin: 0 auto 10px;
-    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon.svg); }
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon.svg);
+}
 
 .blue_section .icn_base:hover {
-    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon_hover.svg); }
+    background-image: url(https://www.paragon-software.com/sites/paragonsoftware.com/indexPage/adaptive/FAQ_icon_hover.svg);
+}
+
 .blue_section .blue_button {
-    margin: 35px 0 0; }
-
-
-
+    margin: 35px 0 0;
+}
 
 .tab {
-    //width: 100px;
-    //height: 100px;
-    //display: block;
-    //margin: 0 auto;
-    ////background-image: url(/images/Pressroom.png);
 
-    //background-repeat: no-repeat;
-    //background-position: top left;
-    //background-size: 200% 100%;
-    //color: #337ab7;
-
-text-align: center;
-align-items: center;
+    text-align: center;
+    align-items: center;
 }
 
 .tab:hover {
     //background-image: url(/images/Pressroom.png);
 }
-
-
-
-
 
 .nav {
 
@@ -75,16 +70,16 @@ align-items: center;
         padding: 3%;
         color: white;
     }
-     a {
+    a {
         outline: none;
         text-align: center;
         text-decoration: none;
     }
 
-     img {
+    img {
         width: 100px;
         display: flex;
-         margin: 8% auto 0 auto;
+        margin: 8% auto 0 auto;
         padding: 1%;
 
     }
@@ -92,13 +87,17 @@ align-items: center;
     .title {
         text-align: center;
     }
-
+    .title-a a {
+        color: white;
+        text-align: right;
+        display: inherit;
+    }
     .blue_button {
         &.col-xs-6,
         &.col-xs-5 {
             float: none;
             width: auto;
-            margin-top:2%;
+            margin-top: 2%;
 
         }
 
@@ -110,45 +109,65 @@ align-items: center;
         -o-border-radius: 12px;
         -khtml-border-radius: 12px;
         -webkit-border-radius: 12px;
-        -moz-border-radius: 12px; }
+        -moz-border-radius: 12px;
+    }
 
     .blue_button:hover {
-        background: #3b97db; }
+        background: #3b97db;
+    }
 
     .blue_button a {
         text-decoration: none;
-        outline: none; }
+        outline: none;
+    }
 
-    .blue_button span, h2,.blue_section h2 {
-        color: #ffffff; }
-}
-
-
-
-
-
-
-
-@media only screen and (max-width: 480px){
-    .blue_section .icn_phone, .blue_section .icn_mail, .blue_section .icn_base {
-        width: 80px;
-        height: 80px;
-        margin: 5% auto 2% auto; }
-    .blue_section .blue_button {
-        margin: 15px 0 0; } }
-
-    .nav .nav_descr{
-        &.col-xs-5,
-        &.col-xs-6 {
-            width: auto;
-        }
+    .blue_button span, h2, .blue_section h2 {
+        color: #ffffff;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
 
-    .nav h3 {
-        margin-top: 0;
-        padding: 3%;
+    .nav {
+        h3 {
+            margin-top: 0;
+            padding: 3%;
+        }
+        .title-a a {
+
+            text-align: left;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .blue_section .icn_phone, .blue_section .icn_mail, .blue_section .icn_base {
+        width: 80px;
+        height: 80px;
+        margin: 5% auto 2% auto;
+    }
+    .blue_section .blue_button {
+        margin: 15px 0 0;
+    }
+}
+
+.nav {
+    .title-a a {
+        text-align: right;
+
+    }
+
+
+    .nav_descr
+    {
+        &.col-xs-5,
+        &.col-xs-6 {
+            width: auto;
+        }
+        &:first-child{
+            margin: auto;
+        }
     }
 }
