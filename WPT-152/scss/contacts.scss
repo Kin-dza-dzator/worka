@@ -51,5 +51,17 @@
 }
 @media only screen and (max-width: 992px) {
 
-
+    .whiteback.contacts.row {
+        .text-center{
+            text-align: start;
+        }
+        .item{
+            margin: auto;
+            padding: 0px;
+        }
+        .col-md-12 .item-contacts{
+            padding: 0;
+            margin-left: -7%;
+        }
+    }
 }
