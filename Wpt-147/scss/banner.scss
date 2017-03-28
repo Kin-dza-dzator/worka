@@ -1,0 +1,28 @@
+.banner{
+  padding: 20px;
+  background: #5bb141;
+  height: 100vh;
+  h1{
+    color: white;
+    font-weight: bold;
+  }
+  .description{
+    color: white;
+  }
+}
+
+.banner_btn{
+  padding: 0;
+  margin: 10px;
+  background: #83ee54;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 200px;
+  img{
+    height: 50px;
+    width: 50px;
+  }
+  span{
+    color: white;
+  }
+}
