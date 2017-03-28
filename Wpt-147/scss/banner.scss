@@ -1,0 +1,84 @@
+.greenground {
+  background: #5bb141;
+}
+.banner{
+  padding: 20px;
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  h1{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+  }
+  .description{
+    font-size: large;
+    color: white;
+  }
+  &__buttons{
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__btn{
+     display: flex;
+     align-items: center;
+     padding: 0;
+     margin: 10px;
+     background-color: #83ee54;
+     box-sizing: border-box;
+     border-radius: 50px;
+     width: 200px;
+
+     &:hover,
+     &:focus,
+     &:visited,
+     &:active{
+       text-decoration: none;
+     }
+    &:hover{
+      background-color: #00dd44;
+    }
+     span{
+       color: white;
+       margin-left: 10px;
+     }
+  }
+  &__image{
+    width: 50px;
+    height:50px;
+    display: inline-block;
+    margin: -1px;
+    &_media{
+      background: url("../images/Pressroom-Icons_Media-Kits_255px_white-23.svg");
+    }
+    &_pdf{
+      background: url("../images/Pressroom-Icons_PDF_255px_white-24.svg");
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .banner{
+    &__buttons{
+      flex-direction: row;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .banner{
+    width: auto;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: flex-start;
+    h1 {
+      font-size: 2em;
+    }
+
+  }
+
+}
+
