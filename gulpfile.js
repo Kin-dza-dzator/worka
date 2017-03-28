@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     jade = require('gulp-jade'),
     emailBuilder = require('gulp-email-builder');
 
-const rootFolder = 'Wpt-147';
+const rootFolder = 'Wpt-152';
 const PROXY_TARGET_URL = 'http://web69.pearl.de';
 
 gulp.task('default', ['build']);

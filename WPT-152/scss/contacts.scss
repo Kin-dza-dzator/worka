@@ -1,0 +1,55 @@
+.whiteback.contacts.row {
+
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    //text-align: center;
+    .col-md-12 {
+        width: auto;
+        .text-info {
+            color: #3b52a0;
+        }
+        .item .buttons a{
+            width: auto;
+            padding: 0.5% 2%;
+        }
+        .item-contacts {
+            width: 100%;
+            padding: 28px;
+            margin: 20px 0 20px 0;
+
+            div.title-contacts a {
+                color: #3b52a0;
+
+            }
+            .title-contacts {
+                font-size: large;
+                padding-left: 0px;
+                color: #3b52a0;
+            }
+            .description-contacts {
+                padding: 15px 0px 0px 0px;
+                color: #6d6d6d;
+                font-weight: 500;
+                margin: auto 0%;
+                .e-grey {
+                    font-weight: bold;
+                    color: #878787;
+                }
+
+                ul li {
+                    color: #595757;
+                    margin-left: -25px;
+                    font-size: small;
+                    list-style-type: none;
+
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px) {
+
+
+}
