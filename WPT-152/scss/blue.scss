@@ -91,6 +91,7 @@
         color: white;
         text-align: right;
         display: inherit;
+        margin: 4% auto;
     }
     .blue_button {
         &.col-xs-6,
@@ -104,7 +105,7 @@
         border: 1px solid #ffffff;
         display: inline-block;
         padding: 3px 10px;
-        margin: 0 1.5% 5% 1.5%;
+        margin: 0 1.5% 1% 1.5%;
         border-radius: 12px;
         -o-border-radius: 12px;
         -khtml-border-radius: 12px;
