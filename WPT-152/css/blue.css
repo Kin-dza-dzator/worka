@@ -65,6 +65,8 @@
 
 .nav .title {
   text-align: center; }
+  .nav .title.dev {
+    text-align: left; }
 
 .nav .title-a a {
   color: white;

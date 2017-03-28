@@ -84,9 +84,13 @@
 
     }
 
-    .title {
+    .title  {
+        &.dev{
+            text-align: left;
+        }
         text-align: center;
     }
+
     .title-a a {
         color: white;
         text-align: right;

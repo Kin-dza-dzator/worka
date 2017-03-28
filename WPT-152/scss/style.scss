@@ -48,8 +48,8 @@ h1, h2, h3, h4{
             border-color: #3b52a0;
 
             &:hover {
-                -webkit-box-shadow: 0 0 0 2px rgba(2,117,216,.5);
-                box-shadow: 0 0 0 2px rgba(2,117,216,.5);
+                //-webkit-box-shadow: 0 0 0 2px rgba(2,117,216,.5);
+                //box-shadow: 0 0 0 2px rgba(2,117,216,.5);
                 background: #4f64ab;
                 background: -webkit-gradient(linear, left top, left bottom, from(#e0f8ff), to(#a9deff));
                 background: -webkit-linear-gradient(top, #e0f8ff 50%, #a9deff);
