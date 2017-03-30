@@ -5,7 +5,7 @@ var gulp = require('gulp'),
     jade = require('gulp-jade'),
     emailBuilder = require('gulp-email-builder');
 
-const rootFolder = 'oxford bootstrap';
+const rootFolder = '70652';
 const PROXY_TARGET_URL = 'https://backyard-test.slovoed.com/oxfordWebCustomer/register.htm';
 
 gulp.task('default', ['build']);
