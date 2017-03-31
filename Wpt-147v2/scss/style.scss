@@ -18,13 +18,24 @@ hr {
     }
 }
 
-.buttons.show a {
-    width: 220px;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-    overflow: auto;
+.buttons {
+    margin: 30px 0 0 0;
+    overflow: hidden;
+    &.show a {
+        width: 90px;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        overflow: auto;
+
+    }
+
 }
+.show {
+    display: block!important;
+}
+
+
 
 .item {
     width: 100%;
